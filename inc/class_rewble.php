@@ -1,4 +1,6 @@
 <?PHP
+
+###>  Author: R. Eric Walts
 ################################rewbin-was-here##############################################################>
 ###>  This class creates playbook starters based on the examples found on docs.ansible.com
 ###>  The notion is to create something to quick and easily grab their example, replace the sample 

@@ -1410,3 +1410,35 @@
 [2023-14-09 12:17:33]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
 [2023-14-09 12:17:33]: INFO: the collection_links array exists sending to format.
 [2023-14-09 12:17:33]: INFO: 
+[2023-14-09 18:46:09]: INFO: 
+[2023-14-09 18:46:09]: INFO: Calling _set_vars_from_array_ 
+[2023-14-09 18:46:09]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-14-09 18:46:09]: INFO: 
+[2023-14-09 18:46:10]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-14-09 18:46:10]: INFO: Begin logging >>> /home/eric/temp/rewble/logs/rewble.log
+[2023-14-09 18:46:10]: INFO: Value of __dir__=[/home/eric/temp/rewble]
+[2023-14-09 18:46:10]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-14-09 18:46:10]: INFO: the collection_links array exists sending to format.
+[2023-14-09 18:46:56]: INFO: 
+[2023-14-09 18:46:56]: INFO: Calling _set_vars_from_array_ 
+[2023-14-09 18:46:56]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-14-09 18:46:56]: INFO: 
+[2023-14-09 18:46:56]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-14-09 18:46:56]: INFO: Begin logging >>> /home/eric/temp/rewble/logs/rewble.log
+[2023-14-09 18:46:56]: INFO: Value of __dir__=[/home/eric/temp/rewble]
+[2023-14-09 18:46:56]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-14-09 18:46:56]: INFO: the collection_links array exists sending to format.
+[2023-14-09 18:47:32]: INFO: Collection identified as [vmware.vmware_rest].
+[2023-14-09 18:47:32]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-14-09 18:47:32]: INFO: the collection_links array exists sending to format.
+[2023-14-09 18:47:32]: INFO: collection_href=[vmware/vmware_rest/]
+[2023-14-09 18:47:32]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/vmware/vmware_rest/index.html#plugin-index]
+[2023-14-09 18:47:32]: INFO: 
+[2023-14-09 18:47:32]: INFO: Collection vmware.vmware_rest = module_list pulled successfully.
+[2023-14-09 18:47:35]: INFO: Requested collection rewble->collection=[vmware.vmware_rest]
+[2023-14-09 18:47:40]: ERROR: Module not found in active collection. Please provide the number from the list.
+[2023-14-09 18:47:40]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-14-09 18:47:40]: INFO: the collection_links array exists sending to format.
+[2023-14-09 18:47:40]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-14-09 18:47:40]: INFO: the collection_links array exists sending to format.
+[2023-14-09 18:47:40]: INFO: 
