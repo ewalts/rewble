@@ -1,0 +1,26 @@
+
+
+Improvements to OO 
+	
+
+1 Multiple input types for listing.
+  - Seperate array creation from listing.  
+	The pull of information should be one fuction
+	The input to that function should accept only one type of value.
+	Inbound requests should be prossessed by a different function before going to the actual curl function.
+		Inbound request processing should accept the array key, the collection or the module
+		Accepting these will require a switch for the argument.
+		A request for a module will require the collection as well.
+
+
+2 I think the arrays should be stored locally in a file, an attempt to update the arrays should be made when someone performs a listing. 
+	Arrays being collections and collection modules.
+	
+3 The task and the playbook arrays would not be appropriate to have in memory all the time. How many were created. I do think they could be saved in /data to be used again, but not sure it is important.
+
+Future :
+	Configuration function for individual collections.
+		Spawn a guided creation of vars_file to hold static information that can be updated or viewed.  
+		This could make use of another mechanism, like the vault, or cloud paramater store, etc.   i.e., auth_kind: serviceaccount, gcp_project: thunderbolt-822234-4444
+
+

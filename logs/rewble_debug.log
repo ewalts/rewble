@@ -1,0 +1,1590 @@
+[2023-13-08 07:12:32]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 07:12:32]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 07:46:10]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 07:46:10]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 07:48:25]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 07:48:25]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 07:48:25]: DEBUG: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 07:48:25]: DEBUG: collection_links is array.
+[2023-13-08 07:51:42]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 07:51:42]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 07:51:42]: DEBUG: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 07:51:42]: DEBUG: collection_links is array.
+[2023-13-08 07:54:14]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 07:54:14]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 07:54:14]: DEBUG: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 07:54:14]: DEBUG: collection_links is array.
+[2023-13-08 07:56:39]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 07:56:39]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 07:56:39]: DEBUG: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 07:56:39]: DEBUG: collection_links is array.
+[2023-13-08 07:57:25]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 07:57:25]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 07:57:25]: DEBUG: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 07:57:25]: DEBUG: collection_links is array.
+[2023-13-08 08:28:32]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 08:28:32]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 08:28:32]: DEBUG: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 08:28:32]: DEBUG: collection_links is array.
+[2023-13-08 08:29:58]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 08:29:58]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 08:29:58]: DEBUG: Calling _show_collection_index_ with collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 08:29:58]: DEBUG: collection_links is array.
+[2023-13-08 08:31:00]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 08:31:00]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 08:31:00]: DEBUG: Calling _show_collection_index_ with collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 08:31:51]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 08:31:51]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 08:31:51]: DEBUG: Calling _show_collection_index_ with collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 08:31:51]: DEBUG: show_collection_index called, and collection_links is not array.  Variable for collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]. If url var is blank check configuration. If Url is correct check internet access and DNS resolution. Making second attempt
+[2023-13-08 08:31:51]: DEBUG: The url provided to fetch the collection index url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 08:31:51]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index]
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:31:52]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 08:32:27]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 08:32:27]: DEBUG: Calling _show_collection_index_ with collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 08:32:27]: DEBUG: show_collection_index called, and collection_links is not array.  Variable for collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]. If url var is blank check configuration. If Url is correct check internet access and DNS resolution. Making second attempt
+[2023-13-08 08:32:27]: DEBUG: The url provided to fetch the collection index url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 08:32:27]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index]
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: collection_links array build section:
+[2023-13-08 08:32:27]: DEBUG: The collection_links array has been creaetd properly. It contains 107 links.
+[2023-13-08 08:39:49]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 08:39:49]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 08:39:49]: DEBUG: Calling _show_collection_index_ with collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 08:39:49]: DEBUG: show_collection_index called, and collection_links is not array.  Variable for collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]. If url var is blank check configuration. If Url is correct check internet access and DNS resolution. Making second attempt
+[2023-13-08 08:39:49]: DEBUG: The url provided to fetch the collection index url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 08:39:49]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index]
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: collection_links array build section:
+[2023-13-08 08:39:50]: DEBUG: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-13-08 08:40:02]: DEBUG: collection_href=[ansible/builtin/]
+[2023-13-08 08:40:02]: DEBUG: modules_url=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/index.html#plugin-index]
+[2023-13-08 08:40:02]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/index.html#plugin-index],element_name=[modules]
+[2023-13-08 08:40:03]: DEBUG: _fetch_module_index_ returned module_list=[
+Modules
+
+add_host module – Add a host (and alternatively a group) to the ansible-playbook in-memory inventory
+apt module – Manages apt-packages
+apt_key module – Add or remove an apt key
+apt_repository module – Add and remove APT repositories
+assemble module – Assemble configuration files from fragments
+assert module – Asserts given expressions are true
+async_status module – Obtain status of asynchronous task
+blockinfile module – Insert/update/remove a text block surrounded by marker lines
+command module – Execute commands on targets
+copy module – Copy files to remote locations
+cron module – Manage cron.d and crontab entries
+deb822_repository module – Add and remove deb822 formatted repositories
+debconf module – Configure a .deb package
+debug module – Print statements during execution
+dnf module – Manages packages with the dnf package manager
+dnf5 module – Manages packages with the dnf5 package manager
+dpkg_selections module – Dpkg package selection selections
+expect module – Executes a command and responds to prompts
+fail module – Fail with custom message
+fetch module – Fetch files from remote nodes
+file module – Manage files and file properties
+find module – Return a list of files based on specific criteria
+gather_facts module – Gathers facts about remote hosts
+get_url module – Downloads files from HTTP, HTTPS, or FTP to node
+getent module – A wrapper to the unix getent utility
+git module – Deploy software (or files) from git checkouts
+group module – Add or remove groups
+group_by module – Create Ansible groups based on facts
+hostname module – Manage hostname
+import_playbook module – Import a playbook
+import_role module – Import a role into a play
+import_tasks module – Import a task list
+include module – Include a task list
+include_role module – Load and execute a role
+include_tasks module – Dynamically include a task list
+include_vars module – Load variables from files, dynamically within a task
+iptables module – Modify iptables rules
+known_hosts module – Add or remove a host from the known_hosts file
+lineinfile module – Manage lines in text files
+meta module – Execute Ansible ‘actions’
+package module – Generic OS package manager
+package_facts module – Package information as facts
+pause module – Pause playbook execution
+ping module – Try to connect to host, verify a usable python and return pong on success
+pip module – Manages Python library dependencies
+raw module – Executes a low-down and dirty command
+reboot module – Reboot a machine
+replace module – Replace all instances of a particular string in a file using a back-referenced regular expression
+rpm_key module – Adds or removes a gpg key from the rpm db
+script module – Runs a local script on a remote node after transferring it
+service module – Manage services
+service_facts module – Return service state information as fact data
+set_fact module – Set host variable(s) and fact(s).
+set_stats module – Define and display stats for the current ansible run
+setup module – Gathers facts about remote hosts
+shell module – Execute shell commands on targets
+slurp module – Slurps a file from remote nodes
+stat module – Retrieve file or file system status
+subversion module – Deploys a subversion repository
+systemd_service module – Manage systemd units
+sysvinit module – Manage SysV services.
+tempfile module – Creates temporary files and directories
+template module – Template a file out to a target host
+unarchive module – Unpacks an archive after (optionally) copying it from the local machine
+uri module – Interacts with webservices
+user module – Manage user accounts
+validate_argument_spec module – Validate role argument specs.
+wait_for module – Waits for a condition before continuing
+wait_for_connection module – Waits until remote system is reachable/usable
+yum module – Manages packages with the yum package manager
+yum_repository module – Add or remove YUM repositories
+
+
+
+]
+[2023-13-08 08:40:03]: DEBUG: __curl_module_index:modules=[]
+[2023-13-08 08:40:06]: DEBUG: rewble->collection=[ansible.builtin]
+[2023-13-08 08:40:06]: DEBUG: rewble->collection_modules=[1
+[2023-13-08 08:40:13]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_key_module.html#examples],element_name=[examples]
+[2023-13-08 08:41:10]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 08:41:10]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 08:41:10]: DEBUG: Calling _show_collection_index_ with collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 08:41:10]: DEBUG: show_collection_index called, and collection_links is not array.  Variable for collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]. If url var is blank check configuration. If Url is correct check internet access and DNS resolution. Making second attempt
+[2023-13-08 08:41:10]: DEBUG: The url provided to fetch the collection index url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 08:41:10]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index]
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: collection_links array build section:
+[2023-13-08 08:41:10]: DEBUG: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-13-08 08:45:18]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 08:45:18]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 08:45:18]: DEBUG: Calling _show_collection_index_ with collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 08:45:18]: DEBUG: show_collection_index called, and collection_links is not array.  Variable for collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]. If url var is blank check configuration. If Url is correct check internet access and DNS resolution. Making second attempt
+[2023-13-08 08:45:18]: DEBUG: The url provided to fetch the collection index url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 08:45:18]: DEBUG: collection_links array build section:
+[2023-13-08 08:45:18]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index]
+[2023-13-08 08:45:19]: DEBUG: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-13-08 08:45:24]: DEBUG: collection_href=[community/general/]
+[2023-13-08 08:45:24]: DEBUG: modules_url=[https://docs.ansible.com/ansible/latest/collections/community/general/index.html#plugin-index]
+[2023-13-08 08:45:24]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/community/general/index.html#plugin-index],element_name=[modules]
+[2023-13-08 08:45:25]: DEBUG: _fetch_module_index_ returned module_list=[
+Modules
+
+aerospike_migrations module – Check or wait for migrations between nodes
+airbrake_deployment module – Notify airbrake about app deployments
+aix_devices module – Manages AIX devices
+aix_filesystem module – Configure LVM and NFS file systems for AIX
+aix_inittab module – Manages the inittab on AIX
+aix_lvg module – Manage LVM volume groups on AIX
+aix_lvol module – Configure AIX LVM logical volumes
+alerta_customer module – Manage customers in Alerta
+ali_instance module – Create, Start, Stop, Restart or Terminate an Instance in ECS; Add or Remove Instance to/from a Security Group
+ali_instance_info module – Gather information on instances of Alibaba Cloud ECS
+alternatives module – Manages alternative programs for common commands
+ansible_galaxy_install module – Install Ansible roles or collections using ansible-galaxy
+apache2_mod_proxy module – Set and/or get members’ attributes of an Apache httpd 2.4 mod_proxy balancer pool
+apache2_module module – Enables/disables a module of the Apache2 webserver
+apk module – Manages apk packages
+apt_repo module – Manage APT repositories via apt-repo
+apt_rpm module – APT-RPM package manager
+archive module – Creates a compressed archive of one or more files or trees
+atomic_container module – Manage the containers on the atomic host platform
+atomic_host module – Manage the atomic host platform
+atomic_image module – Manage the container images on the atomic host platform
+awall module – Manage awall policies
+beadm module – Manage ZFS boot environments on FreeBSD/Solaris/illumos systems
+bearychat module – Send BearyChat notifications
+bigpanda module – Notify BigPanda about deployments
+bitbucket_access_key module – Manages Bitbucket repository access keys
+bitbucket_pipeline_key_pair module – Manages Bitbucket pipeline SSH key pair
+bitbucket_pipeline_known_host module – Manages Bitbucket pipeline known hosts
+bitbucket_pipeline_variable module – Manages Bitbucket pipeline variables
+bower module – Manage bower packages with bower
+btrfs_info module – Query btrfs filesystem info
+btrfs_subvolume module – Manage btrfs subvolumes
+bundler module – Manage Ruby Gem dependencies with Bundler
+bzr module – Deploy software (or files) from bzr branches
+campfire module – Send a message to Campfire
+capabilities module – Manage Linux capabilities
+cargo module – Manage Rust packages with cargo
+catapult module – Send a sms / mms using the catapult bandwidth api
+circonus_annotation module – Create an annotation in circonus
+cisco_webex module – Send a message to a Cisco Webex Teams Room or Individual
+clc_aa_policy module – Create or Delete Anti Affinity Policies at CenturyLink Cloud
+clc_alert_policy module – Create or Delete Alert Policies at CenturyLink Cloud
+clc_blueprint_package module – Deploys a blue print package on a set of servers in CenturyLink Cloud
+clc_firewall_policy module – Create/delete/update firewall policies
+clc_group module – Create/delete Server Groups at Centurylink Cloud
+clc_loadbalancer module – Create, Delete shared loadbalancers in CenturyLink Cloud
+clc_modify_server module – Modify servers in CenturyLink Cloud
+clc_publicip module – Add and Delete public ips on servers in CenturyLink Cloud
+clc_server module – Create, Delete, Start and Stop servers in CenturyLink Cloud
+clc_server_snapshot module – Create, Delete and Restore server snapshots in CenturyLink Cloud
+cloud_init_data_facts module – Retrieve facts of cloud-init
+cloudflare_dns module – Manage Cloudflare DNS records
+cobbler_sync module – Sync Cobbler
+cobbler_system module – Manage system objects in Cobbler
+composer module – Dependency Manager for PHP
+consul module – Add, modify & delete services within a consul cluster
+consul_acl module – Manipulate Consul ACL keys and rules
+consul_kv module – Manipulate entries in the key/value store of a consul cluster
+consul_policy module – Manipulate Consul policies
+consul_session module – Manipulate consul sessions
+copr module – Manage one of the Copr repositories
+cpanm module – Manages Perl library dependencies
+cronvar module – Manage variables in crontabs
+crypttab module – Encrypted Linux block devices
+datadog_downtime module – Manages Datadog downtimes
+datadog_event module – Posts events to Datadog  service
+datadog_monitor module – Manages Datadog monitors
+dconf module – Modify and read dconf database
+deploy_helper module – Manages some of the steps common in deploying projects
+dimensiondata_network module – Create, update, and delete MCP 1.0 & 2.0 networks
+dimensiondata_vlan module – Manage a VLAN in a Cloud Control network domain
+discord module – Send Discord messages
+django_manage module – Manages a Django application
+dnf_versionlock module – Locks package versions in dnf based systems
+dnsimple module – Interface with dnsimple.com (a DNS hosting service)
+dnsimple_info module – Pull basic info from DNSimple API
+dnsmadeeasy module – Interface with dnsmadeeasy.com (a DNS hosting service)
+dpkg_divert module – Override a debian package’s version of a file
+easy_install module – Installs Python libraries
+ejabberd_user module – Manages users for ejabberd servers
+elasticsearch_plugin module – Manage Elasticsearch plugins
+emc_vnx_sg_member module – Manage storage group member on EMC VNX
+etcd3 module – Set or delete key value pairs from an etcd3 cluster
+facter module – Runs the discovery program facter on the remote system
+filesize module – Create a file with a given size, or resize it if it exists
+filesystem module – Makes a filesystem
+flatpak module – Manage flatpaks
+flatpak_remote module – Manage flatpak repository remotes
+flowdock module – Send a message to a flowdock
+gandi_livedns module – Manage Gandi LiveDNS records
+gconftool2 module – Edit GNOME Configurations
+gconftool2_info module – Retrieve GConf configurations
+gem module – Manage Ruby gems
+git_config module – Read and write git configuration
+github_deploy_key module – Manages deploy keys for GitHub repositories
+github_issue module – View GitHub issue
+github_key module – Manage GitHub access keys
+github_release module – Interact with GitHub Releases
+github_repo module – Manage your repositories on Github
+github_webhook module – Manage GitHub webhooks
+github_webhook_info module – Query information about GitHub webhooks
+gitlab_branch module – Create or delete a branch
+gitlab_deploy_key module – Manages GitLab project deploy keys
+gitlab_group module – Creates/updates/deletes GitLab Groups
+gitlab_group_members module – Manage group members on GitLab Server
+gitlab_group_variable module – Creates, updates, or deletes GitLab groups variables
+gitlab_hook module – Manages GitLab project hooks
+gitlab_instance_variable module – Creates, updates, or deletes GitLab instance variables
+gitlab_merge_request module – Create, update, or delete GitLab merge requests
+gitlab_project module – Creates/updates/deletes GitLab Projects
+gitlab_project_badge module – Manage project badges on GitLab Server
+gitlab_project_members module – Manage project members on GitLab Server
+gitlab_project_variable module – Creates/updates/deletes GitLab Projects Variables
+gitlab_protected_branch module – Manage protection of existing branches
+gitlab_runner module – Create, modify and delete GitLab Runners
+gitlab_user module – Creates/updates/deletes/blocks/unblocks GitLab Users
+grove module – Sends a notification to a grove.io channel
+gunicorn module – Run gunicorn with various settings
+haproxy module – Enable, disable, and set weights for HAProxy backend servers using socket commands
+heroku_collaborator module – Add or delete app collaborators on Heroku
+hg module – Manages Mercurial (hg) repositories
+hipchat module – Send a message to Hipchat
+homebrew module – Package manager for Homebrew
+homebrew_cask module – Install and uninstall homebrew casks
+homebrew_tap module – Tap a Homebrew repository
+homectl module – Manage user accounts with systemd-homed
+honeybadger_deployment module – Notify Honeybadger.io about app deployments
+hpilo_boot module – Boot system using specific media through HP iLO interface
+hpilo_info module – Gather information through an HP iLO interface
+hponcfg module – Configure HP iLO interface using hponcfg
+htpasswd module – Manage user files for basic authentication
+hwc_ecs_instance module – Creates a resource of Ecs/Instance in Huawei Cloud
+hwc_evs_disk module – Creates a resource of Evs/Disk in Huawei Cloud
+hwc_network_vpc module – Creates a Huawei Cloud VPC
+hwc_smn_topic module – Creates a resource of SMNTopic in Huaweicloud Cloud
+hwc_vpc_eip module – Creates a resource of Vpc/EIP in Huawei Cloud
+hwc_vpc_peering_connect module – Creates a resource of Vpc/PeeringConnect in Huawei Cloud
+hwc_vpc_port module – Creates a resource of Vpc/Port in Huawei Cloud
+hwc_vpc_private_ip module – Creates a resource of Vpc/PrivateIP in Huawei Cloud
+hwc_vpc_route module – Creates a resource of Vpc/Route in Huawei Cloud
+hwc_vpc_security_group module – Creates a resource of Vpc/SecurityGroup in Huawei Cloud
+hwc_vpc_security_group_rule module – Creates a resource of Vpc/SecurityGroupRule in Huawei Cloud
+hwc_vpc_subnet module – Creates a resource of Vpc/Subnet in Huawei Cloud
+ibm_sa_domain module – Manages domains on IBM Spectrum Accelerate Family storage systems
+ibm_sa_host module – Adds hosts to or removes them from IBM Spectrum Accelerate Family storage systems
+ibm_sa_host_ports module – Add host ports on IBM Spectrum Accelerate Family storage systems
+ibm_sa_pool module – Handles pools on IBM Spectrum Accelerate Family storage systems
+ibm_sa_vol module – Handle volumes on IBM Spectrum Accelerate Family storage systems
+ibm_sa_vol_map module – Handles volume mapping on IBM Spectrum Accelerate Family storage systems
+icinga2_feature module – Manage Icinga2 feature
+icinga2_host module – Manage a host in Icinga2
+idrac_redfish_command module – Manages Out-Of-Band controllers using iDRAC OEM Redfish APIs
+idrac_redfish_config module – Manages servers through iDRAC using Dell Redfish APIs
+idrac_redfish_info module – Gather PowerEdge server information through iDRAC using Redfish APIs
+ilo_redfish_command module – Manages Out-Of-Band controllers using Redfish APIs
+ilo_redfish_config module – Sets or updates configuration attributes on HPE iLO with Redfish OEM extensions
+ilo_redfish_info module – Gathers server information through iLO using Redfish APIs
+imc_rest module – Manage Cisco IMC hardware through its REST API
+imgadm module – Manage SmartOS images
+infinity module – Manage Infinity IPAM using Rest API
+influxdb_database module – Manage InfluxDB databases
+influxdb_query module – Query data points from InfluxDB
+influxdb_retention_policy module – Manage InfluxDB retention policies
+influxdb_user module – Manage InfluxDB users
+influxdb_write module – Write data points into InfluxDB
+ini_file module – Tweak settings in INI files
+installp module – Manage packages on AIX
+interfaces_file module – Tweak settings in /etc/network/interfaces files
+ip_netns module – Manage network namespaces
+ipa_config module – Manage Global FreeIPA Configuration Settings
+ipa_dnsrecord module – Manage FreeIPA DNS records
+ipa_dnszone module – Manage FreeIPA DNS Zones
+ipa_group module – Manage FreeIPA group
+ipa_hbacrule module – Manage FreeIPA HBAC rule
+ipa_host module – Manage FreeIPA host
+ipa_hostgroup module – Manage FreeIPA host-group
+ipa_otpconfig module – Manage FreeIPA OTP Configuration Settings
+ipa_otptoken module – Manage FreeIPA OTPs
+ipa_pwpolicy module – Manage FreeIPA password policies
+ipa_role module – Manage FreeIPA role
+ipa_service module – Manage FreeIPA service
+ipa_subca module – Manage FreeIPA Lightweight Sub Certificate Authorities
+ipa_sudocmd module – Manage FreeIPA sudo command
+ipa_sudocmdgroup module – Manage FreeIPA sudo command group
+ipa_sudorule module – Manage FreeIPA sudo rule
+ipa_user module – Manage FreeIPA users
+ipa_vault module – Manage FreeIPA vaults
+ipbase_info module – Retrieve IP geolocation and other facts of a host’s IP address using the ipbase.com API
+ipify_facts module – Retrieve the public IP of your internet gateway
+ipinfoio_facts module – Retrieve IP geolocation facts of a host’s IP address
+ipmi_boot module – Management of order of boot devices
+ipmi_power module – Power management for machine
+iptables_state module – Save iptables state into a file or restore it from a file
+ipwcli_dns module – Manage DNS Records for Ericsson IPWorks via ipwcli
+irc module – Send a message to an IRC channel or a nick
+iso_create module – Generate ISO file with specified files or folders
+iso_customize module – Add/remove/change files in ISO file
+iso_extract module – Extract files from an ISO image
+jabber module – Send a message to jabber user or chat room
+java_cert module – Uses keytool to import/remove certificate to/from java keystore (cacerts)
+java_keystore module – Create a Java keystore in JKS format
+jboss module – Deploy applications to JBoss
+jenkins_build module – Manage jenkins builds
+jenkins_job module – Manage jenkins jobs
+jenkins_job_info module – Get information about Jenkins jobs
+jenkins_plugin module – Add or remove Jenkins plugin
+jenkins_script module – Executes a groovy script in the jenkins instance
+jira module – Create and modify issues in a JIRA instance
+kdeconfig module – Manage KDE configuration files
+kernel_blacklist module – Blacklist kernel modules
+keycloak_authentication module – Configure authentication in Keycloak
+keycloak_authentication_required_actions module – Allows administration of Keycloak authentication required actions
+keycloak_authz_authorization_scope module – Allows administration of Keycloak client authorization scopes via Keycloak API
+keycloak_authz_permission module – Allows administration of Keycloak client authorization permissions via Keycloak API
+keycloak_authz_permission_info module – Query Keycloak client authorization permissions information
+keycloak_client module – Allows administration of Keycloak clients via Keycloak API
+keycloak_client_rolemapping module – Allows administration of Keycloak client_rolemapping with the Keycloak API
+keycloak_clientscope module – Allows administration of Keycloak client_scopes via Keycloak API
+keycloak_clientscope_type module – Set the type of aclientscope in realm or client via Keycloak API
+keycloak_clientsecret_info module – Retrieve client secret via Keycloak API
+keycloak_clientsecret_regenerate module – Regenerate Keycloak client secret via Keycloak API
+keycloak_clienttemplate module – Allows administration of Keycloak client templates via Keycloak API
+keycloak_group module – Allows administration of Keycloak groups via Keycloak API
+keycloak_identity_provider module – Allows administration of Keycloak identity providers via Keycloak API
+keycloak_realm module – Allows administration of Keycloak realm via Keycloak API
+keycloak_realm_info module – Allows obtaining Keycloak realm public information via Keycloak API
+keycloak_role module – Allows administration of Keycloak roles via Keycloak API
+keycloak_user module – Create and configure a user in Keycloak
+keycloak_user_federation module – Allows administration of Keycloak user federations via Keycloak API
+keycloak_user_rolemapping module – Allows administration of Keycloak user_rolemapping with the Keycloak API
+keyring module – Set or delete a passphrase using the Operating System’s native keyring
+keyring_info module – Get a passphrase using the Operating System’s native keyring
+kibana_plugin module – Manage Kibana plugins
+launchd module – Manage macOS services
+layman module – Manage Gentoo overlays
+lbu module – Local Backup Utility for Alpine Linux
+ldap_attrs module – Add or remove multiple LDAP attribute values
+ldap_entry module – Add or remove LDAP entries
+ldap_passwd module – Set passwords in LDAP
+ldap_search module – Search for entries in a LDAP server
+librato_annotation module – Create an annotation in librato
+linode module – Manage instances on the Linode Public Cloud
+linode_v4 module – Manage instances on the Linode cloud
+listen_ports_facts module – Gather facts on processes listening on TCP and UDP ports
+lldp module – Get details reported by lldp
+locale_gen module – Creates or removes locales
+logentries module – Module for tracking logs via logentries.com
+logentries_msg module – Send a message to logentries
+logstash_plugin module – Manage Logstash plugins
+lvg module – Configure LVM volume groups
+lvg_rename module – Renames LVM volume groups
+lvol module – Configure LVM logical volumes
+lxc_container module – Manage LXC Containers
+lxca_cmms module – Custom module for lxca cmms inventory utility
+lxca_nodes module – Custom module for lxca nodes inventory utility
+lxd_container module – Manage LXD instances
+lxd_profile module – Manage LXD profiles
+lxd_project module – Manage LXD projects
+macports module – Package manager for MacPorts
+mail module – Send an email
+make module – Run targets in a Makefile
+manageiq_alert_profiles module – Configuration of alert profiles for ManageIQ
+manageiq_alerts module – Configuration of alerts in ManageIQ
+manageiq_group module – Management of groups in ManageIQ
+manageiq_policies module – Management of resource policy_profiles in ManageIQ
+manageiq_policies_info module – Listing of resource policy_profiles in ManageIQ
+manageiq_provider module – Management of provider in ManageIQ
+manageiq_tags module – Management of resource tags in ManageIQ
+manageiq_tags_info module – Retrieve resource tags in ManageIQ
+manageiq_tenant module – Management of tenants in ManageIQ
+manageiq_user module – Management of users in ManageIQ
+mas module – Manage Mac App Store applications with mas-cli
+matrix module – Send notifications to matrix
+mattermost module – Send Mattermost notifications
+maven_artifact module – Downloads an Artifact from a Maven Repository
+memset_dns_reload module – Request reload of Memset’s DNS infrastructure,
+memset_memstore_info module – Retrieve Memstore product usage information
+memset_server_info module – Retrieve server information
+memset_zone module – Creates and deletes Memset DNS zones
+memset_zone_domain module – Create and delete domains in Memset DNS zones
+memset_zone_record module – Create and delete records in Memset DNS zones
+mksysb module – Generates AIX mksysb rootvg backups
+modprobe module – Load or unload kernel modules
+monit module – Manage the state of a program monitored via Monit
+mqtt module – Publish a message on an MQTT topic for the IoT
+mssql_db module – Add or remove MSSQL databases from a remote host
+mssql_script module – Execute SQL scripts on a MSSQL database
+nagios module – Perform common tasks in Nagios related to downtime and notifications
+netcup_dns module – Manage Netcup DNS records
+newrelic_deployment module – Notify New Relic about app deployments
+nexmo module – Send a SMS via nexmo
+nginx_status_info module – Retrieve information on nginx status
+nictagadm module – Manage nic tags on SmartOS systems
+nmcli module – Manage Networking
+nomad_job module – Launch a Nomad Job
+nomad_job_info module – Get Nomad Jobs info
+nosh module – Manage services with nosh
+npm module – Manage node.js packages with npm
+nsupdate module – Manage DNS records
+ocapi_command module – Manages Out-Of-Band controllers using Open Composable API (OCAPI)
+ocapi_info module – Manages Out-Of-Band controllers using Open Composable API (OCAPI)
+oci_vcn module – Manage Virtual Cloud Networks(VCN) in OCI
+odbc module – Execute SQL via ODBC
+office_365_connector_card module – Use webhooks to create Connector Card messages within an Office 365 group
+ohai module – Returns inventory data from Ohai
+omapi_host module – Setup OMAPI hosts
+one_host module – Manages OpenNebula Hosts
+one_image module – Manages OpenNebula images
+one_image_info module – Gather information on OpenNebula images
+one_service module – Deploy and manage OpenNebula services
+one_template module – Manages OpenNebula templates
+one_vm module – Creates or terminates OpenNebula instances
+oneandone_firewall_policy module – Configure 1&1 firewall policy
+oneandone_load_balancer module – Configure 1&1 load balancer
+oneandone_monitoring_policy module – Configure 1&1 monitoring policy
+oneandone_private_network module – Configure 1&1 private networking
+oneandone_public_ip module – Configure 1&1 public IPs
+oneandone_server module – Create, destroy, start, stop, and reboot a 1&1 Host server
+onepassword_info module – Gather items from 1Password
+oneview_datacenter_info module – Retrieve information about the OneView Data Centers
+oneview_enclosure_info module – Retrieve information about one or more Enclosures
+oneview_ethernet_network module – Manage OneView Ethernet Network resources
+oneview_ethernet_network_info module – Retrieve the information about one or more of the OneView Ethernet Networks
+oneview_fc_network module – Manage OneView Fibre Channel Network resources
+oneview_fc_network_info module – Retrieve the information about one or more of the OneView Fibre Channel Networks
+oneview_fcoe_network module – Manage OneView FCoE Network resources
+oneview_fcoe_network_info module – Retrieve the information about one or more of the OneView FCoE Networks
+oneview_logical_interconnect_group module – Manage OneView Logical Interconnect Group resources
+oneview_logical_interconnect_group_info module – Retrieve information about one or more of the OneView Logical Interconnect Groups
+oneview_network_set module – Manage HPE OneView Network Set resources
+oneview_network_set_info module – Retrieve information about the OneView Network Sets
+oneview_san_manager module – Manage OneView SAN Manager resources
+oneview_san_manager_info module – Retrieve information about one or more of the OneView SAN Managers
+online_server_info module – Gather information about Online servers
+online_user_info module – Gather information about Online user
+open_iscsi module – Manage iSCSI targets with Open-iSCSI
+openbsd_pkg module – Manage packages on OpenBSD
+opendj_backendprop module – Will update the backend configuration of OpenDJ via the dsconfig set-backend-prop command
+openwrt_init module – Manage services on OpenWrt
+opkg module – Package manager for OpenWrt and Openembedded/Yocto based Linux distributions
+osx_defaults module – Manage macOS user defaults
+ovh_ip_failover module – Manage OVH IP failover address
+ovh_ip_loadbalancing_backend module – Manage OVH IP LoadBalancing backends
+ovh_monthly_billing module – Manage OVH monthly billing
+pacemaker_cluster module – Manage pacemaker clusters
+packet_device module – Manage a bare metal server in the Packet Host
+packet_ip_subnet module – Assign IP subnet to a bare metal server
+packet_project module – Create/delete a project in Packet host
+packet_sshkey module – Create/delete an SSH key in Packet host
+packet_volume module – Create/delete a volume in Packet host
+packet_volume_attachment module – Attach/detach a volume to a device in the Packet host
+pacman module – Manage packages with pacman
+pacman_key module – Manage pacman’s list of trusted keys
+pagerduty module – Create PagerDuty maintenance windows
+pagerduty_alert module – Trigger, acknowledge or resolve PagerDuty incidents
+pagerduty_change module – Track a code or infrastructure change as a PagerDuty change event
+pagerduty_user module – Manage a user account on PagerDuty
+pam_limits module – Modify Linux PAM limits
+pamd module – Manage PAM Modules
+parted module – Configure block device partitions
+pear module – Manage pear/pecl packages
+pids module – Retrieves process IDs list if the process is running otherwise return empty list
+pingdom module – Pause/unpause Pingdom alerts
+pip_package_info module – Pip package information
+pipx module – Manages applications installed with pipx
+pipx_info module – Rretrieves information about applications installed with pipx
+pkg5 module – Manages packages with the Solaris 11 Image Packaging System
+pkg5_publisher module – Manages Solaris 11 Image Packaging System publishers
+pkgin module – Package manager for SmartOS, NetBSD, et al
+pkgng module – Package manager for FreeBSD >= 9.0
+pkgutil module – OpenCSW package management on Solaris
+pmem module – Configure Intel Optane Persistent Memory modules
+portage module – Package manager for Gentoo
+portinstall module – Installing packages from FreeBSD’s ports system
+pritunl_org module – Manages Pritunl Organizations using the Pritunl API
+pritunl_org_info module – List Pritunl Organizations using the Pritunl API
+pritunl_user module – Manage Pritunl Users using the Pritunl API
+pritunl_user_info module – List Pritunl Users using the Pritunl API
+profitbricks module – Create, destroy, start, stop, and reboot a ProfitBricks virtual machine
+profitbricks_datacenter module – Create or destroy a ProfitBricks Virtual Datacenter
+profitbricks_nic module – Create or Remove a NIC
+profitbricks_volume module – Create or destroy a volume
+profitbricks_volume_attachments module – Attach or detach a volume
+proxmox module – Management of instances in Proxmox VE cluster
+proxmox_disk module – Management of a disk of a Qemu(KVM) VM in a Proxmox VE cluster
+proxmox_domain_info module – Retrieve information about one or more Proxmox VE domains
+proxmox_group_info module – Retrieve information about one or more Proxmox VE groups
+proxmox_kvm module – Management of Qemu(KVM) Virtual Machines in Proxmox VE cluster
+proxmox_nic module – Management of a NIC of a Qemu(KVM) VM in a Proxmox VE cluster
+proxmox_pool module – Pool management for Proxmox VE cluster
+proxmox_pool_member module – Add or delete members from Proxmox VE cluster pools
+proxmox_snap module – Snapshot management of instances in Proxmox VE cluster
+proxmox_storage_info module – Retrieve information about one or more Proxmox VE storages
+proxmox_tasks_info module – Retrieve information about one or more Proxmox VE tasks
+proxmox_template module – Management of OS templates in Proxmox VE cluster
+proxmox_user_info module – Retrieve information about one or more Proxmox VE users
+proxmox_vm_info module – Retrieve information about one or more Proxmox VE virtual machines
+pubnub_blocks module – PubNub blocks management module
+pulp_repo module – Add or remove Pulp repos from a remote host
+puppet module – Runs puppet
+pushbullet module – Sends notifications to Pushbullet
+pushover module – Send notifications via https://pushover.net
+python_requirements_info module – Show python path and assert dependency versions
+rax module – Create / delete an instance in Rackspace Public Cloud
+rax_cbs module – Manipulate Rackspace Cloud Block Storage Volumes
+rax_cbs_attachments module – Manipulate Rackspace Cloud Block Storage Volume Attachments
+rax_cdb module – Create/delete or resize a Rackspace Cloud Databases instance
+rax_cdb_database module – Create / delete a database in the Cloud Databases
+rax_cdb_user module – Create / delete a Rackspace Cloud Database
+rax_clb module – Create / delete a load balancer in Rackspace Public Cloud
+rax_clb_nodes module – Add, modify and remove nodes from a Rackspace Cloud Load Balancer
+rax_clb_ssl module – Manage SSL termination for a Rackspace Cloud Load Balancer
+rax_dns module – Manage domains on Rackspace Cloud DNS
+rax_dns_record module – Manage DNS records on Rackspace Cloud DNS
+rax_facts module – Gather facts for Rackspace Cloud Servers
+rax_files module – Manipulate Rackspace Cloud Files Containers
+rax_files_objects module – Upload, download, and delete objects in Rackspace Cloud Files
+rax_identity module – Load Rackspace Cloud Identity
+rax_keypair module – Create a keypair for use with Rackspace Cloud Servers
+rax_meta module – Manipulate metadata for Rackspace Cloud Servers
+rax_mon_alarm module – Create or delete a Rackspace Cloud Monitoring alarm
+rax_mon_check module – Create or delete a Rackspace Cloud Monitoring check for an existing entity.
+rax_mon_entity module – Create or delete a Rackspace Cloud Monitoring entity
+rax_mon_notification module – Create or delete a Rackspace Cloud Monitoring notification
+rax_mon_notification_plan module – Create or delete a Rackspace Cloud Monitoring notification plan.
+rax_network module – Create / delete an isolated network in Rackspace Public Cloud
+rax_queue module – Create / delete a queue in Rackspace Public Cloud
+rax_scaling_group module – Manipulate Rackspace Cloud Autoscale Groups
+rax_scaling_policy module – Manipulate Rackspace Cloud Autoscale Scaling Policy
+read_csv module – Read a CSV file
+redfish_command module – Manages Out-Of-Band controllers using Redfish APIs
+redfish_config module – Manages Out-Of-Band controllers using Redfish APIs
+redfish_info module – Manages Out-Of-Band controllers using Redfish APIs
+redhat_subscription module – Manage registration and subscriptions to RHSM using subscription-manager
+redis module – Various redis commands, replica and flush
+redis_data module – Set key value pairs in Redis
+redis_data_incr module – Increment keys in Redis
+redis_data_info module – Get value of key in Redis database
+redis_info module – Gather information about Redis servers
+rhevm module – RHEV/oVirt automation
+rhn_channel module – Adds or removes Red Hat software channels
+rhn_register module – Manage Red Hat Network registration using the rhnreg_ks command
+rhsm_release module – Set or Unset RHSM Release version
+rhsm_repository module – Manage RHSM repositories using the subscription-manager command
+riak module – This module handles some common Riak operations
+rocketchat module – Send notifications to Rocket Chat
+rollbar_deployment module – Notify Rollbar about app deployments
+rpm_ostree_pkg module – Install or uninstall overlay additional packages
+rundeck_acl_policy module – Manage Rundeck ACL policies
+rundeck_job_executions_info module – Query executions for a Rundeck job
+rundeck_job_run module – Run a Rundeck job
+rundeck_project module – Manage Rundeck projects
+runit module – Manage runit services
+say module – Makes a computer to speak
+scaleway_compute module – Scaleway compute management module
+scaleway_compute_private_network module – Scaleway compute - private network management
+scaleway_container module – Scaleway Container management
+scaleway_container_info module – Retrieve information on Scaleway Container
+scaleway_container_namespace module – Scaleway Container namespace management
+scaleway_container_namespace_info module – Retrieve information on Scaleway Container namespace
+scaleway_container_registry module – Scaleway Container registry management module
+scaleway_container_registry_info module – Scaleway Container registry info module
+scaleway_database_backup module – Scaleway database backups management module
+scaleway_function module – Scaleway Function management
+scaleway_function_info module – Retrieve information on Scaleway Function
+scaleway_function_namespace module – Scaleway Function namespace management
+scaleway_function_namespace_info module – Retrieve information on Scaleway Function namespace
+scaleway_image_info module – Gather information about the Scaleway images available
+scaleway_ip module – Scaleway IP management module
+scaleway_ip_info module – Gather information about the Scaleway ips available
+scaleway_lb module – Scaleway load-balancer management module
+scaleway_organization_info module – Gather information about the Scaleway organizations available
+scaleway_private_network module – Scaleway private network management
+scaleway_security_group module – Scaleway Security Group management module
+scaleway_security_group_info module – Gather information about the Scaleway security groups available
+scaleway_security_group_rule module – Scaleway Security Group Rule management module
+scaleway_server_info module – Gather information about the Scaleway servers available
+scaleway_snapshot_info module – Gather information about the Scaleway snapshots available
+scaleway_sshkey module – Scaleway SSH keys management module
+scaleway_user_data module – Scaleway user_data management module
+scaleway_volume module – Scaleway volumes management module
+scaleway_volume_info module – Gather information about the Scaleway volumes available
+sefcontext module – Manages SELinux file context mapping definitions
+selinux_permissive module – Change permissive domain in SELinux policy
+selogin module – Manages linux user to SELinux user mapping
+sendgrid module – Sends an email with the SendGrid API
+sensu_check module – Manage Sensu checks
+sensu_client module – Manages Sensu client configuration
+sensu_handler module – Manages Sensu handler configuration
+sensu_silence module – Manage Sensu silence entries
+sensu_subscription module – Manage Sensu subscriptions
+seport module – Manages SELinux network port type definitions
+serverless module – Manages a Serverless Framework project
+shutdown module – Shut down a machine
+sl_vm module – Create or cancel a virtual instance in SoftLayer
+slack module – Send Slack notifications
+slackpkg module – Package manager for Slackware >= 12.2
+smartos_image_info module – Get SmartOS image details
+snap module – Manages snaps
+snap_alias module – Manages snap aliases
+snmp_facts module – Retrieve facts for a device using SNMP
+solaris_zone module – Manage Solaris zones
+sorcery module – Package manager for Source Mage GNU/Linux
+spectrum_device module – Creates/deletes devices in CA Spectrum
+spectrum_model_attrs module – Enforce a model’s attributes in CA Spectrum
+spotinst_aws_elastigroup module – Create, update or delete Spotinst AWS Elastigroups
+ss_3par_cpg module – Manage HPE StoreServ 3PAR CPG
+ssh_config module – Manage SSH config for user
+stackdriver module – Send code deploy and annotation events to stackdriver
+stacki_host module – Add or remove host to stacki front-end
+statsd module – Send metrics to StatsD
+statusio_maintenance module – Create maintenance windows for your status.io dashboard
+sudoers module – Manage sudoers files
+supervisorctl module – Manage the state of a program or group of programs running via supervisord
+svc module – Manage daemontools services
+svr4pkg module – Manage Solaris SVR4 packages
+swdepot module – Manage packages with swdepot package manager (HP-UX)
+swupd module – Manages updates and bundles in ClearLinux systems
+syslogger module – Log messages in the syslog
+syspatch module – Manage OpenBSD system patches
+sysrc module – Manage FreeBSD using sysrc
+sysupgrade module – Manage OpenBSD system upgrades
+taiga_issue module – Creates/deletes an issue in a Taiga Project Management Platform
+telegram module – Send notifications via telegram
+terraform module – Manages a Terraform deployment (and plans)
+timezone module – Configure timezone setting
+twilio module – Sends a text message to a mobile phone through Twilio
+typetalk module – Send a message to typetalk
+udm_dns_record module – Manage dns entries on a univention corporate server
+udm_dns_zone module – Manage dns zones on a univention corporate server
+udm_group module – Manage of the posix group
+udm_share module – Manage samba shares on a univention corporate server
+udm_user module – Manage posix users on a univention corporate server
+ufw module – Manage firewall with UFW
+uptimerobot module – Pause and start Uptime Robot monitoring
+urpmi module – Urpmi manager
+utm_aaa_group module – Create, update or destroy an aaa group object in Sophos UTM
+utm_aaa_group_info module – Get info for reverse_proxy frontend entry in Sophos UTM
+utm_ca_host_key_cert module – Create, update or destroy ca host_key_cert entry in Sophos UTM
+utm_ca_host_key_cert_info module – Get info for a ca host_key_cert entry in Sophos UTM
+utm_dns_host module – Create, update or destroy dns entry in Sophos UTM
+utm_network_interface_address module – Create, update or destroy network/interface_address object
+utm_network_interface_address_info module – Get info for a network/interface_address object
+utm_proxy_auth_profile module – Create, update or destroy reverse_proxy auth_profile entry in Sophos UTM
+utm_proxy_exception module – Create, update or destroy reverse_proxy exception entry in Sophos UTM
+utm_proxy_frontend module – Create, update or destroy reverse_proxy frontend entry in Sophos UTM
+utm_proxy_frontend_info module – Create, update or destroy reverse_proxy frontend entry in Sophos UTM
+utm_proxy_location module – Create, update or destroy reverse_proxy location entry in Sophos UTM
+utm_proxy_location_info module – Create, update or destroy reverse_proxy location entry in Sophos UTM
+vdo module – Module to control VDO
+vertica_configuration module – Updates Vertica configuration parameters
+vertica_info module – Gathers Vertica database facts
+vertica_role module – Adds or removes Vertica database roles and assigns roles to them
+vertica_schema module – Adds or removes Vertica database schema and roles
+vertica_user module – Adds or removes Vertica database users and assigns roles
+vexata_eg module – Manage export groups on Vexata VX100 storage arrays
+vexata_volume module – Manage volumes on Vexata VX100 storage arrays
+vmadm module – Manage SmartOS virtual machines and zones
+wakeonlan module – Send a magic Wake-on-LAN (WoL) broadcast packet
+wdc_redfish_command module – Manages WDC UltraStar Data102 Out-Of-Band controllers using Redfish APIs
+wdc_redfish_info module – Manages WDC UltraStar Data102 Out-Of-Band controllers using Redfish APIs
+webfaction_app module – Add or remove applications on a Webfaction host
+webfaction_db module – Add or remove a database on Webfaction
+webfaction_domain module – Add or remove domains and subdomains on Webfaction
+webfaction_mailbox module – Add or remove mailboxes on Webfaction
+webfaction_site module – Add or remove a website on a Webfaction host
+xattr module – Manage user defined extended attributes
+xbps module – Manage packages with XBPS
+xcc_redfish_command module – Manages Lenovo Out-Of-Band controllers using Redfish APIs
+xenserver_facts module – Get facts reported on xenserver
+xenserver_guest module – Manages virtual machines running on Citrix Hypervisor/XenServer host or pool
+xenserver_guest_info module – Gathers information for virtual machines running on Citrix Hypervisor/XenServer host or pool
+xenserver_guest_powerstate module – Manages power states of virtual machines running on Citrix Hypervisor/XenServer host or pool
+xfconf module – Edit XFCE4 Configurations
+xfconf_info module – Retrieve XFCE4 configurations
+xfs_quota module – Manage quotas on XFS filesystems
+xml module – Manage bits and pieces of XML files or strings
+yarn module – Manage node.js packages with Yarn
+yum_versionlock module – Locks / unlocks a installed package(s) from being updated by yum package manager
+zfs module – Manage zfs
+zfs_delegate_admin module – Manage ZFS delegated administration (user admin privileges)
+zfs_facts module – Gather facts about ZFS datasets
+znode module – Create, delete, retrieve, and update znodes using ZooKeeper
+zpool_facts module – Gather facts about ZFS pools
+zypper module – Manage packages on SUSE and openSUSE
+zypper_repository module – Add and remove Zypper repositories
+
+
+
+]
+[2023-13-08 08:45:25]: DEBUG: __curl_module_index:modules=[]
+[2023-13-08 08:45:28]: DEBUG: rewble->collection=[community.general]
+[2023-13-08 08:45:28]: DEBUG: rewble->collection_modules=[1
+[2023-13-08 08:45:29]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/community/general/aix_filesystem_module.html#examples],element_name=[examples]
+[2023-13-08 10:44:57]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 10:44:57]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 10:44:57]: DEBUG: input to class function __fetch_ansible_docs_element: No url provided to fetch the collection index. This may mean the configuration is not defined or did not load properly. url=[]
+[2023-13-08 10:50:54]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 10:50:54]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 10:50:54]: DEBUG: input to class function __fetch_ansible_docs_element: No url provided to fetch the collection index. This may mean the configuration is not defined or did not load properly. url=[]
+[2023-13-08 10:50:54]: DEBUG: process received a terminate request.  This could be because q was pressed to escape from a menu. Or the configuration is missing required information to complete a task.
+[2023-13-08 10:54:43]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 10:54:43]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 10:54:43]: DEBUG: input to class function __fetch_ansible_docs_element: No url provided to fetch the collection index. This may mean the configuration is not defined or did not load properly. url=[]
+[2023-13-08 10:54:43]: DEBUG: process received a terminate request.  This could be because q was pressed to escape from a menu. Or the configuration is missing required information to complete a task.
+[2023-13-08 11:15:25]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 11:15:25]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 11:15:25]: DEBUG: input to class function __fetch_ansible_docs_element: No url provided to fetch the collection index. This may mean the configuration is not defined or did not load properly. url=[]
+[2023-13-08 11:15:25]: DEBUG: process received a terminate request.  This could be because q was pressed to escape from a menu. Or the configuration is missing required information to complete a task.
+[2023-13-08 11:18:19]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 11:18:19]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 11:18:19]: DEBUG: The url provided to fetch the collection index url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 11:18:19]: DEBUG: collection_links array build section:
+[2023-13-08 11:18:19]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index]
+[2023-13-08 11:18:20]: DEBUG: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-13-08 11:31:19]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 11:31:19]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 11:31:19]: DEBUG: Calling _show_collection_index_ with collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 11:31:19]: DEBUG: collection_links is array.
+[2023-13-08 11:31:27]: DEBUG: collection_href=[google/cloud/]
+[2023-13-08 11:31:27]: DEBUG: modules_url=[https://docs.ansible.com/ansible/latest/collections/google/cloud/index.html#plugin-index]
+[2023-13-08 11:31:27]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/google/cloud/index.html#plugin-index],element_name=[modules]
+[2023-13-08 11:31:27]: DEBUG: _fetch_module_index_ returned module_list=[
+Modules
+
+gcp_appengine_firewall_rule module – Creates a GCP FirewallRule
+gcp_appengine_firewall_rule_info module – Gather info for GCP FirewallRule
+gcp_bigquery_dataset module – Creates a GCP Dataset
+gcp_bigquery_dataset_info module – Gather info for GCP Dataset
+gcp_bigquery_table module – Creates a GCP Table
+gcp_bigquery_table_info module – Gather info for GCP Table
+gcp_bigtable_instance module – Creates a GCP Instance
+gcp_bigtable_instance_info module – Gather info for GCP Instance
+gcp_cloudbuild_trigger module – Creates a GCP Trigger
+gcp_cloudbuild_trigger_info module – Gather info for GCP Trigger
+gcp_cloudfunctions_cloud_function module – Creates a GCP CloudFunction
+gcp_cloudfunctions_cloud_function_info module – Gather info for GCP CloudFunction
+gcp_cloudscheduler_job module – Creates a GCP Job
+gcp_cloudscheduler_job_info module – Gather info for GCP Job
+gcp_cloudtasks_queue module – Creates a GCP Queue
+gcp_cloudtasks_queue_info module – Gather info for GCP Queue
+gcp_compute_address module – Creates a GCP Address
+gcp_compute_address_info module – Gather info for GCP Address
+gcp_compute_autoscaler module – Creates a GCP Autoscaler
+gcp_compute_autoscaler_info module – Gather info for GCP Autoscaler
+gcp_compute_backend_bucket module – Creates a GCP BackendBucket
+gcp_compute_backend_bucket_info module – Gather info for GCP BackendBucket
+gcp_compute_backend_service module – Creates a GCP BackendService
+gcp_compute_backend_service_info module – Gather info for GCP BackendService
+gcp_compute_disk module – Creates a GCP Disk
+gcp_compute_disk_info module – Gather info for GCP Disk
+gcp_compute_external_vpn_gateway module – Creates a GCP ExternalVpnGateway
+gcp_compute_external_vpn_gateway_info module – Gather info for GCP ExternalVpnGateway
+gcp_compute_firewall module – Creates a GCP Firewall
+gcp_compute_firewall_info module – Gather info for GCP Firewall
+gcp_compute_forwarding_rule module – Creates a GCP ForwardingRule
+gcp_compute_forwarding_rule_info module – Gather info for GCP ForwardingRule
+gcp_compute_global_address module – Creates a GCP GlobalAddress
+gcp_compute_global_address_info module – Gather info for GCP GlobalAddress
+gcp_compute_global_forwarding_rule module – Creates a GCP GlobalForwardingRule
+gcp_compute_global_forwarding_rule_info module – Gather info for GCP GlobalForwardingRule
+gcp_compute_health_check module – Creates a GCP HealthCheck
+gcp_compute_health_check_info module – Gather info for GCP HealthCheck
+gcp_compute_http_health_check module – Creates a GCP HttpHealthCheck
+gcp_compute_http_health_check_info module – Gather info for GCP HttpHealthCheck
+gcp_compute_https_health_check module – Creates a GCP HttpsHealthCheck
+gcp_compute_https_health_check_info module – Gather info for GCP HttpsHealthCheck
+gcp_compute_image module – Creates a GCP Image
+gcp_compute_image_info module – Gather info for GCP Image
+gcp_compute_instance module – Creates a GCP Instance
+gcp_compute_instance_group module – Creates a GCP InstanceGroup
+gcp_compute_instance_group_info module – Gather info for GCP InstanceGroup
+gcp_compute_instance_group_manager module – Creates a GCP InstanceGroupManager
+gcp_compute_instance_group_manager_info module – Gather info for GCP InstanceGroupManager
+gcp_compute_instance_info module – Gather info for GCP Instance
+gcp_compute_instance_template module – Creates a GCP InstanceTemplate
+gcp_compute_instance_template_info module – Gather info for GCP InstanceTemplate
+gcp_compute_interconnect_attachment module – Creates a GCP InterconnectAttachment
+gcp_compute_interconnect_attachment_info module – Gather info for GCP InterconnectAttachment
+gcp_compute_network module – Creates a GCP Network
+gcp_compute_network_endpoint_group module – Creates a GCP NetworkEndpointGroup
+gcp_compute_network_endpoint_group_info module – Gather info for GCP NetworkEndpointGroup
+gcp_compute_network_info module – Gather info for GCP Network
+gcp_compute_node_group module – Creates a GCP NodeGroup
+gcp_compute_node_group_info module – Gather info for GCP NodeGroup
+gcp_compute_node_template module – Creates a GCP NodeTemplate
+gcp_compute_node_template_info module – Gather info for GCP NodeTemplate
+gcp_compute_region_autoscaler module – Creates a GCP RegionAutoscaler
+gcp_compute_region_autoscaler_info module – Gather info for GCP RegionAutoscaler
+gcp_compute_region_backend_service module – Creates a GCP RegionBackendService
+gcp_compute_region_backend_service_info module – Gather info for GCP RegionBackendService
+gcp_compute_region_disk module – Creates a GCP RegionDisk
+gcp_compute_region_disk_info module – Gather info for GCP RegionDisk
+gcp_compute_region_health_check module – Creates a GCP RegionHealthCheck
+gcp_compute_region_health_check_info module – Gather info for GCP RegionHealthCheck
+gcp_compute_region_instance_group_manager module – Creates a GCP RegionInstanceGroupManager
+gcp_compute_region_instance_group_manager_info module – Gather info for GCP RegionInstanceGroupManager
+gcp_compute_region_target_http_proxy module – Creates a GCP RegionTargetHttpProxy
+gcp_compute_region_target_http_proxy_info module – Gather info for GCP RegionTargetHttpProxy
+gcp_compute_region_target_https_proxy module – Creates a GCP RegionTargetHttpsProxy
+gcp_compute_region_target_https_proxy_info module – Gather info for GCP RegionTargetHttpsProxy
+gcp_compute_region_url_map module – Creates a GCP RegionUrlMap
+gcp_compute_region_url_map_info module – Gather info for GCP RegionUrlMap
+gcp_compute_reservation module – Creates a GCP Reservation
+gcp_compute_reservation_info module – Gather info for GCP Reservation
+gcp_compute_resource_policy module – Creates a GCP ResourcePolicy
+gcp_compute_resource_policy_info module – Gather info for GCP ResourcePolicy
+gcp_compute_route module – Creates a GCP Route
+gcp_compute_route_info module – Gather info for GCP Route
+gcp_compute_router module – Creates a GCP Router
+gcp_compute_router_info module – Gather info for GCP Router
+gcp_compute_snapshot module – Creates a GCP Snapshot
+gcp_compute_snapshot_info module – Gather info for GCP Snapshot
+gcp_compute_ssl_certificate module – Creates a GCP SslCertificate
+gcp_compute_ssl_certificate_info module – Gather info for GCP SslCertificate
+gcp_compute_ssl_policy module – Creates a GCP SslPolicy
+gcp_compute_ssl_policy_info module – Gather info for GCP SslPolicy
+gcp_compute_subnetwork module – Creates a GCP Subnetwork
+gcp_compute_subnetwork_info module – Gather info for GCP Subnetwork
+gcp_compute_target_http_proxy module – Creates a GCP TargetHttpProxy
+gcp_compute_target_http_proxy_info module – Gather info for GCP TargetHttpProxy
+gcp_compute_target_https_proxy module – Creates a GCP TargetHttpsProxy
+gcp_compute_target_https_proxy_info module – Gather info for GCP TargetHttpsProxy
+gcp_compute_target_instance module – Creates a GCP TargetInstance
+gcp_compute_target_instance_info module – Gather info for GCP TargetInstance
+gcp_compute_target_pool module – Creates a GCP TargetPool
+gcp_compute_target_pool_info module – Gather info for GCP TargetPool
+gcp_compute_target_ssl_proxy module – Creates a GCP TargetSslProxy
+gcp_compute_target_ssl_proxy_info module – Gather info for GCP TargetSslProxy
+gcp_compute_target_tcp_proxy module – Creates a GCP TargetTcpProxy
+gcp_compute_target_tcp_proxy_info module – Gather info for GCP TargetTcpProxy
+gcp_compute_target_vpn_gateway module – Creates a GCP TargetVpnGateway
+gcp_compute_target_vpn_gateway_info module – Gather info for GCP TargetVpnGateway
+gcp_compute_url_map module – Creates a GCP UrlMap
+gcp_compute_url_map_info module – Gather info for GCP UrlMap
+gcp_compute_vpn_tunnel module – Creates a GCP VpnTunnel
+gcp_compute_vpn_tunnel_info module – Gather info for GCP VpnTunnel
+gcp_container_cluster module – Creates a GCP Cluster
+gcp_container_cluster_info module – Gather info for GCP Cluster
+gcp_container_node_pool module – Creates a GCP NodePool
+gcp_container_node_pool_info module – Gather info for GCP NodePool
+gcp_dns_managed_zone module – Creates a GCP ManagedZone
+gcp_dns_managed_zone_info module – Gather info for GCP ManagedZone
+gcp_dns_resource_record_set module – Creates a GCP ResourceRecordSet
+gcp_dns_resource_record_set_info module – Gather info for GCP ResourceRecordSet
+gcp_filestore_instance module – Creates a GCP Instance
+gcp_filestore_instance_info module – Gather info for GCP Instance
+gcp_iam_role module – Creates a GCP Role
+gcp_iam_role_info module – Gather info for GCP Role
+gcp_iam_service_account module – Creates a GCP ServiceAccount
+gcp_iam_service_account_info module – Gather info for GCP ServiceAccount
+gcp_iam_service_account_key module – Creates a GCP ServiceAccountKey
+gcp_kms_crypto_key module – Creates a GCP CryptoKey
+gcp_kms_crypto_key_info module – Gather info for GCP CryptoKey
+gcp_kms_key_ring module – Creates a GCP KeyRing
+gcp_kms_key_ring_info module – Gather info for GCP KeyRing
+gcp_logging_metric module – Creates a GCP Metric
+gcp_logging_metric_info module – Gather info for GCP Metric
+gcp_mlengine_model module – Creates a GCP Model
+gcp_mlengine_model_info module – Gather info for GCP Model
+gcp_mlengine_version module – Creates a GCP Version
+gcp_mlengine_version_info module – Gather info for GCP Version
+gcp_pubsub_subscription module – Creates a GCP Subscription
+gcp_pubsub_subscription_info module – Gather info for GCP Subscription
+gcp_pubsub_topic module – Creates a GCP Topic
+gcp_pubsub_topic_info module – Gather info for GCP Topic
+gcp_redis_instance module – Creates a GCP Instance
+gcp_redis_instance_info module – Gather info for GCP Instance
+gcp_resourcemanager_project module – Creates a GCP Project
+gcp_resourcemanager_project_info module – Gather info for GCP Project
+gcp_runtimeconfig_config module – Creates a GCP Config
+gcp_runtimeconfig_config_info module – Gather info for GCP Config
+gcp_runtimeconfig_variable module – Creates a GCP Variable
+gcp_runtimeconfig_variable_info module – Gather info for GCP Variable
+gcp_serviceusage_service module – Creates a GCP Service
+gcp_serviceusage_service_info module – Gather info for GCP Service
+gcp_sourcerepo_repository module – Creates a GCP Repository
+gcp_sourcerepo_repository_info module – Gather info for GCP Repository
+gcp_spanner_database module – Creates a GCP Database
+gcp_spanner_database_info module – Gather info for GCP Database
+gcp_spanner_instance module – Creates a GCP Instance
+gcp_spanner_instance_info module – Gather info for GCP Instance
+gcp_sql_database module – Creates a GCP Database
+gcp_sql_database_info module – Gather info for GCP Database
+gcp_sql_instance module – Creates a GCP Instance
+gcp_sql_instance_info module – Gather info for GCP Instance
+gcp_sql_ssl_cert module – Creates a GCP SslCert
+gcp_sql_user module – Creates a GCP User
+gcp_sql_user_info module – Gather info for GCP User
+gcp_storage_bucket module – Creates a GCP Bucket
+gcp_storage_bucket_access_control module – Creates a GCP BucketAccessControl
+gcp_storage_default_object_acl module – Creates a GCP DefaultObjectACL
+gcp_storage_object module – Creates a GCP Object
+gcp_tpu_node module – Creates a GCP Node
+gcp_tpu_node_info module – Gather info for GCP Node
+
+
+
+]
+[2023-13-08 11:31:27]: DEBUG: __curl_module_index:modules=[]
+[2023-13-08 11:31:30]: DEBUG: rewble->collection=[google.cloud]
+[2023-13-08 11:31:30]: DEBUG: rewble->collection_modules=[1
+[2023-13-08 11:31:38]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/google/cloud/gcp_bigquery_table_module.html#examples],element_name=[examples]
+[2023-13-08 11:51:48]: DEBUG: _debug has been set to true, requested with switch -d||--debug.
+[2023-13-08 11:51:48]: DEBUG: Logging started, primary log file is /home/eric/REW-01/rewble/logs/rewble.log
+[2023-13-08 11:51:48]: DEBUG: Value of __dir__=[/home/eric/REW-01/rewble]
+[2023-13-08 11:51:48]: DEBUG: Calling _show_collection_index_ with collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-13-08 11:51:48]: DEBUG: collection_links is array.
+[2023-13-08 11:52:26]: DEBUG: collection_href=[google/cloud/]
+[2023-13-08 11:52:26]: DEBUG: modules_url=[https://docs.ansible.com/ansible/latest/collections/google/cloud/index.html#plugin-index]
+[2023-13-08 11:52:26]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/google/cloud/index.html#plugin-index],element_name=[modules]
+[2023-13-08 11:52:27]: DEBUG: _fetch_module_index_ returned module_list=[
+Modules
+
+gcp_appengine_firewall_rule module – Creates a GCP FirewallRule
+gcp_appengine_firewall_rule_info module – Gather info for GCP FirewallRule
+gcp_bigquery_dataset module – Creates a GCP Dataset
+gcp_bigquery_dataset_info module – Gather info for GCP Dataset
+gcp_bigquery_table module – Creates a GCP Table
+gcp_bigquery_table_info module – Gather info for GCP Table
+gcp_bigtable_instance module – Creates a GCP Instance
+gcp_bigtable_instance_info module – Gather info for GCP Instance
+gcp_cloudbuild_trigger module – Creates a GCP Trigger
+gcp_cloudbuild_trigger_info module – Gather info for GCP Trigger
+gcp_cloudfunctions_cloud_function module – Creates a GCP CloudFunction
+gcp_cloudfunctions_cloud_function_info module – Gather info for GCP CloudFunction
+gcp_cloudscheduler_job module – Creates a GCP Job
+gcp_cloudscheduler_job_info module – Gather info for GCP Job
+gcp_cloudtasks_queue module – Creates a GCP Queue
+gcp_cloudtasks_queue_info module – Gather info for GCP Queue
+gcp_compute_address module – Creates a GCP Address
+gcp_compute_address_info module – Gather info for GCP Address
+gcp_compute_autoscaler module – Creates a GCP Autoscaler
+gcp_compute_autoscaler_info module – Gather info for GCP Autoscaler
+gcp_compute_backend_bucket module – Creates a GCP BackendBucket
+gcp_compute_backend_bucket_info module – Gather info for GCP BackendBucket
+gcp_compute_backend_service module – Creates a GCP BackendService
+gcp_compute_backend_service_info module – Gather info for GCP BackendService
+gcp_compute_disk module – Creates a GCP Disk
+gcp_compute_disk_info module – Gather info for GCP Disk
+gcp_compute_external_vpn_gateway module – Creates a GCP ExternalVpnGateway
+gcp_compute_external_vpn_gateway_info module – Gather info for GCP ExternalVpnGateway
+gcp_compute_firewall module – Creates a GCP Firewall
+gcp_compute_firewall_info module – Gather info for GCP Firewall
+gcp_compute_forwarding_rule module – Creates a GCP ForwardingRule
+gcp_compute_forwarding_rule_info module – Gather info for GCP ForwardingRule
+gcp_compute_global_address module – Creates a GCP GlobalAddress
+gcp_compute_global_address_info module – Gather info for GCP GlobalAddress
+gcp_compute_global_forwarding_rule module – Creates a GCP GlobalForwardingRule
+gcp_compute_global_forwarding_rule_info module – Gather info for GCP GlobalForwardingRule
+gcp_compute_health_check module – Creates a GCP HealthCheck
+gcp_compute_health_check_info module – Gather info for GCP HealthCheck
+gcp_compute_http_health_check module – Creates a GCP HttpHealthCheck
+gcp_compute_http_health_check_info module – Gather info for GCP HttpHealthCheck
+gcp_compute_https_health_check module – Creates a GCP HttpsHealthCheck
+gcp_compute_https_health_check_info module – Gather info for GCP HttpsHealthCheck
+gcp_compute_image module – Creates a GCP Image
+gcp_compute_image_info module – Gather info for GCP Image
+gcp_compute_instance module – Creates a GCP Instance
+gcp_compute_instance_group module – Creates a GCP InstanceGroup
+gcp_compute_instance_group_info module – Gather info for GCP InstanceGroup
+gcp_compute_instance_group_manager module – Creates a GCP InstanceGroupManager
+gcp_compute_instance_group_manager_info module – Gather info for GCP InstanceGroupManager
+gcp_compute_instance_info module – Gather info for GCP Instance
+gcp_compute_instance_template module – Creates a GCP InstanceTemplate
+gcp_compute_instance_template_info module – Gather info for GCP InstanceTemplate
+gcp_compute_interconnect_attachment module – Creates a GCP InterconnectAttachment
+gcp_compute_interconnect_attachment_info module – Gather info for GCP InterconnectAttachment
+gcp_compute_network module – Creates a GCP Network
+gcp_compute_network_endpoint_group module – Creates a GCP NetworkEndpointGroup
+gcp_compute_network_endpoint_group_info module – Gather info for GCP NetworkEndpointGroup
+gcp_compute_network_info module – Gather info for GCP Network
+gcp_compute_node_group module – Creates a GCP NodeGroup
+gcp_compute_node_group_info module – Gather info for GCP NodeGroup
+gcp_compute_node_template module – Creates a GCP NodeTemplate
+gcp_compute_node_template_info module – Gather info for GCP NodeTemplate
+gcp_compute_region_autoscaler module – Creates a GCP RegionAutoscaler
+gcp_compute_region_autoscaler_info module – Gather info for GCP RegionAutoscaler
+gcp_compute_region_backend_service module – Creates a GCP RegionBackendService
+gcp_compute_region_backend_service_info module – Gather info for GCP RegionBackendService
+gcp_compute_region_disk module – Creates a GCP RegionDisk
+gcp_compute_region_disk_info module – Gather info for GCP RegionDisk
+gcp_compute_region_health_check module – Creates a GCP RegionHealthCheck
+gcp_compute_region_health_check_info module – Gather info for GCP RegionHealthCheck
+gcp_compute_region_instance_group_manager module – Creates a GCP RegionInstanceGroupManager
+gcp_compute_region_instance_group_manager_info module – Gather info for GCP RegionInstanceGroupManager
+gcp_compute_region_target_http_proxy module – Creates a GCP RegionTargetHttpProxy
+gcp_compute_region_target_http_proxy_info module – Gather info for GCP RegionTargetHttpProxy
+gcp_compute_region_target_https_proxy module – Creates a GCP RegionTargetHttpsProxy
+gcp_compute_region_target_https_proxy_info module – Gather info for GCP RegionTargetHttpsProxy
+gcp_compute_region_url_map module – Creates a GCP RegionUrlMap
+gcp_compute_region_url_map_info module – Gather info for GCP RegionUrlMap
+gcp_compute_reservation module – Creates a GCP Reservation
+gcp_compute_reservation_info module – Gather info for GCP Reservation
+gcp_compute_resource_policy module – Creates a GCP ResourcePolicy
+gcp_compute_resource_policy_info module – Gather info for GCP ResourcePolicy
+gcp_compute_route module – Creates a GCP Route
+gcp_compute_route_info module – Gather info for GCP Route
+gcp_compute_router module – Creates a GCP Router
+gcp_compute_router_info module – Gather info for GCP Router
+gcp_compute_snapshot module – Creates a GCP Snapshot
+gcp_compute_snapshot_info module – Gather info for GCP Snapshot
+gcp_compute_ssl_certificate module – Creates a GCP SslCertificate
+gcp_compute_ssl_certificate_info module – Gather info for GCP SslCertificate
+gcp_compute_ssl_policy module – Creates a GCP SslPolicy
+gcp_compute_ssl_policy_info module – Gather info for GCP SslPolicy
+gcp_compute_subnetwork module – Creates a GCP Subnetwork
+gcp_compute_subnetwork_info module – Gather info for GCP Subnetwork
+gcp_compute_target_http_proxy module – Creates a GCP TargetHttpProxy
+gcp_compute_target_http_proxy_info module – Gather info for GCP TargetHttpProxy
+gcp_compute_target_https_proxy module – Creates a GCP TargetHttpsProxy
+gcp_compute_target_https_proxy_info module – Gather info for GCP TargetHttpsProxy
+gcp_compute_target_instance module – Creates a GCP TargetInstance
+gcp_compute_target_instance_info module – Gather info for GCP TargetInstance
+gcp_compute_target_pool module – Creates a GCP TargetPool
+gcp_compute_target_pool_info module – Gather info for GCP TargetPool
+gcp_compute_target_ssl_proxy module – Creates a GCP TargetSslProxy
+gcp_compute_target_ssl_proxy_info module – Gather info for GCP TargetSslProxy
+gcp_compute_target_tcp_proxy module – Creates a GCP TargetTcpProxy
+gcp_compute_target_tcp_proxy_info module – Gather info for GCP TargetTcpProxy
+gcp_compute_target_vpn_gateway module – Creates a GCP TargetVpnGateway
+gcp_compute_target_vpn_gateway_info module – Gather info for GCP TargetVpnGateway
+gcp_compute_url_map module – Creates a GCP UrlMap
+gcp_compute_url_map_info module – Gather info for GCP UrlMap
+gcp_compute_vpn_tunnel module – Creates a GCP VpnTunnel
+gcp_compute_vpn_tunnel_info module – Gather info for GCP VpnTunnel
+gcp_container_cluster module – Creates a GCP Cluster
+gcp_container_cluster_info module – Gather info for GCP Cluster
+gcp_container_node_pool module – Creates a GCP NodePool
+gcp_container_node_pool_info module – Gather info for GCP NodePool
+gcp_dns_managed_zone module – Creates a GCP ManagedZone
+gcp_dns_managed_zone_info module – Gather info for GCP ManagedZone
+gcp_dns_resource_record_set module – Creates a GCP ResourceRecordSet
+gcp_dns_resource_record_set_info module – Gather info for GCP ResourceRecordSet
+gcp_filestore_instance module – Creates a GCP Instance
+gcp_filestore_instance_info module – Gather info for GCP Instance
+gcp_iam_role module – Creates a GCP Role
+gcp_iam_role_info module – Gather info for GCP Role
+gcp_iam_service_account module – Creates a GCP ServiceAccount
+gcp_iam_service_account_info module – Gather info for GCP ServiceAccount
+gcp_iam_service_account_key module – Creates a GCP ServiceAccountKey
+gcp_kms_crypto_key module – Creates a GCP CryptoKey
+gcp_kms_crypto_key_info module – Gather info for GCP CryptoKey
+gcp_kms_key_ring module – Creates a GCP KeyRing
+gcp_kms_key_ring_info module – Gather info for GCP KeyRing
+gcp_logging_metric module – Creates a GCP Metric
+gcp_logging_metric_info module – Gather info for GCP Metric
+gcp_mlengine_model module – Creates a GCP Model
+gcp_mlengine_model_info module – Gather info for GCP Model
+gcp_mlengine_version module – Creates a GCP Version
+gcp_mlengine_version_info module – Gather info for GCP Version
+gcp_pubsub_subscription module – Creates a GCP Subscription
+gcp_pubsub_subscription_info module – Gather info for GCP Subscription
+gcp_pubsub_topic module – Creates a GCP Topic
+gcp_pubsub_topic_info module – Gather info for GCP Topic
+gcp_redis_instance module – Creates a GCP Instance
+gcp_redis_instance_info module – Gather info for GCP Instance
+gcp_resourcemanager_project module – Creates a GCP Project
+gcp_resourcemanager_project_info module – Gather info for GCP Project
+gcp_runtimeconfig_config module – Creates a GCP Config
+gcp_runtimeconfig_config_info module – Gather info for GCP Config
+gcp_runtimeconfig_variable module – Creates a GCP Variable
+gcp_runtimeconfig_variable_info module – Gather info for GCP Variable
+gcp_serviceusage_service module – Creates a GCP Service
+gcp_serviceusage_service_info module – Gather info for GCP Service
+gcp_sourcerepo_repository module – Creates a GCP Repository
+gcp_sourcerepo_repository_info module – Gather info for GCP Repository
+gcp_spanner_database module – Creates a GCP Database
+gcp_spanner_database_info module – Gather info for GCP Database
+gcp_spanner_instance module – Creates a GCP Instance
+gcp_spanner_instance_info module – Gather info for GCP Instance
+gcp_sql_database module – Creates a GCP Database
+gcp_sql_database_info module – Gather info for GCP Database
+gcp_sql_instance module – Creates a GCP Instance
+gcp_sql_instance_info module – Gather info for GCP Instance
+gcp_sql_ssl_cert module – Creates a GCP SslCert
+gcp_sql_user module – Creates a GCP User
+gcp_sql_user_info module – Gather info for GCP User
+gcp_storage_bucket module – Creates a GCP Bucket
+gcp_storage_bucket_access_control module – Creates a GCP BucketAccessControl
+gcp_storage_default_object_acl module – Creates a GCP DefaultObjectACL
+gcp_storage_object module – Creates a GCP Object
+gcp_tpu_node module – Creates a GCP Node
+gcp_tpu_node_info module – Gather info for GCP Node
+
+
+
+]
+[2023-13-08 11:52:27]: DEBUG: __curl_module_index:modules=[]
+[2023-13-08 11:52:30]: DEBUG: rewble->collection=[google.cloud]
+[2023-13-08 11:52:30]: DEBUG: rewble->collection_modules=[1
+[2023-13-08 11:52:35]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/google/cloud/gcp_compute_region_disk_module.html#examples],element_name=[examples]
+[2023-25-08 08:34:14]: DEBUG: _debug has been set to true, requested with switch -d||--debug.
+[2023-25-08 08:34:14]: DEBUG: Logging started, primary log file is /home/eric/wrk/rewbin/rewble/logs/rewble.log
+[2023-25-08 08:34:14]: DEBUG: Value of __dir__=[/home/eric/wrk/rewbin/rewble]
+[2023-25-08 08:34:14]: DEBUG: Calling _show_collection_index_ with collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-25-08 08:34:14]: DEBUG: show_collection_index called, and collection_links array is empty. Attempting to build again Variable for collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]. If url var is blank check configuration. If Url is correct check internet access and DNS resolution. Making second attempt
+[2023-25-08 08:34:14]: DEBUG: The url provided to fetch the collection index url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-25-08 08:34:14]: DEBUG: collection_links array build section:
+[2023-25-08 08:34:14]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index]
+[2023-25-08 08:34:14]: DEBUG: collection_links array in read

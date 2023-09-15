@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<head lang="en">
+        <meta charset="UTF-8">
+        <title><?PHP=$gcp_module?></title>
+        <link rel="stylesheet" href="https://docs.ansible.com/ansible/latest/_static/pygments.css" type="text/css"/>
+        <link rel="stylesheet" href="https://docs.ansible.com/ansible/latest/_static/css/ansible.css" type="text/css"/>
+        <link rel="stylesheet" href="https://docs.ansible.com/ansible/latest/_static/antsibull-minimal.css" type="text/css"/>
+        <link rel="stylesheet" href="https://docs.ansible.com/ansible/latest/_static/css/rtd-ethical-ads.css" type="text/css"/>
+        <link rel="shortcut icon" href="https://docs.ansible.com/ansible/latest/_static/images/Ansible-Mark-RGB_Black.png"/>
+</head><body>
+
