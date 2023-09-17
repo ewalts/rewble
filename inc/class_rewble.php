@@ -1,6 +1,4 @@
 <?PHP
-
-###>  Author: R. Eric Walts
 ################################rewbin-was-here##############################################################>
 ###>  This class creates playbook starters based on the examples found on docs.ansible.com
 ###>  The notion is to create something to quick and easily grab their example, replace the sample 
@@ -24,7 +22,7 @@ class rewble extends rewbin {
     public $my_remote_parameter_stores=array();  ###>  This array is for adding parameters that are stored in the cloud.
 
   ###> Build process vars and arrays --------------------------------------------------------------------------------------- 
-
+    
     public $ansible_collections=array();  ###> Simple array numerical all ansible collections avaialable
     public $collection;  ###> Name of the active collection. 
     public $collection_dom;   ###>  
@@ -38,6 +36,7 @@ class rewble extends rewbin {
     public $modules_list;  ###>  the active string, list of modules 
     public $modules_url;  ###>  the url for collection module index
     public $page;   ###>  The html5 typically presented to a browswer. 
+    public $playbook_output_dir;
     public $print_collections;
     public $task;// = array(); ###>    array contains each line, and information necessary to generate a task in a play.
     public $task_name;  ###>  the name of the active task being assembled
