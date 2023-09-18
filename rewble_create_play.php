@@ -4,7 +4,10 @@
 ###> New x php -> rewble_create_play.php  -> Richard Eric Walts as eric ---> 2023-07-22_17:28:16 init <<<
 #########################################################################################################
 ###>  Primary executing file
-###>  Calls several required files listed below.
+###>  Command example:	./rewble_create_play.php -h => Will list options
+###>  		- 	./rewble_create_play.php -d -v    
+###>  This script calls the main configuration file.  Other files are included there.
+
 $__dir__ = getcwd(); 
 
 require_once ($__dir__ . '/conf/main.php');  ###>  This file includes other files: [/inc/class_rewble.php, /inc/switch_argvars_proc.php].
