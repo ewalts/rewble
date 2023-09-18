@@ -3,12 +3,12 @@
 class read_to_arrays extends rewble {
 
     public function __parse_statement($task_name,$statement){
-	
-	###>  This function receives the complete yaml line from the dom document, and creates array including, the task name
+	 
+	###> This function receives one yaml line from the play, and creates array including, the task name
 	###>   leading space value, paramater name, original value
-	###>  We will substitute common vars if we have them on file, gcp_cred_file etc.
+	###>   will substitute common vars if we have them on file, .
 		
-        switch ($str) {  ###>  Input to
+        switch ($str) {  ###>  Input to 
 
             case(preg_match('/^Example/',$str)?true:false):
                 break;    ###> Drop this line
