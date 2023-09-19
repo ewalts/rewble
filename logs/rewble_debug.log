@@ -1588,3 +1588,172 @@ gcp_tpu_node_info module – Gather info for GCP Node
 [2023-25-08 08:34:14]: DEBUG: collection_links array build section:
 [2023-25-08 08:34:14]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index]
 [2023-25-08 08:34:14]: DEBUG: collection_links array in read
+[2023-09-18 20:40:47]: DEBUG: _debug has been set to true, requested with switch -d||--debug.
+[2023-09-18 20:40:47]: DEBUG: Logging started, primary log file is /home/eric/rewble/logs/rewble.log
+[2023-09-18 20:40:47]: DEBUG: Value of __dir__=[/home/eric/rewble]
+[2023-09-18 20:40:47]: DEBUG: Calling _show_collection_index_ with collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:40:47]: DEBUG: collection_links is array.
+[2023-09-18 20:40:53]: DEBUG: Collection sent to _identify_collection_ value passed=[3]
+[2023-09-18 20:40:53]: DEBUG: Collection sent to _identify_collection_ value passed=[ansible.netcommon]
+[2023-09-18 20:40:53]: DEBUG: Calling _show_collection_index_ with collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:40:53]: DEBUG: collection_links is array.
+[2023-09-18 20:40:53]: DEBUG: collection_href=[ansible/netcommon/]
+[2023-09-18 20:40:53]: DEBUG: modules_url=[https://docs.ansible.com/ansible/latest/collections/ansible/netcommon/index.html#plugin-index]
+[2023-09-18 20:40:53]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/ansible/netcommon/index.html#plugin-index],element_name=[modules]
+[2023-09-18 20:40:53]: DEBUG: _fetch_module_index_ returned module_list=[
+Modules
+
+cli_command module – Run a cli command on cli-based network devices
+cli_config module – Push text based configuration to network devices over network_cli
+grpc_config module – Fetch configuration/state data from gRPC enabled target hosts.
+grpc_get module – Fetch configuration/state data from gRPC enabled target hosts.
+net_get module – Copy a file from a network device to Ansible Controller
+net_ping module – Tests reachability using ping from a network device
+net_put module – Copy a file from Ansible Controller to a network device
+netconf_config module – netconf device configuration
+netconf_get module – Fetch configuration/state data from NETCONF enabled network devices.
+netconf_rpc module – Execute operations on NETCONF enabled network devices.
+network_resource module – Manage resource modules
+restconf_config module – Handles create, update, read and delete of configuration data on RESTCONF enabled devices.
+restconf_get module – Fetch configuration/state data from RESTCONF enabled devices.
+telnet module – Executes a low-down and dirty telnet command
+
+
+
+]
+[2023-09-18 20:40:53]: DEBUG: __curl_module_index:modules=[]
+[2023-09-18 20:40:56]: DEBUG: rewble->collection=[ansible.netcommon]
+[2023-09-18 20:40:56]: DEBUG: rewble->collection_modules=[
+[2023-09-18 20:41:31]: DEBUG: found M to be int value=[2] this->collection value=[ansible.netcommon]
+[2023-09-18 20:41:31]: DEBUG: failed to locate module=[2] in collection=[ansible.netcommon
+[2023-09-18 20:41:31]: DEBUG: Calling _show_collection_index_ with collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:41:31]: DEBUG: collection_links is array.
+[2023-09-18 20:41:31]: DEBUG: Calling _show_collection_index_ with collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:41:31]: DEBUG: collection_links is array.
+[2023-09-18 20:41:31]: DEBUG: Inside _format_module_url collection=[ansible.netcommon], module_number=[]
+[2023-09-18 20:41:31]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/ansible/netcommon/cli_command_module.html#examples],element_name=[examples]
+[2023-09-18 20:51:00]: DEBUG: _debug has been set to true, requested with switch -d||--debug.
+[2023-09-18 20:51:00]: DEBUG: Logging started, primary log file is /home/eric/rewble/logs/rewble.log
+[2023-09-18 20:51:00]: DEBUG: Value of __dir__=[/home/eric/rewble]
+[2023-09-18 20:51:00]: DEBUG: Calling _show_collection_index_ with collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:51:00]: DEBUG: collection_links is array.
+[2023-09-18 20:51:05]: DEBUG: Collection sent to _identify_collection_ value passed=[4]
+[2023-09-18 20:51:05]: DEBUG: Collection sent to _identify_collection_ value passed=[ansible.posix]
+[2023-09-18 20:51:05]: DEBUG: Calling _show_collection_index_ with collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:51:05]: DEBUG: collection_links is array.
+[2023-09-18 20:51:05]: DEBUG: collection_href=[ansible/posix/]
+[2023-09-18 20:51:05]: DEBUG: modules_url=[https://docs.ansible.com/ansible/latest/collections/ansible/posix/index.html#plugin-index]
+[2023-09-18 20:51:05]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/ansible/posix/index.html#plugin-index],element_name=[modules]
+[2023-09-18 20:51:06]: DEBUG: _fetch_module_index_ returned module_list=[
+Modules
+
+acl module – Set and retrieve file ACL information.
+at module – Schedule the execution of a command or script file via the at command
+authorized_key module – Adds or removes an SSH authorized key
+firewalld module – Manage arbitrary ports/services with firewalld
+firewalld_info module – Gather information about firewalld
+mount module – Control active and configured mount points
+patch module – Apply patch files using the GNU patch tool
+rhel_facts module – Facts module to set or override RHEL specific facts.
+rhel_rpm_ostree module – Ensure packages exist in a RHEL for Edge rpm-ostree based system
+rpm_ostree_upgrade module – Manage rpm-ostree upgrade transactions
+seboolean module – Toggles SELinux booleans
+selinux module – Change policy and state of SELinux
+synchronize module – A wrapper around rsync to make common tasks in your playbooks quick and easy
+sysctl module – Manage entries in sysctl.conf.
+
+
+
+]
+[2023-09-18 20:51:06]: DEBUG: __curl_module_index:modules=[]
+[2023-09-18 20:51:09]: DEBUG: rewble->collection=[ansible.posix]
+[2023-09-18 20:51:09]: DEBUG: rewble->collection_modules=[
+[2023-09-18 20:51:12]: DEBUG: found M to be int value=[2] this->collection value=[ansible.posix]
+[2023-09-18 20:51:12]: DEBUG: Collection sent to _identify_collection_ value passed=[rhel_facts module – Facts module to set or override RHEL specific facts.]
+[2023-09-18 20:51:12]: DEBUG: Calling _show_collection_index_ with collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:51:12]: DEBUG: collection_links is array.
+[2023-09-18 20:51:12]: DEBUG: Inside _format_module_url collection=[ansible.posix], module_number=[2]
+[2023-09-18 20:51:12]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/ansible/posix/rhel_facts_module.html#examples],element_name=[examples]
+[2023-09-18 20:51:44]: DEBUG: _debug has been set to true, requested with switch -d||--debug.
+[2023-09-18 20:51:44]: DEBUG: Logging started, primary log file is /home/eric/rewble/logs/rewble.log
+[2023-09-18 20:51:44]: DEBUG: Value of __dir__=[/home/eric/rewble]
+[2023-09-18 20:51:44]: DEBUG: Calling _show_collection_index_ with collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:51:44]: DEBUG: collection_links is array.
+[2023-09-18 20:51:51]: DEBUG: Collection sent to _identify_collection_ value passed=[88]
+[2023-09-18 20:51:51]: DEBUG: Collection sent to _identify_collection_ value passed=[netapp_eseries.santricity]
+[2023-09-18 20:51:51]: DEBUG: Calling _show_collection_index_ with collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:51:51]: DEBUG: collection_links is array.
+[2023-09-18 20:51:51]: DEBUG: collection_href=[netapp_eseries/santricity/]
+[2023-09-18 20:51:51]: DEBUG: modules_url=[https://docs.ansible.com/ansible/latest/collections/netapp_eseries/santricity/index.html#plugin-index]
+[2023-09-18 20:51:51]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/netapp_eseries/santricity/index.html#plugin-index],element_name=[modules]
+[2023-09-18 20:51:52]: DEBUG: _fetch_module_index_ returned module_list=[
+Modules
+
+na_santricity_alerts module – NetApp E-Series manage email notification settings
+na_santricity_alerts_syslog module – NetApp E-Series manage syslog servers receiving storage system alerts.
+na_santricity_asup module – NetApp E-Series manage auto-support settings
+na_santricity_auditlog module – NetApp E-Series manage audit-log configuration
+na_santricity_auth module – NetApp E-Series set or update the password for a storage array device or SANtricity Web Services Proxy.
+na_santricity_client_certificate module – NetApp E-Series manage remote server certificates.
+na_santricity_discover module – NetApp E-Series discover E-Series storage systems
+na_santricity_drive_firmware module – NetApp E-Series manage drive firmware
+na_santricity_facts module – NetApp E-Series retrieve facts about NetApp E-Series storage arrays
+na_santricity_firmware module – NetApp E-Series manage firmware.
+na_santricity_global module – NetApp E-Series manage global settings configuration
+na_santricity_host module – NetApp E-Series manage eseries hosts
+na_santricity_hostgroup module – NetApp E-Series manage array host groups
+na_santricity_ib_iser_interface module – NetApp E-Series manage InfiniBand iSER interface configuration
+na_santricity_iscsi_interface module –
+na_santricity_iscsi_target module – NetApp E-Series manage iSCSI target configuration
+na_santricity_ldap module – NetApp E-Series manage LDAP integration to use for authentication
+na_santricity_lun_mapping module – NetApp E-Series manage lun mappings
+na_santricity_mgmt_interface module – NetApp E-Series manage management interface configuration
+na_santricity_nvme_interface module – NetApp E-Series manage NVMe interface configuration
+na_santricity_proxy_drive_firmware_upload module – NetApp E-Series manage proxy drive firmware files
+na_santricity_proxy_firmware_upload module – NetApp E-Series manage proxy firmware uploads.
+na_santricity_proxy_systems module – NetApp E-Series manage SANtricity web services proxy storage arrays
+na_santricity_server_certificate module – NetApp E-Series manage the storage system’s server SSL certificates.
+na_santricity_snapshot module – NetApp E-Series storage system’s snapshots.
+na_santricity_storagepool module – NetApp E-Series manage volume groups and disk pools
+na_santricity_syslog module – NetApp E-Series manage syslog settings
+na_santricity_volume module – NetApp E-Series manage storage volumes (standard and thin)
+netapp_e_alerts module – NetApp E-Series manage email notification settings
+netapp_e_amg module – NetApp E-Series create, remove, and update asynchronous mirror groups
+netapp_e_amg_role module – NetApp E-Series update the role of a storage array within an Asynchronous Mirror Group (AMG).
+netapp_e_amg_sync module – NetApp E-Series conduct synchronization actions on asynchronous mirror groups.
+netapp_e_asup module – NetApp E-Series manage auto-support settings
+netapp_e_auditlog module – NetApp E-Series manage audit-log configuration
+netapp_e_auth module – NetApp E-Series set or update the password for a storage array.
+netapp_e_drive_firmware module – NetApp E-Series manage drive firmware
+netapp_e_facts module – NetApp E-Series retrieve facts about NetApp E-Series storage arrays
+netapp_e_firmware module – NetApp E-Series manage firmware.
+netapp_e_flashcache module – NetApp E-Series manage SSD caches
+netapp_e_global module – NetApp E-Series manage global settings configuration
+netapp_e_host module – NetApp E-Series manage eseries hosts
+netapp_e_hostgroup module – NetApp E-Series manage array host groups
+netapp_e_iscsi_interface module – NetApp E-Series manage iSCSI interface configuration
+netapp_e_iscsi_target module – NetApp E-Series manage iSCSI target configuration
+netapp_e_ldap module – NetApp E-Series manage LDAP integration to use for authentication
+netapp_e_lun_mapping module – NetApp E-Series create, delete, or modify lun mappings
+netapp_e_mgmt_interface module – NetApp E-Series management interface configuration
+netapp_e_snapshot_group module – NetApp E-Series manage snapshot groups
+netapp_e_snapshot_images module – NetApp E-Series create and delete snapshot images
+netapp_e_snapshot_volume module – NetApp E-Series manage snapshot volumes.
+netapp_e_storage_system module – NetApp E-Series Web Services Proxy manage storage arrays
+netapp_e_storagepool module – NetApp E-Series manage volume groups and disk pools
+netapp_e_syslog module – NetApp E-Series manage syslog settings
+netapp_e_volume module – NetApp E-Series manage storage volumes (standard and thin)
+netapp_e_volume_copy module – NetApp E-Series create volume copy pairs
+
+
+
+]
+[2023-09-18 20:51:52]: DEBUG: __curl_module_index:modules=[]
+[2023-09-18 20:51:55]: DEBUG: rewble->collection=[netapp_eseries.santricity]
+[2023-09-18 20:51:55]: DEBUG: rewble->collection_modules=[
+[2023-09-18 20:52:10]: DEBUG: found M to be int value=[54] this->collection value=[netapp_eseries.santricity]
+[2023-09-18 20:52:10]: DEBUG: Collection sent to _identify_collection_ value passed=[netapp_e_volume_copy module – NetApp E-Series create volume copy pairs]
+[2023-09-18 20:52:10]: DEBUG: Calling _show_collection_index_ with collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:52:10]: DEBUG: collection_links is array.
+[2023-09-18 20:52:10]: DEBUG: Inside _format_module_url collection=[netapp_eseries.santricity], module_number=[54]
+[2023-09-18 20:52:10]: DEBUG: Input to class function __fetch_ansible_docs_element: url=[https://docs.ansible.com/ansible/latest/collections/netapp_eseries/santricity/netapp_e_volume_copy_module.html#examples],element_name=[examples]

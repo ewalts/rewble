@@ -100,7 +100,7 @@ if($rewble->list_collections){
 	if(preg_match('/q/',$user_module_response)) die("   Quit requested!\n");
 
 //$rewble->module_number=$user_module_response;  ###> test var until identify_module data validation is functional
-
+//	die("user_module_response=[$user_module_response]\n");
 //	if (is_int($user_module_response)){
 	if($rewble->_identify_module_($user_module_response)){
 //			$rewble->module_number=$user_module_response;

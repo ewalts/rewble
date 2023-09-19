@@ -1442,3 +1442,233 @@
 [2023-14-09 18:47:40]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
 [2023-14-09 18:47:40]: INFO: the collection_links array exists sending to format.
 [2023-14-09 18:47:40]: INFO: 
+[2023-09-18 20:16:18]: INFO: 
+[2023-09-18 20:16:18]: INFO: Calling _set_vars_from_array_ 
+[2023-09-18 20:16:18]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-18 20:16:18]: INFO: 
+[2023-09-18 20:16:19]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-18 20:16:19]: INFO: Begin logging >>> /home/eric/rewble/logs/rewble.log
+[2023-09-18 20:16:19]: INFO: Value of __dir__=[/home/eric/rewble]
+[2023-09-18 20:16:19]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:16:19]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:16:25]: INFO: Collection identified as [gluster.gluster].
+[2023-09-18 20:16:25]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:16:25]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:16:25]: INFO: collection_href=[gluster/gluster/]
+[2023-09-18 20:16:25]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/gluster/gluster/index.html#plugin-index]
+[2023-09-18 20:16:25]: INFO: 
+[2023-09-18 20:16:25]: INFO: Collection gluster.gluster = module_list pulled successfully.
+[2023-09-18 20:16:28]: INFO: Requested collection rewble->collection=[gluster.gluster]
+[2023-09-18 20:16:39]: ERROR: Module not found in active collection. Please provide the number from the list.
+[2023-09-18 20:16:39]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:16:39]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:16:39]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:16:39]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:16:39]: INFO: 
+[2023-09-18 20:25:25]: INFO: 
+[2023-09-18 20:25:25]: INFO: Calling _set_vars_from_array_ 
+[2023-09-18 20:25:25]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-18 20:25:25]: INFO: 
+[2023-09-18 20:25:26]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-18 20:25:26]: INFO: Begin logging >>> /home/eric/rewble/logs/rewble.log
+[2023-09-18 20:25:26]: INFO: Value of __dir__=[/home/eric/rewble]
+[2023-09-18 20:25:26]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:25:26]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:25:32]: INFO: Collection identified as [ansible.builtin].
+[2023-09-18 20:25:32]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:25:32]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:25:32]: INFO: collection_href=[ansible/builtin/]
+[2023-09-18 20:25:32]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/index.html#plugin-index]
+[2023-09-18 20:25:32]: INFO: 
+[2023-09-18 20:25:33]: INFO: Collection ansible.builtin = module_list pulled successfully.
+[2023-09-18 20:25:36]: INFO: Requested collection rewble->collection=[ansible.builtin]
+[2023-09-18 20:26:09]: INFO: 
+[2023-09-18 20:26:09]: INFO: Calling _set_vars_from_array_ 
+[2023-09-18 20:26:09]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-18 20:26:09]: INFO: 
+[2023-09-18 20:26:10]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-18 20:26:10]: INFO: verbose flag has been set -v||--verbose
+[2023-09-18 20:26:10]: INFO: Begin logging >>> /home/eric/rewble/logs/rewble.log
+[2023-09-18 20:26:10]: INFO: Value of __dir__=[/home/eric/rewble]
+[2023-09-18 20:26:10]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:26:10]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:26:42]: ERROR: Collection not identified value passed=[108].
+[2023-09-18 20:26:42]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:26:42]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:26:42]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:26:42]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:26:42]: INFO: collection_href=[]
+[2023-09-18 20:26:42]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/index.html#plugin-index]
+[2023-09-18 20:26:42]: INFO: 
+[2023-09-18 20:26:42]: INFO: Collection  = module_list pulled successfully.
+[2023-09-18 20:27:00]: INFO: 
+[2023-09-18 20:27:00]: INFO: Calling _set_vars_from_array_ 
+[2023-09-18 20:27:00]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-18 20:27:00]: INFO: 
+[2023-09-18 20:27:01]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-18 20:27:01]: INFO: verbose flag has been set -v||--verbose
+[2023-09-18 20:27:01]: INFO: Begin logging >>> /home/eric/rewble/logs/rewble.log
+[2023-09-18 20:27:01]: INFO: Value of __dir__=[/home/eric/rewble]
+[2023-09-18 20:27:01]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:27:01]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:27:06]: INFO: Collection identified as [vyos.vyos].
+[2023-09-18 20:27:06]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:27:06]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:27:06]: INFO: collection_href=[vyos/vyos/]
+[2023-09-18 20:27:06]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/vyos/vyos/index.html#plugin-index]
+[2023-09-18 20:27:06]: INFO: 
+[2023-09-18 20:27:06]: INFO: Collection vyos.vyos = module_list pulled successfully.
+[2023-09-18 20:27:09]: INFO: Requested collection rewble->collection=[vyos.vyos]
+[2023-09-18 20:30:05]: INFO: 
+[2023-09-18 20:30:05]: INFO: Calling _set_vars_from_array_ 
+[2023-09-18 20:30:05]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-18 20:30:05]: INFO: 
+[2023-09-18 20:30:06]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-18 20:30:06]: INFO: verbose flag has been set -v||--verbose
+[2023-09-18 20:30:06]: INFO: Begin logging >>> /home/eric/rewble/logs/rewble.log
+[2023-09-18 20:30:06]: INFO: Value of __dir__=[/home/eric/rewble]
+[2023-09-18 20:30:06]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:30:06]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:30:15]: INFO: Collection identified as [ansible.netcommon].
+[2023-09-18 20:30:15]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:30:15]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:30:15]: INFO: collection_href=[ansible/netcommon/]
+[2023-09-18 20:30:15]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/ansible/netcommon/index.html#plugin-index]
+[2023-09-18 20:30:15]: INFO: 
+[2023-09-18 20:30:15]: INFO: Collection ansible.netcommon = module_list pulled successfully.
+[2023-09-18 20:30:18]: INFO: Requested collection rewble->collection=[ansible.netcommon]
+[2023-09-18 20:32:11]: INFO: 
+[2023-09-18 20:32:11]: INFO: Calling _set_vars_from_array_ 
+[2023-09-18 20:32:11]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-18 20:32:11]: INFO: 
+[2023-09-18 20:32:11]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-18 20:32:11]: INFO: verbose flag has been set -v||--verbose
+[2023-09-18 20:32:11]: INFO: Begin logging >>> /home/eric/rewble/logs/rewble.log
+[2023-09-18 20:32:11]: INFO: Value of __dir__=[/home/eric/rewble]
+[2023-09-18 20:32:11]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:32:11]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:32:18]: INFO: Collection identified as [ansible.posix].
+[2023-09-18 20:32:18]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:32:18]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:32:18]: INFO: collection_href=[ansible/posix/]
+[2023-09-18 20:32:18]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/ansible/posix/index.html#plugin-index]
+[2023-09-18 20:32:18]: INFO: 
+[2023-09-18 20:32:19]: INFO: Collection ansible.posix = module_list pulled successfully.
+[2023-09-18 20:32:22]: INFO: Requested collection rewble->collection=[ansible.posix]
+[2023-09-18 20:34:53]: INFO: 
+[2023-09-18 20:34:53]: INFO: Calling _set_vars_from_array_ 
+[2023-09-18 20:34:53]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-18 20:34:53]: INFO: 
+[2023-09-18 20:34:54]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-18 20:34:54]: INFO: verbose flag has been set -v||--verbose
+[2023-09-18 20:34:54]: INFO: Begin logging >>> /home/eric/rewble/logs/rewble.log
+[2023-09-18 20:34:54]: INFO: Value of __dir__=[/home/eric/rewble]
+[2023-09-18 20:34:54]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:34:54]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:34:58]: INFO: Collection identified as [ansible.posix].
+[2023-09-18 20:34:58]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:34:58]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:34:58]: INFO: collection_href=[ansible/posix/]
+[2023-09-18 20:34:58]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/ansible/posix/index.html#plugin-index]
+[2023-09-18 20:34:58]: INFO: 
+[2023-09-18 20:34:58]: INFO: Collection ansible.posix = module_list pulled successfully.
+[2023-09-18 20:35:01]: INFO: Requested collection rewble->collection=[ansible.posix]
+[2023-09-18 20:36:14]: INFO: 
+[2023-09-18 20:36:14]: INFO: Calling _set_vars_from_array_ 
+[2023-09-18 20:36:14]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-18 20:36:14]: INFO: 
+[2023-09-18 20:36:15]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-18 20:36:15]: INFO: verbose flag has been set -v||--verbose
+[2023-09-18 20:36:15]: INFO: Begin logging >>> /home/eric/rewble/logs/rewble.log
+[2023-09-18 20:36:15]: INFO: Value of __dir__=[/home/eric/rewble]
+[2023-09-18 20:36:15]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:36:15]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:36:21]: INFO: Collection identified as [ansible.builtin].
+[2023-09-18 20:36:21]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:36:21]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:36:21]: INFO: collection_href=[ansible/builtin/]
+[2023-09-18 20:36:21]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/index.html#plugin-index]
+[2023-09-18 20:36:21]: INFO: 
+[2023-09-18 20:36:22]: INFO: Collection ansible.builtin = module_list pulled successfully.
+[2023-09-18 20:36:25]: INFO: Requested collection rewble->collection=[ansible.builtin]
+[2023-09-18 20:40:43]: INFO: 
+[2023-09-18 20:40:43]: INFO: Calling _set_vars_from_array_ 
+[2023-09-18 20:40:43]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-18 20:40:43]: INFO: 
+[2023-09-18 20:40:43]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-18 20:40:43]: INFO: verbose flag has been set -v||--verbose
+[2023-09-18 20:40:43]: INFO: Begin logging >>> /home/eric/rewble/logs/rewble.log
+[2023-09-18 20:40:43]: INFO: Value of __dir__=[/home/eric/rewble]
+[2023-09-18 20:40:43]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:40:43]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:40:47]: INFO: 
+[2023-09-18 20:40:47]: INFO: Calling _set_vars_from_array_ 
+[2023-09-18 20:40:47]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-18 20:40:47]: INFO: 
+[2023-09-18 20:40:47]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-18 20:40:47]: INFO: verbose flag has been set -v||--verbose
+[2023-09-18 20:40:47]: INFO: 
+[2023-09-18 20:40:47]: INFO: Begin logging >>> /home/eric/rewble/logs/rewble.log
+[2023-09-18 20:40:47]: INFO: Value of __dir__=[/home/eric/rewble]
+[2023-09-18 20:40:47]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:40:47]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:40:53]: INFO: Collection identified as [ansible.netcommon].
+[2023-09-18 20:40:53]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:40:53]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:40:53]: INFO: collection_href=[ansible/netcommon/]
+[2023-09-18 20:40:53]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/ansible/netcommon/index.html#plugin-index]
+[2023-09-18 20:40:53]: INFO: 
+[2023-09-18 20:40:53]: INFO: Collection ansible.netcommon = module_list pulled successfully.
+[2023-09-18 20:40:56]: INFO: Requested collection rewble->collection=[ansible.netcommon]
+[2023-09-18 20:41:31]: ERROR: Module not found in active collection. Please provide the number from the list.
+[2023-09-18 20:41:31]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:41:31]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:41:31]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:41:31]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:41:31]: INFO: 
+[2023-09-18 20:50:58]: INFO: 
+[2023-09-18 20:50:58]: INFO: Calling _set_vars_from_array_ 
+[2023-09-18 20:50:58]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-18 20:50:58]: INFO: 
+[2023-09-18 20:51:00]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-18 20:51:00]: INFO: verbose flag has been set -v||--verbose
+[2023-09-18 20:51:00]: INFO: 
+[2023-09-18 20:51:00]: INFO: Begin logging >>> /home/eric/rewble/logs/rewble.log
+[2023-09-18 20:51:00]: INFO: Value of __dir__=[/home/eric/rewble]
+[2023-09-18 20:51:00]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:51:00]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:51:05]: INFO: Collection identified as [ansible.posix].
+[2023-09-18 20:51:05]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:51:05]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:51:05]: INFO: collection_href=[ansible/posix/]
+[2023-09-18 20:51:05]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/ansible/posix/index.html#plugin-index]
+[2023-09-18 20:51:05]: INFO: 
+[2023-09-18 20:51:06]: INFO: Collection ansible.posix = module_list pulled successfully.
+[2023-09-18 20:51:09]: INFO: Requested collection rewble->collection=[ansible.posix]
+[2023-09-18 20:51:12]: INFO: Module identified as [rhel_facts module – Facts module to set or override RHEL specific facts.].
+[2023-09-18 20:51:12]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:51:12]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:51:12]: INFO: 
+[2023-09-18 20:51:43]: INFO: 
+[2023-09-18 20:51:43]: INFO: Calling _set_vars_from_array_ 
+[2023-09-18 20:51:43]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-18 20:51:43]: INFO: 
+[2023-09-18 20:51:44]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-18 20:51:44]: INFO: verbose flag has been set -v||--verbose
+[2023-09-18 20:51:44]: INFO: 
+[2023-09-18 20:51:44]: INFO: Begin logging >>> /home/eric/rewble/logs/rewble.log
+[2023-09-18 20:51:44]: INFO: Value of __dir__=[/home/eric/rewble]
+[2023-09-18 20:51:44]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:51:44]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:51:51]: INFO: Collection identified as [netapp_eseries.santricity].
+[2023-09-18 20:51:51]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:51:51]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:51:51]: INFO: collection_href=[netapp_eseries/santricity/]
+[2023-09-18 20:51:51]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/netapp_eseries/santricity/index.html#plugin-index]
+[2023-09-18 20:51:51]: INFO: 
+[2023-09-18 20:51:52]: INFO: Collection netapp_eseries.santricity = module_list pulled successfully.
+[2023-09-18 20:51:55]: INFO: Requested collection rewble->collection=[netapp_eseries.santricity]
+[2023-09-18 20:52:10]: INFO: Module identified as [netapp_e_volume_copy module – NetApp E-Series create volume copy pairs].
+[2023-09-18 20:52:10]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-18 20:52:10]: INFO: the collection_links array exists sending to format.
+[2023-09-18 20:52:10]: INFO: 

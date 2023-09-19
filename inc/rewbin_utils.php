@@ -77,7 +77,7 @@ class rewbin  {
     public function _rewbin_logit_ ( $message,$file ) { 		// $message is just text to be logged. you can change the file name.
 	if($file==''){ $file = 'rewbin_logit.log';}
         $rewbin_log_file=$this->rewbin_logs."/".$file;
-	$date_time=date('Y-d-m H:i:s');
+	$date_time=date('Y-m-d H:i:s');
 	$message="[$date_time]: $message\n";				// Format the primary message with time and date stamp.
 	#
 	if(!is_dir($this->rewbin_logs)){

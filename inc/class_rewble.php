@@ -408,15 +408,15 @@ class rewble extends rewbin {
     }
 
     public function _identify_module_($mod_value){
-//	if($this->_identify_collection_($col_input)){
 		$M=$mod_value;
         	switch ($M) {
-	            case (is_int(intval($M - 1))):
+	            case (is_int(intval($M))):
 			$M=intval($M - 1);
-			if($this->collection_modules[$M]!=''){
-				$this->module_number=intval($M);
-				$this->module=$this->collection_modules[$this->module_number];
-				$this->collection=$this->ansible_collections[$this->collection_number];
+			$dMsg="found M to be int value=[$M] this->collection value=[$this->collection]";
+			$this->_message_handler_('null',"null","DEBUG: $dMsg");
+			if($this->collection_modules[$this->collection][$M]!=''){
+				$this->module_number=$M;
+				$this->module=$this->collection_modules[$this->collection][$M];
 				$this->_message_handler_('I',"Module identified as [$this->module].","DEBUG: Collection sent to _identify_collection_ value passed=[$this->module]");
 
 			}else{
@@ -427,14 +427,15 @@ class rewble extends rewbin {
 
 			}
 			break;
-        	    case is_string($M):
-			if(in_array($M,$this->collection_modules)){
-				$this->module_name=$M;
-				
+        	    case (is_string($M)):
+			if(false!==$key=array_search($M,$this->collection_modules[$this->collection])){
+				$this->module=$M;
+				$this->moduel_number=$key;
+				$this->_message_handler_('I',"Module identified as [$M].","DEBUG: VALUES:{this->collection=[$this->collection],this->module=[$this->module]}. Collection sent to _identify_collection_ value passed=[$M]");
 			}else{
 				$this->module=false;
 				$this->module_number=false;
-				$this->_message_handler_('E',"Module not found in active collection. Please provide the number from the list.", "DEBUG: failed to locate module=[$M] in collection=[$this->collection");
+				$this->_message_handler_('E',"Module [$M] not found in active collection VALUES:{this->collection=[$this->collection],this->module=[$this->module]}. Please provide the number from the list.", "DEBUG: failed to locate module=[$M] in collection=[$this->collection] VALUES:{this->collection=[$this->collection],this->module=[$this->module]}");
 	                        $this->_show_collection_index_();
 			}
 

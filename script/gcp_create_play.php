@@ -5,23 +5,40 @@
 ##############################################################################################################
 ###>   This script was written to pull sample plays or "starter templates" directly from docs.ansible.com
 ###>  I hope you find it helpful
+
 error_reporting(E_ALL ^ E_WARNING);
 
+$error_color='';
+$__dir__=getcwd();
+
+if(include_once "../inc/php-cli-colors.inc"){
+	$error_color=$red;
+}elseif(include_once "$__dir__/inc/php-cli-colors.inc"){
+        $error_color=$red;
+}else{
+	$error_color=false;
+}
 $vpfix="my_gcp_";
+$collection_url=false;
 
-
-if($argsv[1]!=''){   ###>    If the desired module is included it will be run.
-	$gcp_module=$argsv[1];
+if(($argv[1]!='')&&($argv[2]!='')){   ###>    If the desired module is included it will be run.
+	$gcp_module=$argv[1];
+	$gcp_collection=str_replace('.','/',$argv[2]);
+	$collection_url="https://docs.ansible.com/ansible/latest/collections/$gcp_collection/index.html#plugin-index"; ###> Index page with the list of available examples.
+	
 }else{			###> If a module is not provided it reads the index page.
 
 	#$gcp_module='gcp_compute_instance';   ###> Testing var
 	#$gcp_module=$argv[1];		###> Testing var
 
-	$modules_url="https://docs.ansible.com/ansible/latest/collections/google/cloud/index.html#plugin-index"; ###> Index page with the list of available examples.
-							###> Load and read module index
-	$site=curl_init($modules_url);     ###>  Create the curl request
+	$collection_url="https://docs.ansible.com/ansible/latest/collections/google/cloud/index.html#plugin-index"; ###> Index page with the list of available examples.
+}
+if($collection_url){	###> Load and read module index
+	$_url=$collection_url;
+	$site=curl_init($_url);     ###>  Create the curl request
 	curl_setopt($site, CURLOPT_RETURNTRANSFER, true);  ###> Set options 
-	$target=curl_exec($site);	###> Execute the request
+	if(!$target=curl_exec($site)){	  ###> Attempt to execute the request
+		die("");
 	$dom = new DOMDocument();	###> Create the Dom
 	@$dom -> loadHTML($target);	###> Load the html to be manipulated
 	$modules = $dom -> getElementById('modules') -> nodeValue; ###>  Extract the element
