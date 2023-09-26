@@ -8,7 +8,7 @@
 ###>  		- 	./rewble_create_play.php -d -v    
 ###>  This script calls the main configuration file.  Other files are included there.
 
-$__dir__ = getcwd(); 
+$__dir__ = '/home/eric/rewble'; 
 
 require_once ($__dir__ . '/conf/main.php');  ###>  This file includes other files: [/inc/class_rewble.php, /inc/switch_argvars_proc.php].
 

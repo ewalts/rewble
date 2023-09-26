@@ -1672,3 +1672,51 @@
 [2023-09-18 20:52:10]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
 [2023-09-18 20:52:10]: INFO: the collection_links array exists sending to format.
 [2023-09-18 20:52:10]: INFO: 
+[2023-09-19 12:11:18]: INFO: 
+[2023-09-19 12:11:18]: INFO: Calling _set_vars_from_array_ 
+[2023-09-19 12:11:18]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-19 12:11:18]: INFO: 
+[2023-09-19 12:11:18]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-19 12:11:18]: INFO: 
+[2023-09-19 12:11:18]: INFO: 
+[2023-09-19 12:11:18]: INFO: Begin logging >>> /home/eric/rewble/logs/rewble.log
+[2023-09-19 12:11:18]: INFO: Value of __dir__=[/home/eric/rewble]
+[2023-09-19 12:11:18]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-19 12:11:18]: INFO: the collection_links array exists sending to format.
+[2023-09-19 12:11:45]: INFO: Collection identified as [kubernetes.core].
+[2023-09-19 12:11:45]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-19 12:11:45]: INFO: the collection_links array exists sending to format.
+[2023-09-19 12:11:45]: INFO: collection_href=[kubernetes/core/]
+[2023-09-19 12:11:45]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/kubernetes/core/index.html#plugin-index]
+[2023-09-19 12:11:45]: INFO: 
+[2023-09-19 12:11:45]: INFO: Collection kubernetes.core = module_list pulled successfully.
+[2023-09-19 12:11:48]: INFO: Requested collection rewble->collection=[kubernetes.core]
+[2023-09-21 17:39:23]: INFO: 
+[2023-09-21 17:39:23]: INFO: Calling _set_vars_from_array_ 
+[2023-09-21 17:39:23]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-21 17:39:23]: INFO: 
+[2023-09-21 17:39:23]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-21 17:39:23]: INFO: verbose flag has been set -v||--verbose
+[2023-09-21 17:39:23]: INFO: Begin logging >>> /home/eric/rewble/logs/rewble.log
+[2023-09-21 17:39:23]: INFO: Value of __dir__=[/home/eric/rewble]
+[2023-09-21 17:39:23]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-21 17:39:23]: INFO: the collection_links array exists sending to format.
+[2023-09-21 17:39:41]: INFO: Collection identified as [kubernetes.core].
+[2023-09-21 17:39:41]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-21 17:39:41]: INFO: the collection_links array exists sending to format.
+[2023-09-21 17:39:41]: INFO: collection_href=[kubernetes/core/]
+[2023-09-21 17:39:41]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/kubernetes/core/index.html#plugin-index]
+[2023-09-21 17:39:41]: INFO: 
+[2023-09-21 17:39:41]: INFO: Collection kubernetes.core = module_list pulled successfully.
+[2023-09-21 17:39:44]: INFO: Requested collection rewble->collection=[kubernetes.core]
+[2023-09-21 17:46:26]: INFO: 
+[2023-09-21 17:46:26]: INFO: Calling _set_vars_from_array_ 
+[2023-09-21 17:46:26]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-21 17:46:26]: INFO: 
+[2023-09-21 17:46:27]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-21 17:46:27]: INFO: 
+[2023-09-21 17:46:27]: INFO: 
+[2023-09-21 17:46:27]: INFO: Begin logging >>> /home/eric/rewble/logs/rewble.log
+[2023-09-21 17:46:27]: INFO: Value of __dir__=[/home/eric/rewble]
+[2023-09-21 17:46:27]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-21 17:46:27]: INFO: the collection_links array exists sending to format.

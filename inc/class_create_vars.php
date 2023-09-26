@@ -2,7 +2,7 @@
 
 class read_to_arrays extends rewble {
 
-    public function __parse_statement($task_name,$statement){
+    public function _parse_statement_($task_name,$statement){
 	 
 	###> This function receives one yaml line from the play, and creates array including, the task name
 	###>   leading space value, paramater name, original value
