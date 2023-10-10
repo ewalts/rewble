@@ -1720,3 +1720,1335 @@
 [2023-09-21 17:46:27]: INFO: Value of __dir__=[/home/eric/rewble]
 [2023-09-21 17:46:27]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
 [2023-09-21 17:46:27]: INFO: the collection_links array exists sending to format.
+[2023-09-28 19:00:27]: INFO: 
+[2023-09-28 19:00:27]: INFO: Calling _set_vars_from_array_ 
+[2023-09-28 19:00:27]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-28 19:00:27]: INFO: 
+[2023-09-28 19:00:27]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-28 19:04:49]: INFO: 
+[2023-09-28 19:04:49]: INFO: Calling _set_vars_from_array_ 
+[2023-09-28 19:04:49]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-28 19:04:49]: INFO: 
+[2023-09-28 19:04:49]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-28 19:07:51]: INFO: 
+[2023-09-28 19:07:51]: INFO: Calling _set_vars_from_array_ 
+[2023-09-28 19:07:51]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-28 19:07:51]: INFO: 
+[2023-09-28 19:07:51]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-28 19:15:15]: INFO: 
+[2023-09-28 19:15:15]: INFO: Calling _set_vars_from_array_ 
+[2023-09-28 19:15:15]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-28 19:15:15]: INFO: 
+[2023-09-28 19:15:16]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-28 19:15:16]: INFO: verbose flag has been set -v||--verbose
+[2023-09-28 19:15:16]: INFO: 
+[2023-09-28 19:16:21]: INFO: 
+[2023-09-28 19:16:21]: INFO: Calling _set_vars_from_array_ 
+[2023-09-28 19:16:21]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-28 19:16:21]: INFO: 
+[2023-09-28 19:16:22]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-28 19:16:22]: INFO: verbose flag has been set -v||--verbose
+[2023-09-28 19:16:22]: INFO: 
+[2023-09-29 09:20:02]: INFO: 
+[2023-09-29 09:20:02]: INFO: Calling _set_vars_from_array_ 
+[2023-09-29 09:20:02]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-29 09:20:02]: INFO: 
+[2023-09-29 09:20:02]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-29 09:20:02]: INFO: verbose flag has been set -v||--verbose
+[2023-09-29 09:20:02]: INFO: 
+[2023-09-29 12:18:46]: INFO: 
+[2023-09-29 12:18:46]: INFO: Calling _set_vars_from_array_ 
+[2023-09-29 12:18:46]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-29 12:18:46]: INFO: 
+[2023-09-29 12:18:47]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-29 12:18:47]: INFO: verbose flag has been set -v||--verbose
+[2023-09-29 12:18:47]: INFO: 
+[2023-09-29 12:18:47]: INFO: Function call:  _identify_collection_ on value[amazon.aws].
+[2023-09-29 12:18:47]: INFO: determined value=[amazon.aws] is NOT an integer.
+[2023-09-29 12:18:47]: INFO: Collection value=[amazon.aws] has been verified.
+[2023-09-29 12:18:47]: INFO: Collection identified as [amazon.aws].
+[2023-09-29 12:18:47]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-09-29 12:18:47]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-09-29 12:18:47]: INFO: rewble collection has been set to amazon.aws
+[2023-09-29 12:18:47]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-29 12:18:47]: INFO: the collection_links array exists sending to format.
+[2023-09-29 12:40:24]: INFO: 
+[2023-09-29 12:40:24]: INFO: Calling _set_vars_from_array_ 
+[2023-09-29 12:40:24]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-29 12:40:24]: INFO: 
+[2023-09-29 12:40:25]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-29 12:40:25]: INFO: verbose flag has been set -v||--verbose
+[2023-09-29 12:40:25]: INFO: 
+[2023-09-29 12:40:25]: INFO: Function call:  _identify_collection_ on value[amazon.aws].
+[2023-09-29 12:40:25]: INFO: determined value=[amazon.aws] is NOT an integer.
+[2023-09-29 12:40:25]: INFO: Collection value=[amazon.aws] has been verified.
+[2023-09-29 12:40:25]: INFO: Collection identified as [amazon.aws].
+[2023-09-29 12:40:25]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-09-29 12:40:25]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-09-29 12:40:25]: INFO: rewble collection has been set to amazon.aws
+[2023-09-29 12:40:25]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-29 12:40:25]: INFO: the collection_links array exists sending to format.
+[2023-09-29 13:30:31]: INFO: 
+[2023-09-29 13:30:31]: INFO: Calling _set_vars_from_array_ 
+[2023-09-29 13:30:31]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-29 13:30:31]: INFO: 
+[2023-09-29 13:30:31]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-29 13:30:31]: INFO: verbose flag has been set -v||--verbose
+[2023-09-29 13:30:31]: INFO: 
+[2023-09-29 13:30:31]: INFO: Function call:  _identify_collection_ on value[google.cloud].
+[2023-09-29 13:30:31]: INFO: determined value=[google.cloud] is NOT an integer.
+[2023-09-29 13:30:31]: INFO: Collection value=[google.cloud] has been verified.
+[2023-09-29 13:30:31]: INFO: Collection identified as [google.cloud].
+[2023-09-29 13:30:31]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-09-29 13:30:31]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-09-29 13:30:31]: INFO: rewble collection has been set to google.cloud
+[2023-09-29 13:30:31]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-29 13:30:31]: INFO: the collection_links array exists sending to format.
+[2023-09-29 13:32:01]: INFO: Function call:  _identify_collection_ on value[].
+[2023-09-29 13:32:01]: INFO: determined value=[] is NOT an integer.
+[2023-09-29 13:32:01]: ERROR:  The collection provided was not found. Please select from the list.
+[2023-09-29 13:32:01]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-29 13:32:01]: INFO: the collection_links array exists sending to format.
+[2023-09-29 13:32:01]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-29 13:32:01]: INFO: the collection_links array exists sending to format.
+[2023-09-29 13:32:01]: INFO: collection_href=[]
+[2023-09-29 13:32:01]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/index.html#plugin-index]
+[2023-09-29 13:32:01]: INFO: 
+[2023-09-29 13:32:01]: INFO: Collection  = module_list pulled successfully.
+[2023-09-29 13:45:30]: INFO: 
+[2023-09-29 13:45:30]: INFO: Calling _set_vars_from_array_ 
+[2023-09-29 13:45:30]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-09-29 13:45:30]: INFO: 
+[2023-09-29 13:45:31]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-09-29 13:45:31]: INFO: Function call:  _identify_collection_ on value[amazon.aws].
+[2023-09-29 13:45:31]: INFO: determined value=[amazon.aws] is NOT an integer.
+[2023-09-29 13:45:31]: INFO: Collection value=[amazon.aws] has been verified.
+[2023-09-29 13:45:31]: INFO: Collection identified as [amazon.aws].
+[2023-09-29 13:45:31]: INFO: verbose flag has been set -v||--verbose
+[2023-09-29 13:45:31]: INFO: 
+[2023-09-29 13:45:31]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-09-29 13:45:31]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-09-29 13:45:31]: INFO: rewble collection has been set to amazon.aws
+[2023-09-29 13:45:31]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-29 13:45:31]: INFO: the collection_links array exists sending to format.
+[2023-09-29 13:46:31]: INFO: Function call:  _identify_collection_ on value[Q].
+[2023-09-29 13:46:31]: INFO: determined value=[Q] is NOT an integer.
+[2023-09-29 13:46:31]: ERROR:  The collection provided was not found. Please select from the list.
+[2023-09-29 13:46:31]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-29 13:46:31]: INFO: the collection_links array exists sending to format.
+[2023-09-29 13:46:31]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-09-29 13:46:31]: INFO: the collection_links array exists sending to format.
+[2023-09-29 13:46:31]: INFO: collection_href=[]
+[2023-09-29 13:46:31]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/index.html#plugin-index]
+[2023-09-29 13:46:31]: INFO: 
+[2023-09-29 13:46:32]: INFO: Collection  = module_list pulled successfully.
+[2023-10-02 09:09:47]: INFO: 
+[2023-10-02 09:09:47]: INFO: Calling _set_vars_from_array_ 
+[2023-10-02 09:09:47]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-02 09:09:47]: INFO: 
+[2023-10-02 09:09:48]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-02 09:09:48]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-02 09:09:48]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-02 09:09:48]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-02 09:09:48]: INFO: the collection_links array exists sending to format.
+[2023-10-02 09:09:56]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-02 09:09:56]: INFO: determined value=[1] is integer.
+[2023-10-02 09:09:56]: INFO: Collection identified as [amazon.aws].
+[2023-10-02 09:09:56]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-02 09:09:56]: INFO: the collection_links array exists sending to format.
+[2023-10-02 09:09:56]: INFO: collection_href=[amazon/aws/]
+[2023-10-02 09:09:56]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-02 09:09:56]: INFO: 
+[2023-10-02 09:09:56]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-02 09:09:59]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-02 09:10:18]: INFO: Module identified as [iam_policy module – Manage inline IAM policies for users, groups, and roles].
+[2023-10-02 09:10:18]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-02 09:10:18]: INFO: the collection_links array exists sending to format.
+[2023-10-02 09:10:18]: INFO: 
+[2023-10-02 12:56:07]: INFO: 
+[2023-10-02 12:56:07]: INFO: Calling _set_vars_from_array_ 
+[2023-10-02 12:56:07]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-02 12:56:07]: INFO: 
+[2023-10-02 12:56:08]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-02 12:56:08]: INFO: verbose flag has been set -v||--verbose
+[2023-10-02 12:56:08]: INFO: 
+[2023-10-02 12:56:08]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-02 12:56:08]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-02 12:56:08]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-02 12:56:08]: INFO: collection_links array found.  Sending to format.
+[2023-10-02 12:56:08]: INFO: The collection index URL value=[].
+[2023-10-02 12:56:09]: INFO: 
+[2023-10-02 13:22:49]: INFO: 
+[2023-10-02 13:22:49]: INFO: Calling _set_vars_from_array_ 
+[2023-10-02 13:22:49]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-02 13:22:49]: INFO: 
+[2023-10-02 13:22:50]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-02 13:22:50]: INFO: verbose flag has been set -v||--verbose
+[2023-10-02 13:22:50]: INFO: 
+[2023-10-02 13:22:50]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-02 13:22:50]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-02 13:22:50]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-02 13:22:50]: INFO: collection_links array found.  Sending to format.
+[2023-10-02 13:22:50]: INFO: The collection index URL value=[].
+[2023-10-02 13:22:50]: INFO: 
+[2023-10-02 13:27:11]: INFO: 
+[2023-10-02 13:27:11]: INFO: Calling _set_vars_from_array_ 
+[2023-10-02 13:27:11]: INFO: Calling within _fetch_collection_index_. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-02 13:27:11]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-02 13:27:11]: INFO: 
+[2023-10-02 13:27:12]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-02 13:27:12]: INFO: verbose flag has been set -v||--verbose
+[2023-10-02 13:27:12]: INFO: 
+[2023-10-02 13:27:12]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-02 13:27:12]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-02 13:27:12]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-02 13:27:12]: INFO: collection_links array found.  Sending to format.
+[2023-10-02 13:27:12]: INFO: The collection index URL value=[].
+[2023-10-02 13:27:12]: INFO: 
+[2023-10-02 13:33:10]: INFO: 
+[2023-10-02 13:33:10]: INFO: Calling _set_vars_from_array_ 
+[2023-10-02 13:33:10]: INFO: Calling within _fetch_collection_index_. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-02 13:33:10]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-02 13:33:10]: INFO: 
+[2023-10-02 13:33:11]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-02 13:33:11]: INFO: verbose flag has been set -v||--verbose
+[2023-10-02 13:33:11]: INFO: 
+[2023-10-02 13:33:11]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-02 13:33:11]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-02 13:33:11]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-02 13:33:11]: INFO: collection_links array found.  Sending to format.
+[2023-10-02 13:33:11]: INFO: The collection index URL value=[].
+[2023-10-02 13:33:11]: INFO: 
+[2023-10-02 13:34:35]: INFO: 
+[2023-10-02 13:34:35]: INFO: Calling _set_vars_from_array_ 
+[2023-10-02 13:34:35]: INFO: Calling within _fetch_collection_index_. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-02 13:34:35]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-02 13:34:35]: INFO: 
+[2023-10-02 13:34:36]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-02 13:34:36]: INFO: verbose flag has been set -v||--verbose
+[2023-10-02 13:34:36]: INFO: 
+[2023-10-02 13:34:36]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-02 13:34:36]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-02 13:34:36]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-02 13:34:36]: INFO: collection_links array found.  Sending to format.
+[2023-10-02 13:34:36]: INFO: The collection index URL value=[].
+[2023-10-02 13:34:36]: INFO: 
+[2023-10-02 13:40:38]: INFO: 
+[2023-10-02 13:40:38]: INFO: Calling _set_vars_from_array_ 
+[2023-10-02 13:40:38]: INFO: Calling within _fetch_collection_index_. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-02 13:40:38]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-02 13:40:38]: INFO: 
+[2023-10-02 13:40:39]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-02 13:40:39]: INFO: verbose flag has been set -v||--verbose
+[2023-10-02 13:40:39]: INFO: 
+[2023-10-02 13:40:39]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-02 13:40:39]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-02 13:40:39]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-02 13:40:39]: INFO: collection_links array found.  Sending to format.
+[2023-10-02 13:40:39]: INFO: The collection index URL value=[].
+[2023-10-02 13:40:39]: INFO: 
+[2023-10-02 16:07:56]: INFO: 
+[2023-10-02 16:07:56]: INFO: Calling _set_vars_from_array_ 
+[2023-10-02 16:07:56]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-02 16:07:56]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-02 16:07:56]: INFO: 
+[2023-10-02 16:07:56]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-02 16:07:56]: INFO: verbose flag has been set -v||--verbose
+[2023-10-02 16:07:56]: INFO: 
+[2023-10-02 16:07:56]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-02 16:07:56]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-02 16:07:56]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-02 16:07:56]: INFO: collection_links array found.  Sending to format.
+[2023-10-02 16:07:56]: INFO: The collection index URL value=[].
+[2023-10-02 16:07:56]: INFO: 
+[2023-10-02 16:23:05]: INFO: 
+[2023-10-02 16:23:06]: INFO: Calling _set_vars_from_array_ 
+[2023-10-02 16:23:06]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-02 16:23:06]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-02 16:23:06]: INFO: 
+[2023-10-02 16:23:06]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-02 16:23:06]: INFO: verbose flag has been set -v||--verbose
+[2023-10-02 16:23:06]: INFO: 
+[2023-10-02 16:23:06]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-02 16:23:06]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-02 16:23:06]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-02 16:23:06]: INFO: collection_links array found.  Sending to format.
+[2023-10-02 16:23:06]: INFO: The collection index URL value=[].
+[2023-10-02 16:23:06]: INFO: 
+[2023-10-02 17:26:51]: INFO: 
+[2023-10-02 17:26:51]: INFO: Calling _set_vars_from_array_ 
+[2023-10-02 17:26:51]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-02 17:26:51]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-02 17:26:51]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-02 17:26:51]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-02 17:26:51]: INFO: verbose flag has been set -v||--verbose
+[2023-10-02 17:26:51]: INFO: 
+[2023-10-02 17:26:51]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-02 17:26:51]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-02 17:26:51]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-02 17:26:51]: INFO: collection_links array found.  Sending to format.
+[2023-10-02 17:26:51]: INFO: The collection index URL value=[].
+[2023-10-02 17:26:51]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-02 19:08:30]: INFO: 
+[2023-10-02 19:08:30]: INFO: Calling _set_vars_from_array_ 
+[2023-10-02 19:08:30]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-02 19:08:30]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-02 19:08:30]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-02 19:08:35]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-02 19:08:35]: INFO: verbose flag has been set -v||--verbose
+[2023-10-02 19:08:35]: INFO: 
+[2023-10-02 19:08:35]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-02 19:08:35]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-02 19:08:35]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-02 19:08:35]: INFO: collection_links array found.  Sending to format.
+[2023-10-02 19:08:35]: INFO: The collection index URL value=[].
+[2023-10-02 19:08:35]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 07:40:41]: INFO: 
+[2023-10-03 07:40:41]: INFO: Calling _set_vars_from_array_ 
+[2023-10-03 07:40:41]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 07:40:41]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 07:40:41]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 07:40:41]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-03 07:40:41]: INFO: verbose flag has been set -v||--verbose
+[2023-10-03 07:40:41]: INFO: 
+[2023-10-03 07:40:41]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-03 07:40:41]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-03 07:40:41]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 07:40:41]: INFO: collection_links array found.  Sending to format.
+[2023-10-03 07:40:41]: INFO: The collection index URL value=[].
+[2023-10-03 07:40:41]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 07:58:59]: INFO: 
+[2023-10-03 07:58:59]: INFO: Calling _set_vars_from_array_ 
+[2023-10-03 07:58:59]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 07:58:59]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 07:58:59]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 07:58:59]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-03 07:58:59]: INFO: verbose flag has been set -v||--verbose
+[2023-10-03 07:58:59]: INFO: 
+[2023-10-03 07:58:59]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-03 07:58:59]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-03 07:58:59]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 07:58:59]: INFO: collection_links array found.  Sending to format.
+[2023-10-03 07:58:59]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 07:58:59]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 09:27:27]: INFO: 
+[2023-10-03 09:27:27]: INFO: Calling _set_vars_from_array_ 
+[2023-10-03 09:27:27]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 09:27:27]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 09:27:27]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 09:27:27]: ERROR: The collection_links array was not creaetd properly.
+[2023-10-03 09:27:27]: INFO: verbose flag has been set -v||--verbose
+[2023-10-03 09:27:27]: INFO: 
+[2023-10-03 09:27:27]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-03 09:27:27]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-03 09:27:27]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 09:27:27]: ERROR: The collection_links array is empty but should have been defined previously. Building again.
+[2023-10-03 09:27:27]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 09:27:27]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 09:27:27]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 09:27:28]: ERROR: The collection_links array was not creaetd properly.
+[2023-10-03 09:33:14]: INFO: 
+[2023-10-03 09:33:14]: INFO: Calling _set_vars_from_array_ 
+[2023-10-03 09:33:14]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 09:33:14]: INFO: The collection index URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 09:33:14]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 09:33:14]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-03 09:33:14]: INFO: verbose flag has been set -v||--verbose
+[2023-10-03 09:33:14]: INFO: 
+[2023-10-03 09:33:14]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-03 09:33:14]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-03 09:33:14]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 09:33:41]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-03 09:33:41]: INFO: determined value=[1] is integer.
+[2023-10-03 09:33:41]: INFO: Collection identified as [amazon.aws].
+[2023-10-03 09:33:41]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 09:33:41]: INFO: collection_href=[amazon/aws/]
+[2023-10-03 09:33:41]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-03 09:33:41]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 09:33:41]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-03 10:01:30]: INFO: 
+[2023-10-03 10:01:30]: INFO: Calling _set_vars_from_array_ 
+[2023-10-03 10:01:30]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 10:01:30]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 10:01:31]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-03 10:01:31]: INFO: verbose flag has been set -v||--verbose
+[2023-10-03 10:01:31]: INFO: 
+[2023-10-03 10:01:31]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-03 10:01:31]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-03 10:01:31]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 10:01:38]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-03 10:01:38]: INFO: determined value=[1] is integer.
+[2023-10-03 10:01:38]: INFO: Collection identified as [amazon.aws].
+[2023-10-03 10:01:38]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 10:01:38]: INFO: collection_href=[amazon/aws/]
+[2023-10-03 10:01:38]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-03 10:01:38]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 10:01:39]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-03 10:45:53]: INFO: 
+[2023-10-03 10:45:53]: INFO: Calling _set_vars_from_array_ 
+[2023-10-03 10:45:53]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 10:45:53]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 10:45:53]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-03 10:45:53]: INFO: verbose flag has been set -v||--verbose
+[2023-10-03 10:45:53]: INFO: 
+[2023-10-03 10:45:53]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-03 10:45:53]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-03 10:45:53]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 10:45:58]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-03 10:45:58]: INFO: determined value=[1] is integer.
+[2023-10-03 10:45:58]: INFO: Collection identified as [amazon.aws].
+[2023-10-03 10:45:58]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 10:45:58]: INFO: collection_href=[amazon/aws/]
+[2023-10-03 10:45:58]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-03 10:45:58]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 10:45:58]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-03 11:50:10]: INFO: 
+[2023-10-03 11:50:10]: INFO: Calling _set_vars_from_array_ 
+[2023-10-03 11:50:10]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 11:50:10]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 11:50:10]: INFO: collection list pulled without error.
+[2023-10-03 11:50:10]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-03 11:50:10]: INFO: verbose flag has been set -v||--verbose
+[2023-10-03 11:50:10]: INFO: 
+[2023-10-03 11:50:10]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-03 11:50:10]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-03 11:50:10]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 11:50:15]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-03 11:50:15]: INFO: determined value=[1] is integer.
+[2023-10-03 11:50:15]: INFO: Collection identified as [amazon.aws].
+[2023-10-03 11:50:15]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 11:50:15]: INFO: collection_href=[amazon/aws/]
+[2023-10-03 11:50:15]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-03 11:50:15]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 11:50:16]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-03 12:54:38]: INFO: 
+[2023-10-03 12:54:38]: INFO: Calling _set_vars_from_array_ 
+[2023-10-03 12:54:38]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 12:54:38]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 12:54:39]: INFO: collection list pulled without error.
+[2023-10-03 12:54:39]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-03 12:54:39]: INFO: verbose flag has been set -v||--verbose
+[2023-10-03 12:54:39]: INFO: 
+[2023-10-03 12:54:39]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-03 12:54:39]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-03 12:54:39]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 12:54:43]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-03 12:54:43]: INFO: determined value=[1] is integer.
+[2023-10-03 12:54:43]: INFO: Collection identified as [amazon.aws].
+[2023-10-03 12:54:43]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 12:54:43]: INFO: collection_href=[amazon/aws/]
+[2023-10-03 12:54:43]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-03 12:54:43]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 12:54:48]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-03 13:10:24]: INFO: 
+[2023-10-03 13:10:24]: INFO: Calling _set_vars_from_array_ 
+[2023-10-03 13:10:24]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 13:10:24]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 13:10:24]: INFO: collection list pulled without error.
+[2023-10-03 13:10:24]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-03 13:10:24]: INFO: verbose flag has been set -v||--verbose
+[2023-10-03 13:10:24]: INFO: 
+[2023-10-03 13:10:24]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-03 13:10:24]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-03 13:10:24]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 13:10:28]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-03 13:10:28]: INFO: determined value=[1] is integer.
+[2023-10-03 13:10:28]: INFO: Collection identified as [amazon.aws].
+[2023-10-03 13:10:28]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 13:10:28]: INFO: collection_href=[amazon/aws/]
+[2023-10-03 13:10:28]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-03 13:10:28]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 13:10:29]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-03 13:38:31]: INFO: 
+[2023-10-03 13:38:31]: INFO: Calling _set_vars_from_array_ 
+[2023-10-03 13:38:31]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 13:38:31]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 13:38:32]: INFO: collection list pulled without error.
+[2023-10-03 13:38:32]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-03 13:38:32]: INFO: verbose flag has been set -v||--verbose
+[2023-10-03 13:38:32]: INFO: 
+[2023-10-03 13:38:32]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-03 13:38:32]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-03 13:38:32]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 13:38:36]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-03 13:38:36]: INFO: determined value=[1] is integer.
+[2023-10-03 13:38:36]: INFO: Collection identified as [amazon.aws].
+[2023-10-03 13:38:36]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 13:38:36]: INFO: collection_href=[amazon/aws/]
+[2023-10-03 13:38:36]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-03 13:38:36]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 13:38:37]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-03 13:38:40]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-03 13:40:53]: INFO: Module identified as [      <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />].
+[2023-10-03 13:40:53]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 13:40:53]: INFO: call to format_module_url this->collection=[],this->module_number=[0].
+[2023-10-03 13:40:53]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 16:05:44]: INFO: 
+[2023-10-03 16:05:44]: INFO: Calling _set_vars_from_array_ 
+[2023-10-03 16:05:44]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 16:05:44]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 16:05:44]: INFO: collection list pulled without error.
+[2023-10-03 16:05:44]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-03 16:05:44]: INFO: verbose flag has been set -v||--verbose
+[2023-10-03 16:05:44]: INFO: 
+[2023-10-03 16:05:44]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-03 16:05:44]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-03 16:05:44]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 16:05:48]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-03 16:05:48]: INFO: determined value=[1] is integer.
+[2023-10-03 16:05:48]: INFO: Collection identified as [amazon.aws].
+[2023-10-03 16:05:48]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 16:05:48]: INFO: collection_href=[amazon/aws/]
+[2023-10-03 16:05:51]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-03 16:06:01]: ERROR: Module not found in active collection. Please provide the number from the list.
+[2023-10-03 16:06:01]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 16:06:01]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 16:06:01]: INFO: call to format_module_url this->collection=[],this->module_number=[].
+[2023-10-03 16:06:01]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 19:41:32]: INFO: 
+[2023-10-03 19:41:32]: INFO: Calling _set_vars_from_array_ 
+[2023-10-03 19:41:32]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 19:41:32]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 19:41:33]: INFO: collection list pulled without error.
+[2023-10-03 19:41:33]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-03 19:41:33]: INFO: verbose flag has been set -v||--verbose
+[2023-10-03 19:41:33]: INFO: 
+[2023-10-03 19:41:33]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-03 19:41:33]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-03 19:41:33]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 19:41:39]: INFO: 
+[2023-10-03 19:41:39]: INFO: Calling _set_vars_from_array_ 
+[2023-10-03 19:41:39]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 19:41:39]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 19:41:39]: INFO: collection list pulled without error.
+[2023-10-03 19:41:39]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-03 19:41:39]: INFO: verbose flag has been set -v||--verbose
+[2023-10-03 19:41:39]: INFO: 
+[2023-10-03 19:41:39]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-03 19:41:39]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-03 19:41:39]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 19:41:44]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-03 19:41:44]: INFO: determined value=[1] is integer.
+[2023-10-03 19:41:44]: INFO: Collection identified as [amazon.aws].
+[2023-10-03 19:41:44]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 19:41:44]: INFO: collection_href=[amazon/aws/]
+[2023-10-03 19:41:46]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-03 20:41:24]: INFO: 
+[2023-10-03 20:41:24]: INFO: Calling _set_vars_from_array_ 
+[2023-10-03 20:41:24]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 20:41:24]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 20:41:24]: INFO: collection list pulled without error.
+[2023-10-03 20:41:24]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-03 20:41:24]: INFO: verbose flag has been set -v||--verbose
+[2023-10-03 20:41:24]: INFO: 
+[2023-10-03 20:41:24]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-03 20:41:24]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-03 20:41:24]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 20:41:31]: INFO: Function call:  _identify_collection_ on value[2].
+[2023-10-03 20:41:31]: INFO: determined value=[2] is integer.
+[2023-10-03 20:41:31]: INFO: Collection identified as [ansible.builtin].
+[2023-10-03 20:41:31]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 20:41:31]: INFO: collection_href=[ansible/builtin/]
+[2023-10-03 20:41:33]: INFO: Requested collection rewble->collection=[ansible.builtin]
+[2023-10-03 20:41:36]: ERROR: Module not found in active collection. Please provide the number from the list.
+[2023-10-03 20:41:36]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 20:41:36]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 20:41:36]: INFO: call to format_module_url this->collection=[],this->module_number=[].
+[2023-10-03 20:41:36]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 21:15:41]: INFO: 
+[2023-10-03 21:15:41]: INFO: Calling _set_vars_from_array_ 
+[2023-10-03 21:15:41]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 21:15:41]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 21:15:43]: INFO: collection list pulled without error.
+[2023-10-03 21:15:43]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-03 21:15:43]: INFO: verbose flag has been set -v||--verbose
+[2023-10-03 21:15:43]: INFO: 
+[2023-10-03 21:15:43]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-03 21:15:43]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-03 21:15:43]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 21:15:49]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-03 21:15:49]: INFO: determined value=[1] is integer.
+[2023-10-03 21:15:49]: INFO: Collection identified as [amazon.aws].
+[2023-10-03 21:15:49]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 21:15:49]: INFO: collection_href=[amazon/aws/]
+[2023-10-03 21:15:51]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-03 21:16:21]: ERROR: Module not found in active collection. Please provide the number from the list.
+[2023-10-03 21:16:21]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 21:16:21]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 21:16:21]: INFO: call to format_module_url this->collection=[],this->module_number=[].
+[2023-10-03 21:16:21]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 23:48:45]: INFO: 
+[2023-10-03 23:48:45]: INFO: Calling _set_vars_from_array_ 
+[2023-10-03 23:48:45]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-03 23:48:45]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-03 23:48:46]: INFO: collection list pulled without error.
+[2023-10-03 23:48:46]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-03 23:48:46]: INFO: verbose flag has been set -v||--verbose
+[2023-10-03 23:48:46]: INFO: 
+[2023-10-03 23:48:46]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-03 23:48:46]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-03 23:48:46]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 23:48:49]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-03 23:48:49]: INFO: determined value=[1] is integer.
+[2023-10-03 23:48:49]: INFO: Collection identified as [amazon.aws].
+[2023-10-03 23:48:49]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-03 23:48:49]: INFO: collection_href=[amazon/aws/]
+[2023-10-03 23:48:51]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-04 02:04:26]: INFO: 
+[2023-10-04 02:04:27]: INFO: Calling _set_vars_from_array_ 
+[2023-10-04 02:04:27]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-04 02:04:27]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-04 02:04:27]: INFO: collection list pulled without error.
+[2023-10-04 02:04:27]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-04 02:04:27]: INFO: verbose flag has been set -v||--verbose
+[2023-10-04 02:04:27]: INFO: 
+[2023-10-04 02:04:27]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-04 02:04:27]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-04 02:04:27]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-04 02:04:31]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-04 02:04:31]: INFO: determined value=[1] is integer.
+[2023-10-04 02:04:31]: INFO: Collection identified as [amazon.aws].
+[2023-10-04 02:04:31]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-04 02:04:31]: INFO: collection_href=[amazon/aws/]
+[2023-10-04 02:04:33]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-04 02:07:55]: INFO: 
+[2023-10-04 02:07:55]: INFO: Calling _set_vars_from_array_ 
+[2023-10-04 02:07:55]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-04 02:07:55]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-04 02:07:56]: INFO: collection list pulled without error.
+[2023-10-04 02:07:56]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-04 02:07:56]: INFO: verbose flag has been set -v||--verbose
+[2023-10-04 02:07:56]: INFO: 
+[2023-10-04 02:07:56]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-04 02:07:56]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-04 02:07:56]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-04 02:08:00]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-04 02:08:00]: INFO: determined value=[1] is integer.
+[2023-10-04 02:08:00]: INFO: Collection identified as [amazon.aws].
+[2023-10-04 02:08:00]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-04 02:08:00]: INFO: collection_href=[amazon/aws/]
+[2023-10-04 02:08:02]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-04 02:08:21]: INFO: 
+[2023-10-04 02:08:21]: INFO: Calling _set_vars_from_array_ 
+[2023-10-04 02:08:21]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-04 02:08:21]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-04 02:08:21]: INFO: collection list pulled without error.
+[2023-10-04 02:08:21]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-04 02:08:21]: INFO: verbose flag has been set -v||--verbose
+[2023-10-04 02:08:21]: INFO: 
+[2023-10-04 02:08:21]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-04 02:08:21]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-04 02:08:21]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-04 02:08:27]: INFO: 
+[2023-10-04 02:08:27]: INFO: Calling _set_vars_from_array_ 
+[2023-10-04 02:08:27]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-04 02:08:27]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-04 02:08:27]: INFO: collection list pulled without error.
+[2023-10-04 02:08:27]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-04 02:08:27]: INFO: verbose flag has been set -v||--verbose
+[2023-10-04 02:08:27]: INFO: 
+[2023-10-04 02:08:27]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-04 02:08:27]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-04 02:08:27]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-04 02:08:32]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-04 02:08:32]: INFO: determined value=[1] is integer.
+[2023-10-04 02:08:32]: INFO: Collection identified as [amazon.aws].
+[2023-10-04 02:08:32]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-04 02:08:32]: INFO: collection_href=[amazon/aws/]
+[2023-10-04 02:08:34]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-04 02:29:25]: INFO: 
+[2023-10-04 02:29:25]: INFO: Calling _set_vars_from_array_ 
+[2023-10-04 02:29:25]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-04 02:29:25]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-04 02:29:26]: INFO: collection list pulled without error.
+[2023-10-04 02:29:26]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-04 02:29:26]: INFO: verbose flag has been set -v||--verbose
+[2023-10-04 02:29:26]: INFO: 
+[2023-10-04 02:29:26]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-04 02:29:26]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-04 02:29:26]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-04 02:29:30]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-04 02:29:30]: INFO: determined value=[1] is integer.
+[2023-10-04 02:29:30]: INFO: Collection identified as [amazon.aws].
+[2023-10-04 02:29:30]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-04 02:29:30]: INFO: collection_href=[amazon/aws/]
+[2023-10-04 02:29:32]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-04 02:29:37]: ERROR: Module not found in active collection. Please provide the number from the list.
+[2023-10-04 02:29:37]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-04 02:29:37]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-04 02:29:37]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[].
+[2023-10-04 02:29:37]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-04 02:30:26]: INFO: 
+[2023-10-04 02:30:26]: INFO: Calling _set_vars_from_array_ 
+[2023-10-04 02:30:26]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-04 02:30:26]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-04 02:30:27]: INFO: collection list pulled without error.
+[2023-10-04 02:30:27]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-04 02:30:27]: INFO: verbose flag has been set -v||--verbose
+[2023-10-04 02:30:27]: INFO: 
+[2023-10-04 02:30:27]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-04 02:30:27]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-04 02:30:27]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-04 02:30:31]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-04 02:30:31]: INFO: determined value=[1] is integer.
+[2023-10-04 02:30:31]: INFO: Collection identified as [amazon.aws].
+[2023-10-04 02:30:31]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-04 02:30:31]: INFO: collection_href=[amazon/aws/]
+[2023-10-04 02:30:33]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-04 02:32:10]: INFO: 
+[2023-10-04 02:32:10]: INFO: Calling _set_vars_from_array_ 
+[2023-10-04 02:32:10]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-04 02:32:10]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-04 02:32:11]: INFO: collection list pulled without error.
+[2023-10-04 02:32:11]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-04 02:32:11]: INFO: verbose flag has been set -v||--verbose
+[2023-10-04 02:32:11]: INFO: 
+[2023-10-04 02:32:11]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-04 02:32:11]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-04 02:32:11]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-04 02:32:18]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-04 02:32:18]: INFO: determined value=[1] is integer.
+[2023-10-04 02:32:18]: INFO: Collection identified as [amazon.aws].
+[2023-10-04 02:32:18]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-04 02:32:18]: INFO: collection_href=[amazon/aws/]
+[2023-10-04 02:32:18]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-04 02:32:18]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-04 02:32:24]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-04 02:32:26]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-04 05:34:23]: INFO: 
+[2023-10-04 05:34:23]: INFO: Calling _set_vars_from_array_ 
+[2023-10-04 05:34:23]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-04 05:34:23]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-04 05:34:25]: INFO: collection list pulled without error.
+[2023-10-04 05:34:25]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-04 05:34:25]: INFO: verbose flag has been set -v||--verbose
+[2023-10-04 05:34:25]: INFO: 
+[2023-10-04 05:34:25]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-04 05:34:25]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-04 05:34:25]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-04 05:34:29]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-04 05:34:29]: INFO: determined value=[1] is integer.
+[2023-10-04 05:34:29]: INFO: Collection identified as [amazon.aws].
+[2023-10-04 05:34:29]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-04 05:34:29]: INFO: collection_href=[amazon/aws/]
+[2023-10-04 05:34:29]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-04 05:34:29]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-04 05:34:29]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-04 05:34:31]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-04 10:49:17]: INFO: 
+[2023-10-04 10:49:17]: INFO: Calling _set_vars_from_array_ 
+[2023-10-04 10:49:17]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-04 10:49:17]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-04 10:49:18]: INFO: collection list pulled without error.
+[2023-10-04 10:49:18]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-04 10:49:18]: INFO: verbose flag has been set -v||--verbose
+[2023-10-04 10:49:18]: INFO: 
+[2023-10-04 10:49:18]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-04 10:49:18]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-04 10:49:18]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-04 10:49:22]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-04 10:49:22]: INFO: determined value=[1] is integer.
+[2023-10-04 10:49:22]: INFO: Collection identified as [amazon.aws].
+[2023-10-04 10:49:22]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-04 10:49:22]: INFO: collection_href=[amazon/aws/]
+[2023-10-04 10:49:22]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-04 10:49:22]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-04 10:49:22]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-04 10:49:24]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 09:48:49]: INFO: 
+[2023-10-09 09:48:49]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 09:48:49]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 09:48:49]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 09:48:49]: INFO: collection list pulled without error.
+[2023-10-09 09:48:49]: INFO: The collection_links array has been creaetd properly. It contains 0 links.
+[2023-10-09 09:48:49]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 09:48:49]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 09:48:49]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 09:48:49]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 09:48:51]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 09:48:51]: INFO: determined value=[1] is integer.
+[2023-10-09 09:48:51]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 09:48:51]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 09:48:51]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 09:48:51]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/index.html#plugin-index]
+[2023-10-09 09:48:51]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 09:48:52]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 09:48:54]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 10:31:15]: INFO: 
+[2023-10-09 10:31:15]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 10:31:15]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 10:31:15]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 10:31:16]: INFO: collection list pulled without error.
+[2023-10-09 10:31:16]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 10:31:16]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 10:31:16]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 10:31:16]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 10:31:18]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 10:31:18]: INFO: determined value=[1] is integer.
+[2023-10-09 10:31:18]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 10:31:18]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 10:31:18]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 10:31:18]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/index.html#plugin-index]
+[2023-10-09 10:31:18]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 10:31:18]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 10:31:20]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 10:31:30]: INFO: Module identified as [amazon.aws].
+[2023-10-09 10:31:30]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 10:31:30]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[0].
+[2023-10-09 10:31:30]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 10:33:11]: INFO: 
+[2023-10-09 10:33:11]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 10:33:11]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 10:33:11]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 10:33:11]: INFO: collection list pulled without error.
+[2023-10-09 10:33:11]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 10:33:11]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 10:33:11]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 10:33:11]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 10:33:11]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 10:33:14]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 10:33:14]: INFO: determined value=[1] is integer.
+[2023-10-09 10:33:14]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 10:33:14]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 10:33:14]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 10:33:14]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/index.html#plugin-index]
+[2023-10-09 10:33:14]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 10:33:14]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 10:33:16]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 10:33:59]: INFO: 
+[2023-10-09 10:33:59]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 10:33:59]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 10:33:59]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 10:33:59]: INFO: collection list pulled without error.
+[2023-10-09 10:33:59]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 10:33:59]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 10:33:59]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 10:33:59]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 10:54:36]: INFO: 
+[2023-10-09 10:54:36]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 10:54:36]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 10:54:36]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 10:54:37]: INFO: collection list pulled without error.
+[2023-10-09 10:54:37]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 10:54:37]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 10:54:37]: INFO: 
+[2023-10-09 10:54:37]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 10:54:37]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 10:54:37]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 10:54:43]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 10:54:43]: INFO: determined value=[1] is integer.
+[2023-10-09 10:54:43]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 10:54:43]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 10:54:43]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 10:54:43]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/index.html#plugin-index]
+[2023-10-09 10:54:43]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 10:54:43]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 10:54:45]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 11:10:35]: INFO: 
+[2023-10-09 11:10:35]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 11:10:35]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 11:10:35]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 11:10:36]: INFO: collection list pulled without error.
+[2023-10-09 11:10:36]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 11:10:36]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 11:10:36]: INFO: 
+[2023-10-09 11:10:36]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 11:10:36]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 11:10:36]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 11:10:42]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 11:10:42]: INFO: determined value=[1] is integer.
+[2023-10-09 11:10:42]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 11:10:42]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 11:10:42]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 11:10:42]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-09 11:10:42]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 11:10:42]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 11:27:11]: INFO: 
+[2023-10-09 11:27:11]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 11:27:11]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 11:27:11]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 11:27:12]: INFO: collection list pulled without error.
+[2023-10-09 11:27:12]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 11:27:12]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 11:27:12]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 11:27:12]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 11:27:12]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 11:27:32]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 11:27:32]: INFO: determined value=[1] is integer.
+[2023-10-09 11:27:32]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 11:27:32]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 11:27:32]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 11:27:32]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-09 11:27:32]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 11:27:32]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 11:37:08]: INFO: 
+[2023-10-09 11:37:08]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 11:37:08]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 11:37:08]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 11:37:08]: INFO: collection list pulled without error.
+[2023-10-09 11:37:08]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 11:37:08]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 11:37:08]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 11:37:08]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 11:37:08]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 11:37:10]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 11:37:10]: INFO: determined value=[1] is integer.
+[2023-10-09 11:37:10]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 11:37:10]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 11:37:10]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 11:37:10]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-09 11:37:10]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 11:37:10]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 11:37:12]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 11:37:22]: INFO: Module identified as [backup_plan module].
+[2023-10-09 11:37:22]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 11:37:22]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[4].
+[2023-10-09 11:37:22]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 11:56:12]: INFO: 
+[2023-10-09 11:56:12]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 11:56:12]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 11:56:12]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 11:56:13]: INFO: collection list pulled without error.
+[2023-10-09 11:56:13]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 11:56:13]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 11:56:13]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 11:56:13]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 11:56:13]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 11:56:20]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 11:56:20]: INFO: determined value=[1] is integer.
+[2023-10-09 11:56:20]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 11:56:20]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 11:56:20]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 11:56:20]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-09 11:56:20]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 11:56:21]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 11:56:23]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 11:56:45]: INFO: Module identified as [ec2_instance module].
+[2023-10-09 11:56:45]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 11:56:45]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[29].
+[2023-10-09 11:56:45]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 12:08:16]: INFO: 
+[2023-10-09 12:08:16]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 12:08:16]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 12:08:16]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 12:08:17]: INFO: collection list pulled without error.
+[2023-10-09 12:08:17]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 12:08:17]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 12:08:17]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 12:08:17]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 12:08:17]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 12:08:18]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 12:08:18]: INFO: determined value=[1] is integer.
+[2023-10-09 12:08:18]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 12:08:18]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 12:08:18]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 12:08:18]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-09 12:08:18]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 12:08:19]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 12:08:21]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 12:08:29]: INFO: Module identified as [ec2_spot_instance_info module].
+[2023-10-09 12:08:29]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:06:22]: INFO: 
+[2023-10-09 13:06:22]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 13:06:22]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 13:06:22]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:06:24]: INFO: collection list pulled without error.
+[2023-10-09 13:06:24]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 13:06:24]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 13:06:24]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 13:06:24]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 13:06:24]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:06:25]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 13:06:25]: INFO: determined value=[1] is integer.
+[2023-10-09 13:06:25]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 13:06:25]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:06:25]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 13:06:25]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-09 13:06:25]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:06:26]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 13:06:28]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 13:06:39]: INFO: Module identified as [cloudwatch_metric_alarm_info module].
+[2023-10-09 13:06:39]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:12:57]: INFO: 
+[2023-10-09 13:12:57]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 13:12:57]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 13:12:57]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:12:58]: INFO: collection list pulled without error.
+[2023-10-09 13:12:58]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 13:12:58]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 13:12:58]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 13:12:58]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 13:12:58]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:12:59]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 13:12:59]: INFO: determined value=[1] is integer.
+[2023-10-09 13:12:59]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 13:12:59]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:12:59]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 13:12:59]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-09 13:12:59]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:12:59]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 13:13:01]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 13:13:03]: INFO: Module identified as [cloudwatchlogs_log_group_metric_filter module].
+[2023-10-09 13:13:03]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:15:39]: INFO: 
+[2023-10-09 13:15:39]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 13:15:39]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 13:15:39]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:15:40]: INFO: collection list pulled without error.
+[2023-10-09 13:15:40]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 13:15:40]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 13:15:40]: INFO: 
+[2023-10-09 13:15:40]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 13:15:40]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 13:15:40]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:15:43]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 13:15:43]: INFO: determined value=[1] is integer.
+[2023-10-09 13:15:43]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 13:15:43]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:15:43]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 13:15:43]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-09 13:15:43]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:15:43]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 13:15:46]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 13:15:56]: INFO: Module identified as [ec2_ami_info module].
+[2023-10-09 13:15:56]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:26:21]: INFO: 
+[2023-10-09 13:26:21]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 13:26:21]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 13:26:21]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:26:22]: INFO: collection list pulled without error.
+[2023-10-09 13:26:22]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 13:26:22]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 13:26:22]: INFO: 
+[2023-10-09 13:26:22]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 13:26:22]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 13:26:22]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:26:23]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 13:26:23]: INFO: determined value=[1] is integer.
+[2023-10-09 13:26:23]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 13:26:23]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:26:23]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 13:26:23]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-09 13:26:23]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:26:24]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 13:26:26]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 13:26:28]: INFO: _identify_module_ passed INT value=[21] 
+[2023-10-09 13:26:28]: INFO: Module successfully identified as [cloudwatchlogs_log_group_info module].
+[2023-10-09 13:26:28]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:28:21]: INFO: 
+[2023-10-09 13:28:21]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 13:28:21]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 13:28:21]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:28:22]: INFO: collection list pulled without error.
+[2023-10-09 13:28:22]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 13:28:22]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 13:28:22]: INFO: 
+[2023-10-09 13:28:22]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 13:28:22]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 13:28:22]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:28:24]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 13:28:24]: INFO: determined value=[1] is integer.
+[2023-10-09 13:28:24]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 13:28:24]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:28:24]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 13:28:24]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-09 13:28:24]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:28:25]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 13:28:27]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 13:28:28]: INFO: _identify_module_ passed INT value=[32] 
+[2023-10-09 13:28:28]: INFO: Module successfully identified as [ec2_key_info module].
+[2023-10-09 13:28:28]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[32].
+[2023-10-09 13:28:28]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_key_info module_module.html#examples], this->collection=[amazon.aws],this->module_number=[32].
+[2023-10-09 13:28:28]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_key_info module_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-09 13:28:28]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:31:31]: INFO: 
+[2023-10-09 13:31:31]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 13:31:31]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 13:31:31]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:31:31]: INFO: collection list pulled without error.
+[2023-10-09 13:31:31]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 13:31:31]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 13:31:31]: INFO: 
+[2023-10-09 13:31:31]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 13:31:31]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 13:31:31]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:31:33]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 13:31:33]: INFO: determined value=[1] is integer.
+[2023-10-09 13:31:33]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 13:31:33]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:31:33]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 13:31:33]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-09 13:31:33]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:31:34]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 13:31:36]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 13:31:53]: INFO: _identify_module_ passed INT value=[36] 
+[2023-10-09 13:31:53]: INFO: Module successfully identified as [ec2_snapshot module].
+[2023-10-09 13:31:53]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[36].
+[2023-10-09 13:31:53]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_snapshot module_module.html#examples], this->collection=[amazon.aws],this->module_number=[36].
+[2023-10-09 13:31:53]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_snapshot module_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-09 13:31:53]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:39:31]: INFO: 
+[2023-10-09 13:39:31]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 13:39:31]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 13:39:31]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:39:32]: INFO: collection list pulled without error.
+[2023-10-09 13:39:32]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 13:39:32]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 13:39:32]: INFO: 
+[2023-10-09 13:39:32]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 13:39:32]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 13:39:32]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:39:34]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 13:39:34]: INFO: determined value=[1] is integer.
+[2023-10-09 13:39:34]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 13:39:34]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:39:34]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 13:39:34]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-09 13:39:34]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:39:34]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 13:39:36]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 13:39:39]: INFO: _identify_module_ passed INT value=[53] 
+[2023-10-09 13:39:39]: INFO: Module successfully identified as [ec2_vpc_net module].
+[2023-10-09 13:39:39]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[53].
+[2023-10-09 13:39:39]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_vpc_net module_module.html#examples], this->collection=[amazon.aws],this->module_number=[53].
+[2023-10-09 13:39:39]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_vpc_net module_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-09 13:39:39]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:42:58]: INFO: 
+[2023-10-09 13:42:58]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 13:42:58]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 13:42:58]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:42:59]: INFO: collection list pulled without error.
+[2023-10-09 13:42:59]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 13:42:59]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 13:42:59]: INFO: 
+[2023-10-09 13:42:59]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 13:42:59]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 13:42:59]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:43:00]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 13:43:00]: INFO: determined value=[1] is integer.
+[2023-10-09 13:43:00]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 13:43:00]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:43:00]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 13:43:00]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-09 13:43:00]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:43:01]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 13:43:03]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 13:43:05]: INFO: _identify_module_ passed INT value=[21] 
+[2023-10-09 13:43:05]: INFO: Module successfully identified as [cloudwatchlogs_log_group_info module].
+[2023-10-09 13:43:05]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[21].
+[2023-10-09 13:43:05]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/cloudwatchlogs_log_group_info_module.html#examples], this->collection=[amazon.aws],this->module_number=[21].
+[2023-10-09 13:43:05]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/cloudwatchlogs_log_group_info_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-09 13:43:05]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:43:19]: INFO: 
+[2023-10-09 13:43:19]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 13:43:19]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 13:43:19]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:43:20]: INFO: collection list pulled without error.
+[2023-10-09 13:43:20]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 13:43:20]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 13:43:20]: INFO: 
+[2023-10-09 13:43:20]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 13:43:20]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 13:43:20]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:43:21]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 13:43:21]: INFO: determined value=[1] is integer.
+[2023-10-09 13:43:21]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 13:43:21]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 13:43:21]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 13:43:21]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-09 13:43:21]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 13:43:22]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 13:43:24]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 13:43:26]: INFO: _identify_module_ passed INT value=[52] 
+[2023-10-09 13:43:26]: INFO: Module successfully identified as [ec2_vpc_nat_gateway_info module].
+[2023-10-09 13:43:26]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[52].
+[2023-10-09 13:43:26]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_vpc_nat_gateway_info_module.html#examples], this->collection=[amazon.aws],this->module_number=[52].
+[2023-10-09 13:43:26]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_vpc_nat_gateway_info_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-09 13:43:26]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 15:07:17]: INFO: 
+[2023-10-09 15:07:17]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 15:07:17]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 15:07:17]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 15:07:18]: INFO: collection list pulled without error.
+[2023-10-09 15:07:18]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 15:07:18]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 15:07:18]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 15:07:18]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 15:07:18]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 15:07:21]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 15:07:21]: INFO: determined value=[1] is integer.
+[2023-10-09 15:07:21]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 15:07:21]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 15:07:21]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 15:07:21]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-09 15:07:21]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 15:07:21]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 15:07:23]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 15:07:38]: INFO: _identify_module_ passed INT value=[50] 
+[2023-10-09 15:07:38]: INFO: Module successfully identified as [ec2_vpc_igw_info module].
+[2023-10-09 15:07:38]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[50].
+[2023-10-09 15:07:38]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_vpc_igw_info_module.html#examples], this->collection=[amazon.aws],this->module_number=[50].
+[2023-10-09 15:07:38]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_vpc_igw_info_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-09 15:07:38]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 15:24:30]: INFO: 
+[2023-10-09 15:24:30]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 15:24:30]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 15:24:30]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 15:24:30]: INFO: collection list pulled without error.
+[2023-10-09 15:24:30]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 15:24:30]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 15:24:30]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 15:24:30]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 15:24:30]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 15:24:31]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 15:24:31]: INFO: determined value=[1] is integer.
+[2023-10-09 15:24:31]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 15:24:31]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 15:24:31]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 15:24:31]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-09 15:24:31]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 15:24:31]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 15:24:33]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 15:25:13]: INFO: _identify_module_ passed INT value=[2] 
+[2023-10-09 15:25:13]: INFO: Module successfully identified as [aws_az_info module].
+[2023-10-09 15:25:13]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[2].
+[2023-10-09 15:25:13]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/aws_az_info_module.html#examples], this->collection=[amazon.aws],this->module_number=[2].
+[2023-10-09 15:25:13]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/aws_az_info_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-09 15:25:13]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 16:47:07]: INFO: 
+[2023-10-09 16:47:07]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 16:47:07]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 16:47:07]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 16:47:08]: INFO: collection list pulled without error.
+[2023-10-09 16:47:08]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 16:47:08]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 16:47:08]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 16:47:08]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 16:47:08]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 16:47:10]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 16:47:10]: INFO: determined value=[1] is integer.
+[2023-10-09 16:47:10]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 16:47:10]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 16:47:10]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 16:47:10]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-09 16:47:10]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 16:47:11]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 16:47:13]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 16:49:55]: INFO: 
+[2023-10-09 16:49:55]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 16:49:55]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 16:49:55]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 16:49:56]: INFO: collection list pulled without error.
+[2023-10-09 16:49:56]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 16:49:56]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 16:49:56]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 16:49:56]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 16:49:56]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 16:49:57]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 16:49:57]: INFO: determined value=[1] is integer.
+[2023-10-09 16:49:57]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 16:49:57]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 16:49:57]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 16:49:57]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-09 16:49:57]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 16:49:57]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 16:49:59]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 16:51:03]: INFO: 
+[2023-10-09 16:51:03]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 16:51:03]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 16:51:03]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 16:51:03]: INFO: collection list pulled without error.
+[2023-10-09 16:51:03]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 16:51:03]: INFO: verbose flag has been set -v||--verbose
+[2023-10-09 16:51:03]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 16:51:03]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 16:51:03]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 16:51:07]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-09 16:51:07]: INFO: determined value=[1] is integer.
+[2023-10-09 16:51:07]: INFO: Collection identified as [amazon.aws].
+[2023-10-09 16:51:07]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-09 16:51:07]: INFO: collection_href=[amazon/aws/]
+[2023-10-09 16:51:07]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-09 16:51:07]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 16:51:08]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-09 16:51:10]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-10-09 16:51:29]: INFO: _identify_module_ passed INT value=[15] 
+[2023-10-09 16:51:29]: INFO: Module successfully identified as [cloudtrail].
+[2023-10-09 16:51:29]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[15].
+[2023-10-09 16:51:29]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/cloudtrail_module.html#examples], this->collection=[amazon.aws],this->module_number=[15].
+[2023-10-09 16:51:29]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/cloudtrail_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-09 16:51:29]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 16:52:06]: INFO: 
+[2023-10-09 16:52:06]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 16:52:06]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 16:52:06]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 16:52:07]: INFO: collection list pulled without error.
+[2023-10-09 16:52:07]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 16:52:07]: INFO: Function call:  _identify_collection_ on value[amazon.aws].
+[2023-10-09 16:52:07]: INFO: determined value=[amazon.aws] is NOT an integer.
+[2023-10-09 17:06:56]: INFO: 
+[2023-10-09 17:06:56]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 17:06:56]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 17:06:56]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 17:06:57]: INFO: collection list pulled without error.
+[2023-10-09 17:06:57]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 17:07:34]: INFO: 
+[2023-10-09 17:07:34]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 17:07:34]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 17:07:34]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 17:07:34]: INFO: collection list pulled without error.
+[2023-10-09 17:07:34]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 17:56:58]: INFO: 
+[2023-10-09 17:56:58]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 17:56:58]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 17:56:58]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 17:56:58]: INFO: collection list pulled without error.
+[2023-10-09 17:56:58]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 17:56:58]: INFO: Function call:  _identify_collection_ on value[amazon.aws].
+[2023-10-09 17:56:58]: INFO: determined value=[amazon.aws] is NOT an integer.
+[2023-10-09 18:23:53]: INFO: 
+[2023-10-09 18:23:53]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 18:23:53]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 18:23:53]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 18:23:53]: INFO: collection list pulled without error.
+[2023-10-09 18:23:53]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 18:23:53]: INFO: Function call:  _identify_collection_ on value[amazon.aws].
+[2023-10-09 18:23:53]: INFO: determined value=[amazon.aws] is NOT an integer.
+[2023-10-09 18:38:01]: INFO: 
+[2023-10-09 18:38:01]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 18:38:01]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 18:38:01]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 18:38:02]: INFO: collection list pulled without error.
+[2023-10-09 18:38:02]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 18:38:02]: INFO: Function call:  _identify_collection_ on value[amazon.aws].
+[2023-10-09 18:38:02]: INFO: determined value=[amazon.aws] is NOT an integer.
+[2023-10-09 18:38:02]: INFO: Collection successfully identified as [amazon.aws],collection_number=[0].
+[2023-10-09 18:38:02]: INFO: Argument switch: collection set to amazon.aws
+[2023-10-09 18:38:02]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 18:38:02]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 18:38:02]: INFO: rewble collection has been set to amazon.aws
+[2023-10-09 18:41:13]: INFO: 
+[2023-10-09 18:41:13]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 18:41:13]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 18:41:13]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 18:41:13]: INFO: collection list pulled without error.
+[2023-10-09 18:48:05]: INFO: 
+[2023-10-09 18:48:05]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 18:48:05]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 18:48:05]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 18:48:06]: INFO: collection list pulled without error.
+[2023-10-09 18:48:06]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 18:48:42]: INFO: 
+[2023-10-09 18:48:42]: INFO: Calling _set_vars_from_array_ 
+[2023-10-09 18:48:42]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-09 18:48:42]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-09 18:48:43]: INFO: collection list pulled without error.
+[2023-10-09 18:48:43]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-09 18:48:43]: INFO: Argument switch: request collection value=[amazon.aws]
+[2023-10-09 18:48:43]: INFO: Function call:  _identify_collection_ on value[amazon.aws].
+[2023-10-09 18:48:43]: INFO: determined value=[amazon.aws] is NOT an integer.
+[2023-10-09 18:48:43]: INFO: Collection successfully identified as [amazon.aws],collection_number=[0].
+[2023-10-09 18:48:43]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-10-09 18:48:43]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-09 18:48:43]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-09 18:48:43]: INFO: rewble collection has been set to amazon.aws

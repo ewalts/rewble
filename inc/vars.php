@@ -68,7 +68,7 @@ $_my_vars_array= array (
      "ADMIN_EMAIL"  =>  "$ADMIN_EMAIL"
 
 );
-print_r($_my_vars_array);
+//print_r($_my_vars_array);
 
 
 

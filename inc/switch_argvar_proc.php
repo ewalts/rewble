@@ -75,21 +75,28 @@ for($i=0;$i<count($argv);$i++){			###>  echo "DEBUG $argv[$i]\n";    ###>  Testi
 			
 			case '-c':
 			case '--collection':
-				$rewble->collection=$argv[$i+1];	 ###>  Switch for collection received define var $coll
-			        $rewble->_message_handler_('I',"","DEBUG: collection has been defined as $rewble->collection");
+				$rewble->_message_handler_('I',"Argument switch: request collection value=[".$argv[$i + 1]."]","DEBUG: sending to identify_collection");
+				if($rewble->_identify_collection_($argv[$i +1])){	 ###>  Switch for collection received define var $coll
+				        $rewble->_message_handler_('I',"Argument switch: collection successfully set to $rewble->collection","DEBUG: collection has been defined as $rewble->collection");
+					$rewble->list_collections=false;
+				}
 				break;
 
 			case '-m':
 			case '--module':
-				$rewble->get_module=true;
-				$rewble->module=$argv[$i+1];            ###>  echo "DEBUG switch for module received mod=[$mod]\n collection is required var coll=[$coll]\n";  ###>Testing code//   next argument should be module name
-				$rewble->require_collection=true;       ###>  Set flag for collection required, this will notify user if it wasn't provided
-			        $rewble->_message_handler_('I',"","DEBUG: Module request made with -m||--module. Var _module=[$rewble->module] equire collection has been triggered and set to true by module -m|--module");
+				$rewble->_require_collection();
+				if($rewble->_identify_module_($argv[$i +1])){     ###>  echo "DEBUG switch for module received mod=[$mod]\n collection is required var coll=[$coll]\n";  ###>Testing code//   next argument should be module name
+					 ###>  Set flag for collection required, this will notify user if it wasn't provided
+				        $rewble->_message_handler_('I',"module defined [$rewble->module]","DEBUG: Module request made with -m||--module. Var _module=[$rewble->module] equire collection has been triggered and set to true by module -m|--module");
+					$rewble->list_collection=false;
+				}else{
+					$rewble->list_collection=true;
+				}
 				break;
 
 			case '-lm':
-			case '--list-modules':            								
-				$rewble->require_collection=true;			###> echo "DEBUG in list-modu\n";  ###>Testing code  >> Request to list modules requires collection
+			case '--list-modules': 						
+				$rewble->require_collection();			###> echo "DEBUG in list-modu\n";  ###>Testing code  >> Request to list modules requires collection
                                 $rewble->_message_handler_('I',"","DEBUG: require collection defined by -lm||--list-modules");
 
 				break;
