@@ -16,18 +16,23 @@ require_once ($__dir__ . '/conf/main.php');  ###>  This file includes other file
 if($rewble->collection){
 	$rewble->_message_handler_('I',"rewble collection has been set to $rewble->collection", "DEBUG: rewble->collectio");
 	if($rewble->module){
-		 $rewble->_message_handler_('I',"rewble module has been selected as $rewble->module", "DEBUG: CHANGE THIS DEBUG MESSAGE");
-	}
-	
-	if($rewble->_identify_module_($_module)){  
-		$rewble->module=$_module;
-		$rewble->list_collections=false;    //  	die("we aren't ready to get modules\n");
+		$rewble->_message_handler_('I',"rewble module has been selected as $rewble->module", "DEBUG: CHANGE THIS DEBUG MESSAGE");
+		if($rewble->_identify_module_($_module)){  
+			$rewble->module=$_module;
+			$rewble->list_collections=false;    //  	die("we aren't ready to get modules\n");		
+		}
+	}else{
+		$rewble->_message_handler_('I',"rewble module has not been selected, calling _list_collection_modules_($rewble->collection)", "DEBUG: rewble will list modules of the active collection [$rewble->collection].");
+                $rewble->_list_collection_modules_($rewble->collection);
+	        $user_module_response= readline("Type the number of the module to get the yaml displayed.[1-$rewble->mc]: ");  ###> Request input from the user, the numerical array key, integer should be returned.
+	        if(preg_match('/q/',$user_module_response)) die("   Quit requested!\n");
 		
-	}
 
-}
+        }
 
-if($rewble->list_collections){
+}else{
+
+//if($rewble->list_collections){
 	$rewble->_show_collection_index_();
 	$cc=count($rewble->ansible_collections);
 	echo "\n Ansible docs currently listing $cc collections.  All $cc collections will be numerically listed in a moment.\n\n";  ###> Print a message to terminal.
@@ -49,7 +54,7 @@ if($rewble->list_collections){
 
 		###>  Listing collection module index contents -----------------------------------------------------------------------------
 
-	$rewble->_fetch_module_index_($rewble->collection_number);
+	$rewble->_fetch_collection_modules_($rewble->collection_number);
 
         $rewble->_message_handler_('null',"null",  "DEBUG: __curl_module_index:modules=[$rewble->modules_list]");
 	echo "\nAnsible docs currently listing $rewble->mc modlues for $rewble->collection. All $rewble->mc modules will be numerically listed in a moment.\n\n";  ###> Print a message to terminal.
@@ -58,51 +63,17 @@ if($rewble->list_collections){
 	$rewble->_message_handler_('I',"Requested collection rewble->collection=[".$rewble->collection."]", "DEBUG: rewble->collection=[".$rewble->collection."]");   ###>  
 	$rewble->_message_handler_('null', "null", "DEBUG: rewble->collection_modules=[" /*. print_r($rewble->collection_modules[$rewble->collection])*/ );  
 
-	$rewble->_format_module_list_();
+	$rewble->_format_module_list_($rewble->collection);
 	
-/*
-       $pad=0;
-        foreach( $rewble->collection_modules[$rewble->collection] as $key => $module){
-		if(is_int($key / 2)){ 
-		$nums[]=$key;
-                    if(strlen($module) > $pad){    ###> if the active anchor length is longer than the current pad value,  
-                        $pad=strlen("#[$key] - $module");   ###>  the pad value becomes the active anchor length
-                    }
-		}
-	}
-	$cmc=0;
-        foreach( $rewble->collection_modules[$rewble->collection] as $key => $module){         ###>  Print the array with key value to be selected later.
-                $cmc++;  $up2=false;  //if($cmc==2){  $cmc=0;  $up2="\n";  }
-                if(($key<100)&&($key>9)){ $add=1; }elseif($key<10){ $add=2; }else{ $add=0; }
-                echo "#[".($key + 1)."] - ".str_pad($module, $pad + $add);
-                if($cmc==2){  $cmc=0; echo "\n";  }
-        }
-
-*/
-/*
  
-	$cmc=0;
-        $pad=0;
-        foreach( $rewble->collection_modules[$rewble->collection] as $key => $module){
-                if(strlen("#[$key] - $module") > $pad){    ###> if the active anchor length is longer than the current pad value,  
-                        $pad=strlen("#[$key] - $module");   ###>  the pad value becomes the active anchor length
-                }
-
-	foreach( $rewble->collection_modules[$rewble->collection] as $key => $module){         ###>  Print the array with key value to be selected later.
-		$cmc++;  $up2=false;  if($cmc==2){  $cmc=0;  $up2="\n";  }
-        	echo "#[$key] - $module   ".$up2;
-	}
-
-
-*/
-
 
 
 	echo "\n\n";
 
 	$user_module_response= readline("Type the number of the module to get the yaml displayed.[1-$rewble->mc]: ");  ###> Request input from the user, the numerical array key, integer should be returned.
 	if(preg_match('/q/',$user_module_response)) die("   Quit requested!\n");
-
+}
+if($user_module_response){
 //$rewble->module_number=$user_module_response;  ###> test var until identify_module data validation is functional
 //	die("user_module_response=[$user_module_response]\n");
 //	if (is_int($user_module_response)){
@@ -125,8 +96,10 @@ if($rewble->list_collections){
 	}else{
                 $rewble->_show_collection_index_();
         }
-}else{
+}
+/*else{
 	echo "we didn't find list_collections to be defined";
 }
+*/
 //require_once ($__dir__ . '/conf/cleanup.php');
 ?>

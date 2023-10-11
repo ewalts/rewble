@@ -134,18 +134,18 @@ class rewble extends rewbin {
 	                }
         	}
 	    }
-//print_r($this->ansible_collections);  die();
+		//print_r($this->ansible_collections);  die();
 	    if(!is_array($this->collection_links[0])){ ###>  Has the array been created?
         	$this->_message_handler_('E','The collection_links array was not creaetd properly.', "DEBUG: collection_links array in read");
 		return false;  								###>  This may need to spawn the action again in the future
 	    }else{
 		$this->_message_handler_('I',"The collection_links array has been creaetd properly. It contains ".count($this->collection_links)
 			." links.","DEBUG: The collection_links array has been creaetd properly. It contains ".count($this->collection_links)." links.");
-//$this->collection_links=$ansible_collection_links;   					###>  This will be printed out by another function, either cli or web
+		//$this->collection_links=$ansible_collection_links;   	###>  This will be printed out by another function, either cli or web
 	    }
 	}
     }
-
+   
 #############################################################################################
 
     public function _format_collection_list_(){  ###> Format the output from collection index
@@ -175,12 +175,21 @@ class rewble extends rewbin {
     }
 
 #######################################################################
-
-    public function _format_module_list_(){
+    public function _list_collection_modules_($coll){
+	$this->_message_handler_('I',"call to _list_collection_modules_($coll), active_collection=[$this->collection].","DEBUG: call to _list_collection_modules_($coll), active_collection=[$this->collection]. ");
+	if(!is_array($this->colleciton_modules[$coll])){
+		$this->_message_handler_('I',"collection_modules($coll) was not an array. Will attempt to fetch modules.","DEBUG: collection_modules($coll) was not an array. Will attempt to fetch modules.");
+		$this->_fetch_collection_modules_($this->_return_collection_number_($coll));
+	}
+	$this->_format_module_list_($coll);
+    }
+######################################################################
+    public function _format_module_list_($coll){
+	$this->_message_handler_('I',"call to _list_collection_modules_($coll), active_collection=[$this->collection].","DEBUG: Inside _fetch_module_example module_example_url=[$url], module=[$module]");
 	$txt_content='';
 	$pad=0;
 	$add=0;
-        foreach( $this->collection_modules[$this->collection] as $key => $module){
+        foreach( $this->collection_modules[$coll] as $key => $module){
         //      if(is_int($key / 2)){
         	    $nums[]=$key;
                     if(strlen($module) > $pad){    ###> if the active anchor length is longer than the current pad value,  
@@ -191,7 +200,7 @@ class rewble extends rewbin {
         $cmc=0;
 
 	###> collection_modules is created within _build_collection_modules_array_ ###> 
-        foreach( $this->collection_modules[$this->collection] as $key => $module){         ###>  Print the array with key value to be selected later.
+        foreach( $this->collection_modules[$coll] as $key => $module){         ###>  Print the array with key value to be selected later.
                 $cmc++;  //$up2=false;  //if($cmc==2){  $cmc=0;  $up2="\n";  }
                 if(($key<100)&&($key>9)){ $add=1; }elseif($key<10){ $add=2; }else{ $add=0; }   ###>  increase alignment padding, purely asthetic
                 $txt_content.= "#[".($key + 1)."] - ".str_pad($module, $pad + $add); ###> incrementing the key value to overcome the 0/null value error emssages.
@@ -227,13 +236,13 @@ class rewble extends rewbin {
 
 #####################################################
 
-    public function _fetch_module_index_($col_num){  ###> reading the index of modules page in docs.ansible.com <<
+    public function _fetch_collection_modules_($col_num){  ###> reading the index of modules page in docs.ansible.com <<
         $this->collection_modules_url="https://docs.ansible.com/ansible/latest/collections/".$this->collection_links[$this->collection_number]['href']."index.html#plugin-index"; ###> Index page with the list of available examples.
         $this->_message_handler_("I","modules_url=[$this->collection_modules_url]", "DEBUG: modules_url=[$this->collection_modules_url]");
         if($this->_fetch_ansible_docs_element_("$this->collection_modules_url",'modules')){       ###>  This is the list of modules in text
                 $this->modules_list=$this->page;
                 $this->modules_dom=$this->dom_output;
-                $this->_message_handler_('I',"Collection $this->collection = module_list pulled successfully.","DEBUG: _fetch_module_index_ returned module_list=[$this->modules_list]"); ###> 
+                $this->_message_handler_('I',"Collection $this->collection = module_list pulled successfully.","DEBUG: _fetch_collection_modules_ returned module_list=[$this->modules_list]"); ###> 
                 $this->_build_collection_modules_array_();  ###>
         }
         //return $this->modules_list;  ###>
@@ -409,7 +418,6 @@ class rewble extends rewbin {
 	$name_defined=false;
 	$play=false;
 	for($i=0;$i<count($array);$i++){
-		
 		foreach($array[$i] as $key => $value){
 			if($key=='param_name'){
 				if($name_defined){
@@ -506,42 +514,52 @@ class rewble extends rewbin {
 		}
 	}
     }
-
+    public function _return_collection_number_($coll_name){
+	if(in_array($coll_name,$this->ansible_collections)){
+		if(false!==$key=array_search($coll_name,$this->ansible_collections)){
+			echo "key=$key\n";
+			return $key;
+		}
+	}else{
+		$this->_message_handler_('E',"The collection could not be found with value passed=[$coll_name].","DEBUG: Collection not found in array value passed=[$coll_name]");
+	}
+    }
 ##############################################################
     public function _identify_module_($mod_value){
-		$M=$mod_value;
-        	if ( !ctype_digit(strval($M))) {
-                        if(false!==$key=array_search($M,$this->collection_modules[$this->collection])){
-                                $this->module=$M;
-                                $this->module_number=$key;
-                                $this->_message_handler_('I',"Module identified as [$M].","DEBUG: VALUES:{this->collection=[$this->collection],this->module=[$this->module]}. Function: _identify_module_ recieved value passed=[$M]");
-				return true;
-                        }else{
-                                $this->module=false;
-                                $this->module_number=false;
-                                $this->_message_handler_('E',"Module [$M] not found in active collection VALUES:{this->collection=[$this->collection],this->module=[]}. Please provide the number from the list.", "DEBUG: failed to locate module=[$M] in collection=[$this->collection] VALUES:{this->collection=[$this->collection],this->module=[$this->module]}");
-                                $this->_show_collection_index_();
-                        }
+	if(!is_array($this->collection_modules[$this->collection])){
+        	$this->_fetch_collection_modules_($this->collection);
+        }           
+	$M=$mod_value;
+        if ( !ctype_digit(strval($M))) {
+		if(false!==$key=array_search($M,$this->collection_modules[$this->collection])){
+                	$this->module=$M;
+               		$this->module_number=$key;
+                       	$this->_message_handler_('I',"Module identified as [$M].","DEBUG: VALUES:{this->collection=[$this->collection],this->module=[$this->module]}. Function: _identify_module_ recieved value passed=[$M]");
+			return true;
+	        }else{
+                	$this->module=false;
+               		$this->module_number=false;
+                       	$this->_message_handler_('E',"Module [$M] not found in active collection VALUES:{this->collection=[$this->collection],this->module=[]}. Please provide the number from the list.", "DEBUG: failed to locate module=[$M] in collection=[$this->collection] VALUES:{this->collection=[$this->collection],this->module=[$this->module]}");
+                        $this->_show_collection_index_();
+		}
+	}else{
+
+		$M=intval($M - 1);
+		$dMsg="found M to be int value=[$M] this->collection active value=[$this->collection]";
+		$this->_message_handler_('I',"_identify_module_ passed INT value=[$M] ","DEBUG: $dMsg");
+		if($this->collection_modules[$this->collection][$M]!=''){
+			$this->module_number=$M;
+			$this->module=$this->collection_modules[$this->collection][$M];
+			$this->_message_handler_('I',"Module successfully identified as [$this->module].","DEBUG: successfully identified module=[$this->module] from value passed=[$M]");
+			return true;
 		}else{
+			$this->module=false;
+			$this->module_number=false;
+			$this->_message_handler_('E',"Module not found in active collection $this->collection from int value=[$M]. Please provide the number from the list.", "DEBUG: failed to locate module=[$M] in collection=[$this->collection");
+                        $this->_show_collection_index_();
 
-			$M=intval($M - 1);
-			$dMsg="found M to be int value=[$M] this->collection active value=[$this->collection]";
-			$this->_message_handler_('I',"_identify_module_ passed INT value=[$M] ","DEBUG: $dMsg");
-			if($this->collection_modules[$this->collection][$M]!=''){
-				$this->module_number=$M;
-				$this->module=$this->collection_modules[$this->collection][$M];
-				$this->_message_handler_('I',"Module successfully identified as [$this->module].","DEBUG: successfully identified module=[$this->module] from value passed=[$M]");
-				return true;
-
-			}else{
-				$this->module=false;
-				$this->module_number=false;
-				$this->_message_handler_('E',"Module not found in active collection $this->collection from int value=[$M]. Please provide the number from the list.", "DEBUG: failed to locate module=[$M] in collection=[$this->collection");
-	                        $this->_show_collection_index_();
-
-			}
 		}
 	}
+    }
 }
-
 ?>

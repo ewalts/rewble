@@ -84,10 +84,11 @@ for($i=0;$i<count($argv);$i++){			###>  echo "DEBUG $argv[$i]\n";    ###>  Testi
 
 			case '-m':
 			case '--module':
-				$rewble->_require_collection();
+				$rewble->_require_collection_();
 				if($rewble->_identify_module_($argv[$i +1])){     ###>  echo "DEBUG switch for module received mod=[$mod]\n collection is required var coll=[$coll]\n";  ###>Testing code//   next argument should be module name
 					 ###>  Set flag for collection required, this will notify user if it wasn't provided
 				        $rewble->_message_handler_('I',"module defined [$rewble->module]","DEBUG: Module request made with -m||--module. Var _module=[$rewble->module] equire collection has been triggered and set to true by module -m|--module");
+					$user_module_response=$rewble->module;
 					$rewble->list_collection=false;
 				}else{
 					$rewble->list_collection=true;
