@@ -38,7 +38,7 @@ if($rewble->collection){
 	echo "\n Ansible docs currently listing $cc collections.  All $cc collections will be numerically listed in a moment.\n\n";  ###> Print a message to terminal.
 //	sleep(3); 	  				
 					    ###>  Give someone a chance to see the message.
-	echo " Choose the collection to list contents.\n";
+	echo " Choose the collection to list modules.\n";
 	echo $rewble->print_collections;	
 	echo "\n\n";     
 	$user_collection_response= readline("Type the number of the collection you want to browse.[1-$cc]. Or [q] to quit: ");  ###> Request input from the user, the numerical key in the collections array.

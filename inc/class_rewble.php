@@ -92,7 +92,7 @@ class rewble extends rewbin {
 	//else{
 
 	if($this->debug){       echo "\nPrinting collection Links #2\n"; }
-	if($this->debug){	print_r($this->collection_links ); }
+	//if($this->debug){	print_r($this->collection_links ); }
 
 /*
             $this->_message_handler_("I","collection_links array found.  Sending to format.", "DEBUG: collection_links is array.");  
@@ -134,14 +134,12 @@ class rewble extends rewbin {
 	                }
         	}
 	    }
-		//print_r($this->ansible_collections);  die();
 	    if(!is_array($this->collection_links[0])){ ###>  Has the array been created?
         	$this->_message_handler_('E','The collection_links array was not creaetd properly.', "DEBUG: collection_links array in read");
 		return false;  								###>  This may need to spawn the action again in the future
 	    }else{
 		$this->_message_handler_('I',"The collection_links array has been creaetd properly. It contains ".count($this->collection_links)
 			." links.","DEBUG: The collection_links array has been creaetd properly. It contains ".count($this->collection_links)." links.");
-		//$this->collection_links=$ansible_collection_links;   	###>  This will be printed out by another function, either cli or web
 	    }
 	}
     }
@@ -160,7 +158,6 @@ class rewble extends rewbin {
 		}
 	}
 	$c=0;  ###>  This counter allows three columns, 123, return, 123, return
-		//print_r($cls);
 	for($i=0;$i<count($cls);$i++){  ###>  This is 
 		if(($i<100)&&($i>9)){ $add=1; }elseif($i<10){ $add=2; }else{ $add=0; }  ###>  Justify for diget length 
 		$txt_content.="#[".($i + 1)."] - ".str_pad($cls[$i]['anchor'], $pad + $add )." ";  ###>  Add each line to text output
@@ -170,7 +167,8 @@ class rewble extends rewbin {
 		$c++;
 		if($c==3){ $txt_content.="\n";  $c=0; }
 	}
-	$this->print_collections=$txt_content;
+	$this->print_collections="\n\n".$txt_content."\n\n";
+	
 	//$this->html_contnet=$html_content;
     }
 
@@ -184,30 +182,28 @@ class rewble extends rewbin {
 	$this->_format_module_list_($coll);
     }
 ######################################################################
-    public function _format_module_list_($coll){
+    public function _format_module_list_($coll){ ###>  Create the module numerical presentation for cli
 	$this->_message_handler_('I',"call to _list_collection_modules_($coll), active_collection=[$this->collection].","DEBUG: Inside _fetch_module_example module_example_url=[$url], module=[$module]");
-	$txt_content='';
-	$pad=0;
+	$txt_content=''; 
+	$pad=0;  
 	$add=0;
         foreach( $this->collection_modules[$coll] as $key => $module){
-        //      if(is_int($key / 2)){
-        	    $nums[]=$key;
-                    if(strlen($module) > $pad){    ###> if the active anchor length is longer than the current pad value,  
-                        $pad=strlen($module);   ###>  the pad value becomes the active anchor length
-                    }
-          //      }
+        	    // $nums[]=$key;
+	    if(strlen($module) > $pad){    ###> if the active anchor length is longer than the current pad value,  
+		$pad=strlen($module);   ###>  the pad value becomes the active anchor length
+            }
         }
-        $cmc=0;
+        $cmc=0;  ###>  This counter to create two columns.
 
 	###> collection_modules is created within _build_collection_modules_array_ ###> 
         foreach( $this->collection_modules[$coll] as $key => $module){         ###>  Print the array with key value to be selected later.
-                $cmc++;  //$up2=false;  //if($cmc==2){  $cmc=0;  $up2="\n";  }
+                $cmc++; ###>  Increment two column counter. 
                 if(($key<100)&&($key>9)){ $add=1; }elseif($key<10){ $add=2; }else{ $add=0; }   ###>  increase alignment padding, purely asthetic
                 $txt_content.= "#[".($key + 1)."] - ".str_pad($module, $pad + $add); ###> incrementing the key value to overcome the 0/null value error emssages.
-                if($cmc==2){  $cmc=0; $txt_content.= "\n";  }  
+                if($cmc==2){  $cmc=0; $txt_content.= "\n";  }  ###> Second column add return and 0 the cmc counter.
         }
-	$this->print_collection_modules= $txt_content;
-	echo $txt_content;
+	$this->print_collection_modules= $txt_content; ###>  Define the print_collection_module value
+	echo "\n\n".$txt_content."\n\n";  ###>  Print the text to cli.
     }
 
 ################################################################################## 
@@ -224,12 +220,9 @@ class rewble extends rewbin {
     public function _format_module_url_(){
 	
 	$this->_message_handler_('I',"call to format_module_url this->collection=[$this->collection],this->module_number=[$this->module_number].","DEBUG: Inside _format_module_url collection=[$this->collection], module_number=[$this->module_number]");
-        //$ma=explode(' ', $this->collection_modules[$this->collection][$this->module_number]);
-	
-        //$this->module=$ma[0];
-        $module_example_url="https://docs.ansible.com/ansible/latest/collections/".$this->collection_links[$this->collection_number]['href'].str_replace(' module','',$this->module)."_module.html#examples";
+        $module_example_url="https://docs.ansible.com/ansible/latest/collections/".$this->collection_links[$this->collection_number]['href'].str_replace(' module','',$this->module)."_module.html#examples"; ###> This is the module example url.
 	$this->_message_handler_('I',"_module_url=[$module_example_url], this->collection=[$this->collection],this->module_number=[$this->module_number].","DEBUG: Inside _format_module_url collection=[$this->collection], module_number=[$this->module_number]");
-        return $module_example_url;
+        return $module_example_url; ###> Return value for url.
     }
 
 
@@ -243,10 +236,8 @@ class rewble extends rewbin {
                 $this->modules_list=$this->page;
                 $this->modules_dom=$this->dom_output;
                 $this->_message_handler_('I',"Collection $this->collection = module_list pulled successfully.","DEBUG: _fetch_collection_modules_ returned module_list=[$this->modules_list]"); ###> 
-                $this->_build_collection_modules_array_();  ###>
+                $this->_build_collection_modules_array_();  ###>  Create the collection_modules array
         }
-        //return $this->modules_list;  ###>
-        //echo $this->print_collection_modules;
     }
 
 
@@ -474,19 +465,28 @@ class rewble extends rewbin {
 ###########################################################
 ####>> validation 
     public function _require_collection_(){
-		if(!$this->collection){
-			$this->_show_collection_index_();
-		}
-			
+	if(!$this->collection){
+		$this->_show_collection_index_();
 	}
+			
+    }
+
+    public function _regular_expression_check_($str,$array){
+	$matches=false;
+	foreach($array as $key => $value){
+		if(preg_match("/$str/",$value)){
+			$matches[]="[".($key +1)."] -> [$value]";
+		}
+	}
+	return $matches;
+    }
 ##############################################################################
     public function _identify_collection_($input_str){   ###> Takes input in the form of number relating to the rewble array key, or the collection name. This is provided in the command or as a choice.
 	$this->_message_handler_('I',"Function call:  _identify_collection_ on value[$input_str].","DEBUG: Collection sent to _identify_collection_ value passed=[$input_str]"); 
 	if ( !ctype_digit(strval($input_str)) ) {
 		$this->_message_handler_('I',"determined value=[$input_str] is NOT an integer.","DEBUG: _identify_collection_() determined value=[$input_str] is NOT an integer. Checking the array for verification.");
-		if(in_array($input_str,$this->ansible_collections)){
+		if(in_array($input_str,$this->ansible_collections)){  ###> Check for exact match
 			if(false!==$key=array_search($input_str,$this->ansible_collections)){
-              //  if(in_array($input_str,$this->ansible_collections)){
         	                $this->collection=$input_str;
 				$this->collection_number=$key;
                         	$this->_message_handler_('I',"Collection successfully identified as [$this->collection],collection_number=[$this->collection_number].","DEBUG: Collection sent to _identify_collection_ value passed=[$this->collection]... line 396 class_rewble.yaml");
@@ -494,7 +494,16 @@ class rewble extends rewbin {
 			}else{
 				return false;
 			}
-                }else{
+                }elseif($matches=$this->_regular_expression_check_($input_str,$this->ansible_collections)){  ###> Check for text matches
+			echo "  These collections matched provided input:[$input_str].";
+			for($i=0;$i<count($matches);$i++){
+				echo "    ".$matches[$i]."\n";
+			}
+			$user_response= readline("\nChoose the number from this collectionl list to browse modules. \n   Type [q] or hit enter to quit: ");
+			if((trim($user_response)!='q')&&(trim($user_response)!='')){
+				$this->_identify_collection_($user_response);
+			}
+		}else{
                         $this->_message_handler_('E'," The collection provided was not found. Please select from the list.","DEBUG: The collection provided was not found. Please select from the list. collection=[$this->collection");
                         $this->_show_collection_index_();
 			return false;
@@ -536,6 +545,17 @@ class rewble extends rewbin {
                		$this->module_number=$key;
                        	$this->_message_handler_('I',"Module identified as [$M].","DEBUG: VALUES:{this->collection=[$this->collection],this->module=[$this->module]}. Function: _identify_module_ recieved value passed=[$M]");
 			return true;
+               }elseif($matches=$this->_regular_expression_check_($M,$this->collection_modules[$this->collection])){  ###> Check for text matches
+			$this->_message_handler_('I',"One or more modules matched provided string [$M].","DEBUG: One or more modules matched the text proveded, they will be listed for selection.");
+                        echo "  These modules matched provided input:[$M].";
+                        for($i=0;$i<count($matches);$i++){
+                                echo "    ".$matches[$i]."\n";
+                        }
+                        $user_response= readline("\nChoose the number from this module list to see examples.\n   Type [q] or hit enter to quit: ");
+                        if((trim($user_response)!='q')&&(trim($user_response)!='')){
+                                $this->_identify_module_($user_response);
+                        }
+
 	        }else{
                 	$this->module=false;
                		$this->module_number=false;

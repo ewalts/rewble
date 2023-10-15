@@ -3390,3 +3390,639 @@
 [2023-10-10 16:40:45]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/autoscaling_group_info_module.html#examples], this->collection=[amazon.aws],this->module_number=[1].
 [2023-10-10 16:40:45]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/autoscaling_group_info_module.html#examples], this->collection=[amazon.aws],module=[].
 [2023-10-10 16:40:45]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-10 16:56:13]: INFO: 
+[2023-10-10 16:56:13]: INFO: Calling _set_vars_from_array_ 
+[2023-10-10 16:56:13]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-10 16:56:13]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-10 16:56:13]: INFO: collection list pulled without error.
+[2023-10-10 16:56:13]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-10 16:56:13]: INFO: verbose flag has been set -v||--verbose
+[2023-10-10 16:56:13]: INFO: Argument switch: request collection value=[amazon.aws]
+[2023-10-10 16:56:13]: INFO: Function call:  _identify_collection_ on value[amazon.aws].
+[2023-10-10 16:56:13]: INFO: determined value=[amazon.aws] is NOT an integer.
+[2023-10-10 16:56:13]: INFO: Collection successfully identified as [amazon.aws],collection_number=[0].
+[2023-10-10 16:56:13]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-10-10 16:56:13]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-10 16:56:13]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-10 16:56:14]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-10 16:56:14]: INFO: _identify_module_ passed INT value=[54] 
+[2023-10-10 16:56:14]: INFO: Module successfully identified as [ec2_vpc_net_info].
+[2023-10-10 16:56:14]: INFO: module defined [ec2_vpc_net_info]
+[2023-10-10 16:56:14]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-10 16:56:14]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-10 16:56:14]: INFO: rewble collection has been set to amazon.aws
+[2023-10-10 16:56:14]: INFO: rewble module has been selected as ec2_vpc_net_info
+[2023-10-10 16:56:14]: ERROR: Module [] not found in active collection VALUES:{this->collection=[amazon.aws],this->module=[]}. Please provide the number from the list.
+[2023-10-10 16:56:14]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-10 16:56:14]: INFO: Module identified as [ec2_vpc_net_info].
+[2023-10-10 16:56:14]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[54].
+[2023-10-10 16:56:14]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_vpc_net_info_module.html#examples], this->collection=[amazon.aws],this->module_number=[54].
+[2023-10-10 16:56:14]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_vpc_net_info_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-10 16:56:14]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-10 18:49:13]: INFO: 
+[2023-10-10 18:49:13]: INFO: Calling _set_vars_from_array_ 
+[2023-10-10 18:49:13]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-10 18:49:13]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-10 18:49:13]: INFO: collection list pulled without error.
+[2023-10-10 18:49:13]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-10 18:49:13]: INFO: verbose flag has been set -v||--verbose
+[2023-10-10 18:49:13]: INFO: Argument switch: request collection value=[amazon.aws]
+[2023-10-10 18:49:13]: INFO: Function call:  _identify_collection_ on value[amazon.aws].
+[2023-10-10 18:49:13]: INFO: determined value=[amazon.aws] is NOT an integer.
+[2023-10-10 18:49:13]: INFO: Collection successfully identified as [amazon.aws],collection_number=[0].
+[2023-10-10 18:49:13]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-10-10 18:49:13]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-10 18:49:13]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-10 18:49:14]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-10 18:49:14]: INFO: _identify_module_ passed INT value=[53] 
+[2023-10-10 18:49:14]: INFO: Module successfully identified as [ec2_vpc_net].
+[2023-10-10 18:49:14]: INFO: module defined [ec2_vpc_net]
+[2023-10-10 18:49:14]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-10 18:49:14]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-10 18:49:14]: INFO: rewble collection has been set to amazon.aws
+[2023-10-10 18:49:14]: INFO: rewble module has been selected as ec2_vpc_net
+[2023-10-10 18:49:14]: ERROR: Module [] not found in active collection VALUES:{this->collection=[amazon.aws],this->module=[]}. Please provide the number from the list.
+[2023-10-10 18:49:14]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-10 18:49:14]: INFO: Module identified as [ec2_vpc_net].
+[2023-10-10 18:49:14]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[53].
+[2023-10-10 18:49:14]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_vpc_net_module.html#examples], this->collection=[amazon.aws],this->module_number=[53].
+[2023-10-10 18:49:14]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_vpc_net_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-10 18:49:14]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-10 18:49:24]: INFO: 
+[2023-10-10 18:49:24]: INFO: Calling _set_vars_from_array_ 
+[2023-10-10 18:49:24]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-10 18:49:24]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-10 18:49:25]: INFO: collection list pulled without error.
+[2023-10-10 18:49:25]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-10 18:49:25]: INFO: verbose flag has been set -v||--verbose
+[2023-10-10 18:49:25]: INFO: Argument switch: request collection value=[amazon.aws]
+[2023-10-10 18:49:25]: INFO: Function call:  _identify_collection_ on value[amazon.aws].
+[2023-10-10 18:49:25]: INFO: determined value=[amazon.aws] is NOT an integer.
+[2023-10-10 18:49:25]: INFO: Collection successfully identified as [amazon.aws],collection_number=[0].
+[2023-10-10 18:49:25]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-10-10 18:49:25]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-10 18:49:25]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-10 18:49:25]: INFO: rewble collection has been set to amazon.aws
+[2023-10-10 18:49:25]: INFO: rewble module has not been selected, calling _list_collection_modules_(amazon.aws)
+[2023-10-10 18:49:25]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-10 18:49:25]: INFO: collection_modules(amazon.aws) was not an array. Will attempt to fetch modules.
+[2023-10-10 18:49:25]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-10 18:49:25]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-10 18:49:25]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-10 18:49:25]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-10 18:49:37]: INFO: _identify_module_ passed INT value=[31] 
+[2023-10-10 18:49:37]: INFO: Module successfully identified as [ec2_key].
+[2023-10-10 18:49:37]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[31].
+[2023-10-10 18:49:37]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_key_module.html#examples], this->collection=[amazon.aws],this->module_number=[31].
+[2023-10-10 18:49:37]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_key_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-10 18:49:37]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-11 08:15:48]: INFO: 
+[2023-10-11 08:15:48]: INFO: Calling _set_vars_from_array_ 
+[2023-10-11 08:15:48]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-11 08:15:48]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-11 08:15:49]: INFO: collection list pulled without error.
+[2023-10-11 08:15:49]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-11 08:15:49]: INFO: Argument switch: request collection value=[1]
+[2023-10-11 08:15:49]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-11 08:15:49]: INFO: determined value=[1] is integer.
+[2023-10-11 08:15:49]: INFO: Collection successfully identified as [amazon.aws].
+[2023-10-11 08:15:49]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-10-11 08:15:49]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-11 08:15:49]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-11 08:15:49]: INFO: rewble collection has been set to amazon.aws
+[2023-10-11 08:15:49]: INFO: rewble module has not been selected, calling _list_collection_modules_(amazon.aws)
+[2023-10-11 08:15:49]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-11 08:15:49]: INFO: collection_modules(amazon.aws) was not an array. Will attempt to fetch modules.
+[2023-10-11 08:15:49]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-11 08:15:49]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-11 08:15:49]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-11 08:15:49]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-11 08:16:11]: INFO: _identify_module_ passed INT value=[0] 
+[2023-10-11 08:16:11]: INFO: Module successfully identified as [autoscaling_group].
+[2023-10-11 08:16:11]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[0].
+[2023-10-11 08:16:11]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/autoscaling_group_module.html#examples], this->collection=[amazon.aws],this->module_number=[0].
+[2023-10-11 08:16:11]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/autoscaling_group_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-11 08:16:11]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-11 08:35:16]: INFO: 
+[2023-10-11 08:35:16]: INFO: Calling _set_vars_from_array_ 
+[2023-10-11 08:35:16]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-11 08:35:16]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-11 08:35:20]: INFO: collection list pulled without error.
+[2023-10-11 08:35:20]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-11 08:35:20]: INFO: Argument switch: request collection value=[1]
+[2023-10-11 08:35:20]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-11 08:35:20]: INFO: determined value=[1] is integer.
+[2023-10-11 08:35:20]: INFO: Collection successfully identified as [amazon.aws].
+[2023-10-11 08:35:20]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-10-11 08:35:20]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-11 08:35:20]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-11 08:35:20]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-11 08:35:20]: ERROR: Module [loadbalancer] not found in active collection VALUES:{this->collection=[amazon.aws],this->module=[]}. Please provide the number from the list.
+[2023-10-11 08:35:20]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-11 08:35:20]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-11 08:35:20]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-11 08:35:20]: INFO: rewble collection has been set to amazon.aws
+[2023-10-11 08:35:20]: INFO: rewble module has not been selected, calling _list_collection_modules_(amazon.aws)
+[2023-10-11 08:35:20]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-11 08:35:20]: INFO: collection_modules(amazon.aws) was not an array. Will attempt to fetch modules.
+[2023-10-11 08:35:20]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-11 08:35:20]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-11 08:35:21]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-11 08:35:21]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-11 08:36:52]: INFO: 
+[2023-10-11 08:36:52]: INFO: Calling _set_vars_from_array_ 
+[2023-10-11 08:36:52]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-11 08:36:52]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-11 08:36:52]: INFO: collection list pulled without error.
+[2023-10-11 08:36:52]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-11 08:36:52]: INFO: Argument switch: request collection value=[1]
+[2023-10-11 08:36:52]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-11 08:36:52]: INFO: determined value=[1] is integer.
+[2023-10-11 08:36:52]: INFO: Collection successfully identified as [amazon.aws].
+[2023-10-11 08:36:52]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-10-11 08:36:52]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-11 08:36:52]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-11 08:36:53]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-11 08:36:53]: INFO: Module identified as [elb_application_lb].
+[2023-10-11 08:36:53]: INFO: module defined [elb_application_lb]
+[2023-10-11 08:36:53]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-11 08:36:53]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-11 08:36:53]: INFO: rewble collection has been set to amazon.aws
+[2023-10-11 08:36:53]: INFO: rewble module has been selected as elb_application_lb
+[2023-10-11 08:36:53]: ERROR: Module [] not found in active collection VALUES:{this->collection=[amazon.aws],this->module=[]}. Please provide the number from the list.
+[2023-10-11 08:36:53]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-11 08:36:53]: INFO: Module identified as [elb_application_lb].
+[2023-10-11 08:36:53]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[59].
+[2023-10-11 08:36:53]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/elb_application_lb_module.html#examples], this->collection=[amazon.aws],this->module_number=[59].
+[2023-10-11 08:36:53]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/elb_application_lb_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-11 08:36:53]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-11 12:21:53]: INFO: 
+[2023-10-11 12:21:53]: INFO: Calling _set_vars_from_array_ 
+[2023-10-11 12:21:53]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-11 12:21:53]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-11 12:21:54]: INFO: collection list pulled without error.
+[2023-10-11 12:21:54]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-11 12:21:54]: INFO: Argument switch: request collection value=[1]
+[2023-10-11 12:21:54]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-11 12:21:54]: INFO: determined value=[1] is integer.
+[2023-10-11 12:21:54]: INFO: Collection successfully identified as [amazon.aws].
+[2023-10-11 12:21:54]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-10-11 12:21:54]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-11 12:21:54]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-11 12:21:55]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-11 12:21:55]: INFO: Module identified as [cloudformation].
+[2023-10-11 12:21:55]: INFO: module defined [cloudformation]
+[2023-10-11 12:21:55]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-11 12:21:55]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-11 12:21:55]: INFO: rewble collection has been set to amazon.aws
+[2023-10-11 12:21:55]: INFO: rewble module has been selected as cloudformation
+[2023-10-11 12:21:55]: ERROR: Module [] not found in active collection VALUES:{this->collection=[amazon.aws],this->module=[]}. Please provide the number from the list.
+[2023-10-11 12:21:55]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-11 12:21:55]: INFO: Module identified as [cloudformation].
+[2023-10-11 12:21:55]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[13].
+[2023-10-11 12:21:55]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/cloudformation_module.html#examples], this->collection=[amazon.aws],this->module_number=[13].
+[2023-10-11 12:21:55]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/cloudformation_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-11 12:21:55]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-11 12:24:37]: INFO: 
+[2023-10-11 12:24:37]: INFO: Calling _set_vars_from_array_ 
+[2023-10-11 12:24:37]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-11 12:24:37]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-11 12:24:37]: INFO: collection list pulled without error.
+[2023-10-11 12:24:37]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-11 12:24:37]: INFO: Argument switch: request collection value=[1]
+[2023-10-11 12:24:37]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-11 12:24:37]: INFO: determined value=[1] is integer.
+[2023-10-11 12:24:37]: INFO: Collection successfully identified as [amazon.aws].
+[2023-10-11 12:24:37]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-10-11 12:24:37]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-11 12:24:37]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-11 12:24:37]: INFO: rewble collection has been set to amazon.aws
+[2023-10-11 12:24:37]: INFO: rewble module has not been selected, calling _list_collection_modules_(amazon.aws)
+[2023-10-11 12:24:37]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-11 12:24:37]: INFO: collection_modules(amazon.aws) was not an array. Will attempt to fetch modules.
+[2023-10-11 12:24:37]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-11 12:24:37]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-11 12:24:37]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-11 12:24:37]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-11 12:24:53]: INFO: _identify_module_ passed INT value=[38] 
+[2023-10-11 12:24:53]: INFO: Module successfully identified as [ec2_spot_instance].
+[2023-10-11 12:24:53]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[38].
+[2023-10-11 12:24:53]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_spot_instance_module.html#examples], this->collection=[amazon.aws],this->module_number=[38].
+[2023-10-11 12:24:53]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_spot_instance_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-11 12:24:53]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-11 12:25:07]: INFO: 
+[2023-10-11 12:25:07]: INFO: Calling _set_vars_from_array_ 
+[2023-10-11 12:25:07]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-11 12:25:07]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-11 12:25:07]: INFO: collection list pulled without error.
+[2023-10-11 12:25:07]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-11 12:25:07]: INFO: Argument switch: request collection value=[1]
+[2023-10-11 12:25:07]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-11 12:25:07]: INFO: determined value=[1] is integer.
+[2023-10-11 12:25:07]: INFO: Collection successfully identified as [amazon.aws].
+[2023-10-11 12:25:07]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-10-11 12:25:07]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-11 12:25:07]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-11 12:25:08]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-11 12:25:08]: INFO: _identify_module_ passed INT value=[29] 
+[2023-10-11 12:25:08]: INFO: Module successfully identified as [ec2_instance].
+[2023-10-11 12:25:08]: INFO: module defined [ec2_instance]
+[2023-10-11 12:25:08]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-11 12:25:08]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-11 12:25:08]: INFO: rewble collection has been set to amazon.aws
+[2023-10-11 12:25:08]: INFO: rewble module has been selected as ec2_instance
+[2023-10-11 12:25:08]: ERROR: Module [] not found in active collection VALUES:{this->collection=[amazon.aws],this->module=[]}. Please provide the number from the list.
+[2023-10-11 12:25:08]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-11 12:25:08]: INFO: Module identified as [ec2_instance].
+[2023-10-11 12:25:08]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[29].
+[2023-10-11 12:25:08]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_instance_module.html#examples], this->collection=[amazon.aws],this->module_number=[29].
+[2023-10-11 12:25:08]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_instance_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-11 12:25:08]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 08:08:35]: INFO: 
+[2023-10-13 08:08:35]: INFO: Calling _set_vars_from_array_ 
+[2023-10-13 08:08:35]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-13 08:08:35]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 08:08:36]: INFO: collection list pulled without error.
+[2023-10-13 08:08:36]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-13 08:08:36]: INFO: Argument switch: request collection value=[amazon.aws]
+[2023-10-13 08:08:36]: INFO: Function call:  _identify_collection_ on value[amazon.aws].
+[2023-10-13 08:08:36]: INFO: determined value=[amazon.aws] is NOT an integer.
+[2023-10-13 08:08:36]: INFO: Collection successfully identified as [amazon.aws],collection_number=[0].
+[2023-10-13 08:08:36]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-10-13 08:08:36]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-13 08:08:36]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-13 08:08:36]: INFO: rewble collection has been set to amazon.aws
+[2023-10-13 08:08:36]: INFO: rewble module has not been selected, calling _list_collection_modules_(amazon.aws)
+[2023-10-13 08:08:36]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-13 08:08:36]: INFO: collection_modules(amazon.aws) was not an array. Will attempt to fetch modules.
+[2023-10-13 08:08:36]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-13 08:08:36]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 08:08:36]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-13 08:08:36]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-13 08:08:44]: INFO: _identify_module_ passed INT value=[0] 
+[2023-10-13 08:08:44]: INFO: Module successfully identified as [autoscaling_group].
+[2023-10-13 08:08:44]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[0].
+[2023-10-13 08:08:44]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/autoscaling_group_module.html#examples], this->collection=[amazon.aws],this->module_number=[0].
+[2023-10-13 08:08:44]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/autoscaling_group_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-13 08:08:44]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 08:39:40]: INFO: 
+[2023-10-13 08:39:40]: INFO: Calling _set_vars_from_array_ 
+[2023-10-13 08:39:40]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-13 08:39:40]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 08:39:41]: INFO: collection list pulled without error.
+[2023-10-13 08:39:41]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-13 08:39:41]: INFO: Argument switch: request collection value=[amazon.aws]
+[2023-10-13 08:39:41]: INFO: Function call:  _identify_collection_ on value[amazon.aws].
+[2023-10-13 08:39:41]: INFO: determined value=[amazon.aws] is NOT an integer.
+[2023-10-13 08:39:41]: INFO: Collection successfully identified as [amazon.aws],collection_number=[0].
+[2023-10-13 08:39:41]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-10-13 08:39:41]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-13 08:39:41]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-13 08:39:41]: INFO: rewble collection has been set to amazon.aws
+[2023-10-13 08:39:41]: INFO: rewble module has not been selected, calling _list_collection_modules_(amazon.aws)
+[2023-10-13 08:39:41]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-13 08:39:41]: INFO: collection_modules(amazon.aws) was not an array. Will attempt to fetch modules.
+[2023-10-13 08:39:41]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-13 08:39:41]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 08:39:41]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-13 08:39:41]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-13 08:41:30]: INFO: _identify_module_ passed INT value=[61] 
+[2023-10-13 08:41:30]: INFO: Module successfully identified as [elb_classic_lb].
+[2023-10-13 08:41:30]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[61].
+[2023-10-13 08:41:30]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/elb_classic_lb_module.html#examples], this->collection=[amazon.aws],this->module_number=[61].
+[2023-10-13 08:41:30]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/elb_classic_lb_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-13 08:41:30]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 09:40:00]: INFO: 
+[2023-10-13 09:40:00]: INFO: Calling _set_vars_from_array_ 
+[2023-10-13 09:40:00]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-13 09:40:00]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 09:40:00]: INFO: collection list pulled without error.
+[2023-10-13 09:40:00]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-13 09:40:00]: INFO: Argument switch: request collection value=[amazon.aws]
+[2023-10-13 09:40:00]: INFO: Function call:  _identify_collection_ on value[amazon.aws].
+[2023-10-13 09:40:00]: INFO: determined value=[amazon.aws] is NOT an integer.
+[2023-10-13 09:40:00]: INFO: Collection successfully identified as [amazon.aws],collection_number=[0].
+[2023-10-13 09:40:00]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-10-13 09:40:00]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-13 09:40:00]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 09:40:01]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-13 09:40:01]: INFO: Module identified as [ec2_security_group].
+[2023-10-13 09:40:01]: INFO: module defined [ec2_security_group]
+[2023-10-13 09:40:01]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-13 09:40:01]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-13 09:40:01]: INFO: rewble collection has been set to amazon.aws
+[2023-10-13 09:40:01]: INFO: rewble module has been selected as ec2_security_group
+[2023-10-13 09:40:01]: ERROR: Module [] not found in active collection VALUES:{this->collection=[amazon.aws],this->module=[]}. Please provide the number from the list.
+[2023-10-13 09:40:01]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-13 09:40:01]: INFO: Module identified as [ec2_security_group].
+[2023-10-13 09:40:01]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[34].
+[2023-10-13 09:40:01]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_security_group_module.html#examples], this->collection=[amazon.aws],this->module_number=[34].
+[2023-10-13 09:40:01]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_security_group_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-13 09:40:01]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 10:47:10]: INFO: 
+[2023-10-13 10:47:10]: INFO: Calling _set_vars_from_array_ 
+[2023-10-13 10:47:10]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-13 10:47:10]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 10:47:10]: INFO: collection list pulled without error.
+[2023-10-13 10:47:10]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-13 10:47:10]: INFO: Argument switch: request collection value=[1]
+[2023-10-13 10:47:10]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-13 10:47:10]: INFO: determined value=[1] is integer.
+[2023-10-13 10:47:10]: INFO: Collection successfully identified as [amazon.aws].
+[2023-10-13 10:47:10]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-10-13 10:47:10]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-13 10:47:10]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-13 10:47:10]: INFO: rewble collection has been set to amazon.aws
+[2023-10-13 10:47:10]: INFO: rewble module has not been selected, calling _list_collection_modules_(amazon.aws)
+[2023-10-13 10:47:10]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-13 10:47:10]: INFO: collection_modules(amazon.aws) was not an array. Will attempt to fetch modules.
+[2023-10-13 10:47:10]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-13 10:47:10]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 10:47:11]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-13 10:47:11]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-13 10:48:27]: INFO: _identify_module_ passed INT value=[0] 
+[2023-10-13 10:48:27]: INFO: Module successfully identified as [autoscaling_group].
+[2023-10-13 10:48:27]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[0].
+[2023-10-13 10:48:27]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/autoscaling_group_module.html#examples], this->collection=[amazon.aws],this->module_number=[0].
+[2023-10-13 10:48:27]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/autoscaling_group_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-13 10:48:27]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 10:49:32]: INFO: 
+[2023-10-13 10:49:32]: INFO: Calling _set_vars_from_array_ 
+[2023-10-13 10:49:32]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-13 10:49:32]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 10:49:33]: INFO: collection list pulled without error.
+[2023-10-13 10:49:33]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-13 10:49:33]: INFO: Argument switch: request collection value=[1]
+[2023-10-13 10:49:33]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-13 10:49:33]: INFO: determined value=[1] is integer.
+[2023-10-13 10:49:33]: INFO: Collection successfully identified as [amazon.aws].
+[2023-10-13 10:49:33]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-10-13 10:49:33]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-13 10:49:33]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-13 10:49:33]: INFO: rewble collection has been set to amazon.aws
+[2023-10-13 10:49:33]: INFO: rewble module has not been selected, calling _list_collection_modules_(amazon.aws)
+[2023-10-13 10:49:33]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-13 10:49:33]: INFO: collection_modules(amazon.aws) was not an array. Will attempt to fetch modules.
+[2023-10-13 10:49:33]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-13 10:49:33]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 10:49:34]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-13 10:49:34]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-13 10:49:46]: INFO: _identify_module_ passed INT value=[57] 
+[2023-10-13 10:49:46]: INFO: Module successfully identified as [ec2_vpc_subnet].
+[2023-10-13 10:49:46]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[57].
+[2023-10-13 10:49:46]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_vpc_subnet_module.html#examples], this->collection=[amazon.aws],this->module_number=[57].
+[2023-10-13 10:49:46]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_vpc_subnet_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-13 10:49:46]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 10:49:56]: INFO: 
+[2023-10-13 10:49:56]: INFO: Calling _set_vars_from_array_ 
+[2023-10-13 10:49:56]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-13 10:49:56]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 10:49:57]: INFO: collection list pulled without error.
+[2023-10-13 10:49:57]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-13 10:49:57]: INFO: Argument switch: request collection value=[1]
+[2023-10-13 10:49:57]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-13 10:49:57]: INFO: determined value=[1] is integer.
+[2023-10-13 10:49:57]: INFO: Collection successfully identified as [amazon.aws].
+[2023-10-13 10:49:57]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-10-13 10:49:57]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-13 10:49:57]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-13 10:49:57]: INFO: rewble collection has been set to amazon.aws
+[2023-10-13 10:49:57]: INFO: rewble module has not been selected, calling _list_collection_modules_(amazon.aws)
+[2023-10-13 10:49:57]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-13 10:49:57]: INFO: collection_modules(amazon.aws) was not an array. Will attempt to fetch modules.
+[2023-10-13 10:49:57]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-13 10:49:57]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 10:49:57]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-13 10:49:57]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-13 10:50:09]: INFO: _identify_module_ passed INT value=[61] 
+[2023-10-13 10:50:09]: INFO: Module successfully identified as [elb_classic_lb].
+[2023-10-13 10:50:09]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[61].
+[2023-10-13 10:50:09]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/elb_classic_lb_module.html#examples], this->collection=[amazon.aws],this->module_number=[61].
+[2023-10-13 10:50:09]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/elb_classic_lb_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-13 10:50:09]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 12:42:31]: INFO: 
+[2023-10-13 12:42:31]: INFO: Calling _set_vars_from_array_ 
+[2023-10-13 12:42:31]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-13 12:42:31]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 12:42:33]: INFO: collection list pulled without error.
+[2023-10-13 12:42:33]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-13 12:42:33]: INFO: Argument switch: request collection value=[1]
+[2023-10-13 12:42:33]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-13 12:42:33]: INFO: determined value=[1] is integer.
+[2023-10-13 12:42:33]: INFO: Collection successfully identified as [amazon.aws].
+[2023-10-13 12:42:33]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-10-13 12:42:33]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-13 12:42:33]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-13 12:42:33]: INFO: rewble collection has been set to amazon.aws
+[2023-10-13 12:42:33]: INFO: rewble module has not been selected, calling _list_collection_modules_(amazon.aws)
+[2023-10-13 12:42:33]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-13 12:42:33]: INFO: collection_modules(amazon.aws) was not an array. Will attempt to fetch modules.
+[2023-10-13 12:42:33]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-13 12:42:33]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 12:42:33]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-13 12:42:33]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-13 12:42:55]: INFO: Module identified as [ec2_vpc_subnet].
+[2023-10-13 12:42:55]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[57].
+[2023-10-13 12:42:55]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_vpc_subnet_module.html#examples], this->collection=[amazon.aws],this->module_number=[57].
+[2023-10-13 12:42:55]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_vpc_subnet_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-13 12:42:55]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 12:43:26]: INFO: 
+[2023-10-13 12:43:26]: INFO: Calling _set_vars_from_array_ 
+[2023-10-13 12:43:26]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-13 12:43:26]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 12:43:26]: INFO: collection list pulled without error.
+[2023-10-13 12:43:26]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-13 12:43:26]: INFO: Argument switch: request collection value=[1]
+[2023-10-13 12:43:26]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-13 12:43:26]: INFO: determined value=[1] is integer.
+[2023-10-13 12:43:26]: INFO: Collection successfully identified as [amazon.aws].
+[2023-10-13 12:43:26]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-10-13 12:43:26]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-13 12:43:26]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-13 12:43:26]: INFO: rewble collection has been set to amazon.aws
+[2023-10-13 12:43:26]: INFO: rewble module has not been selected, calling _list_collection_modules_(amazon.aws)
+[2023-10-13 12:43:26]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-13 12:43:26]: INFO: collection_modules(amazon.aws) was not an array. Will attempt to fetch modules.
+[2023-10-13 12:43:26]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-13 12:43:26]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 12:43:27]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-13 12:43:27]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-13 12:43:53]: INFO: Module identified as [ec2_vpc_net].
+[2023-10-13 12:43:53]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[53].
+[2023-10-13 12:43:53]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_vpc_net_module.html#examples], this->collection=[amazon.aws],this->module_number=[53].
+[2023-10-13 12:43:53]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_vpc_net_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-13 12:43:53]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 15:32:24]: INFO: 
+[2023-10-13 15:32:24]: INFO: Calling _set_vars_from_array_ 
+[2023-10-13 15:32:24]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-13 15:32:24]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 15:32:24]: INFO: collection list pulled without error.
+[2023-10-13 15:32:24]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-13 15:32:24]: INFO: Argument switch: request collection value=[1]
+[2023-10-13 15:32:24]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-13 15:32:24]: INFO: determined value=[1] is integer.
+[2023-10-13 15:32:24]: INFO: Collection successfully identified as [amazon.aws].
+[2023-10-13 15:32:24]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-10-13 15:32:24]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-13 15:32:24]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-13 15:32:24]: INFO: rewble collection has been set to amazon.aws
+[2023-10-13 15:32:24]: INFO: rewble module has not been selected, calling _list_collection_modules_(amazon.aws)
+[2023-10-13 15:32:24]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-13 15:32:24]: INFO: collection_modules(amazon.aws) was not an array. Will attempt to fetch modules.
+[2023-10-13 15:32:24]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-13 15:32:24]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-13 15:32:25]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-13 15:32:25]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-13 15:33:22]: INFO: _identify_module_ passed INT value=[1] 
+[2023-10-13 15:33:22]: INFO: Module successfully identified as [autoscaling_group_info].
+[2023-10-13 15:33:22]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[1].
+[2023-10-13 15:33:22]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/autoscaling_group_info_module.html#examples], this->collection=[amazon.aws],this->module_number=[1].
+[2023-10-13 15:33:22]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/autoscaling_group_info_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-10-13 15:33:22]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-14 20:13:00]: INFO: 
+[2023-10-14 20:13:00]: INFO: Calling _set_vars_from_array_ 
+[2023-10-14 20:13:00]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-14 20:13:00]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-14 20:13:01]: INFO: collection list pulled without error.
+[2023-10-14 20:13:01]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-14 20:13:01]: INFO: Argument switch: request collection value=[amazon]
+[2023-10-14 20:13:01]: INFO: Function call:  _identify_collection_ on value[amazon].
+[2023-10-14 20:13:01]: INFO: determined value=[amazon] is NOT an integer.
+[2023-10-14 20:13:13]: INFO: Function call:  _identify_collection_ on value[0].
+[2023-10-14 20:13:13]: INFO: determined value=[0] is integer.
+[2023-10-14 20:13:13]: INFO: Collection successfully identified as [].
+[2023-10-14 20:13:13]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-14 20:13:13]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-14 20:13:13]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-14 20:15:06]: INFO: 
+[2023-10-14 20:15:06]: INFO: Calling _set_vars_from_array_ 
+[2023-10-14 20:15:06]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-14 20:15:06]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-14 20:15:07]: INFO: collection list pulled without error.
+[2023-10-14 20:15:07]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-14 20:15:07]: INFO: Argument switch: request collection value=[amazon]
+[2023-10-14 20:15:07]: INFO: Function call:  _identify_collection_ on value[amazon].
+[2023-10-14 20:15:07]: INFO: determined value=[amazon] is NOT an integer.
+[2023-10-14 20:15:09]: INFO: Function call:  _identify_collection_ on value[1].
+[2023-10-14 20:15:09]: INFO: determined value=[1] is integer.
+[2023-10-14 20:15:09]: INFO: Collection successfully identified as [amazon.aws].
+[2023-10-14 20:15:09]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-14 20:15:09]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-14 20:15:09]: INFO: rewble collection has been set to amazon.aws
+[2023-10-14 20:15:09]: INFO: rewble module has not been selected, calling _list_collection_modules_(amazon.aws)
+[2023-10-14 20:15:09]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-14 20:15:09]: INFO: collection_modules(amazon.aws) was not an array. Will attempt to fetch modules.
+[2023-10-14 20:15:09]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-10-14 20:15:09]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-14 20:15:09]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-10-14 20:15:09]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-10-14 20:15:33]: INFO: 
+[2023-10-14 20:15:33]: INFO: Calling _set_vars_from_array_ 
+[2023-10-14 20:15:33]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-14 20:15:33]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-14 20:15:34]: INFO: collection list pulled without error.
+[2023-10-14 20:15:34]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-14 20:15:34]: INFO: Argument switch: request collection value=[commun]
+[2023-10-14 20:15:34]: INFO: Function call:  _identify_collection_ on value[commun].
+[2023-10-14 20:15:34]: INFO: determined value=[commun] is NOT an integer.
+[2023-10-14 20:15:39]: INFO: Function call:  _identify_collection_ on value[40].
+[2023-10-14 20:15:39]: INFO: determined value=[40] is integer.
+[2023-10-14 20:15:39]: INFO: Collection successfully identified as [community.mongodb].
+[2023-10-14 20:15:39]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-14 20:15:39]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-14 20:15:39]: INFO: rewble collection has been set to community.mongodb
+[2023-10-14 20:15:39]: INFO: rewble module has not been selected, calling _list_collection_modules_(community.mongodb)
+[2023-10-14 20:15:39]: INFO: call to _list_collection_modules_(community.mongodb), active_collection=[community.mongodb].
+[2023-10-14 20:15:39]: INFO: collection_modules(community.mongodb) was not an array. Will attempt to fetch modules.
+[2023-10-14 20:15:39]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/community/mongodb/index.html#plugin-index]
+[2023-10-14 20:15:39]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-14 20:15:39]: INFO: Collection community.mongodb = module_list pulled successfully.
+[2023-10-14 20:15:39]: INFO: call to _list_collection_modules_(community.mongodb), active_collection=[community.mongodb].
+[2023-10-14 21:49:46]: INFO: 
+[2023-10-14 21:49:46]: INFO: Calling _set_vars_from_array_ 
+[2023-10-14 21:49:46]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-14 21:49:46]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-14 21:49:46]: INFO: collection list pulled without error.
+[2023-10-14 21:49:46]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-14 21:49:46]: INFO: Argument switch: request collection value=[commun]
+[2023-10-14 21:49:46]: INFO: Function call:  _identify_collection_ on value[commun].
+[2023-10-14 21:49:46]: INFO: determined value=[commun] is NOT an integer.
+[2023-10-14 21:50:03]: INFO: Function call:  _identify_collection_ on value[q].
+[2023-10-14 21:50:03]: INFO: determined value=[q] is NOT an integer.
+[2023-10-14 21:50:09]: INFO: Function call:  _identify_collection_ on value[q].
+[2023-10-14 21:50:09]: INFO: determined value=[q] is NOT an integer.
+[2023-10-14 21:50:10]: INFO: Function call:  _identify_collection_ on value[q].
+[2023-10-14 21:50:10]: INFO: determined value=[q] is NOT an integer.
+[2023-10-14 21:50:57]: INFO: Function call:  _identify_collection_ on value[q].
+[2023-10-14 21:50:57]: INFO: determined value=[q] is NOT an integer.
+[2023-10-14 22:34:03]: INFO: Function call:  _identify_collection_ on value[].
+[2023-10-14 22:34:03]: INFO: determined value=[] is NOT an integer.
+[2023-10-14 22:34:30]: INFO: Function call:  _identify_collection_ on value[quit].
+[2023-10-14 22:34:30]: INFO: determined value=[quit] is NOT an integer.
+[2023-10-14 22:34:30]: ERROR:  The collection provided was not found. Please select from the list.
+[2023-10-14 22:34:30]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-14 22:34:30]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-14 22:34:30]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-14 22:34:30]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
+[2023-10-14 22:36:58]: INFO: 
+[2023-10-14 22:36:58]: INFO: Calling _set_vars_from_array_ 
+[2023-10-14 22:36:58]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-14 22:36:58]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-14 22:36:59]: INFO: collection list pulled without error.
+[2023-10-14 22:36:59]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-14 22:36:59]: INFO: Argument switch: request collection value=[commun]
+[2023-10-14 22:36:59]: INFO: Function call:  _identify_collection_ on value[commun].
+[2023-10-14 22:36:59]: INFO: determined value=[commun] is NOT an integer.
+[2023-10-14 22:37:04]: INFO: Function call:  _identify_collection_ on value[34].
+[2023-10-14 22:37:04]: INFO: determined value=[34] is integer.
+[2023-10-14 22:37:04]: INFO: Collection successfully identified as [community.general].
+[2023-10-14 22:37:04]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-14 22:37:04]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-14 22:37:04]: INFO: rewble collection has been set to community.general
+[2023-10-14 22:37:04]: INFO: rewble module has not been selected, calling _list_collection_modules_(community.general)
+[2023-10-14 22:37:04]: INFO: call to _list_collection_modules_(community.general), active_collection=[community.general].
+[2023-10-14 22:37:04]: INFO: collection_modules(community.general) was not an array. Will attempt to fetch modules.
+[2023-10-14 22:37:04]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/community/general/index.html#plugin-index]
+[2023-10-14 22:37:04]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-14 22:37:05]: INFO: Collection community.general = module_list pulled successfully.
+[2023-10-14 22:37:05]: INFO: call to _list_collection_modules_(community.general), active_collection=[community.general].
+[2023-10-14 22:37:22]: INFO: _identify_module_ passed INT value=[2] 
+[2023-10-14 22:37:22]: INFO: Module successfully identified as [aix_devices].
+[2023-10-14 22:37:22]: INFO: call to format_module_url this->collection=[community.general],this->module_number=[2].
+[2023-10-14 22:37:22]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/community/general/aix_devices_module.html#examples], this->collection=[community.general],this->module_number=[2].
+[2023-10-14 22:37:22]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/community/general/aix_devices_module.html#examples], this->collection=[community.general],module=[].
+[2023-10-14 22:37:22]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-14 23:31:21]: INFO: 
+[2023-10-14 23:31:21]: INFO: Calling _set_vars_from_array_ 
+[2023-10-14 23:31:21]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-14 23:31:21]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-14 23:31:22]: INFO: collection list pulled without error.
+[2023-10-14 23:31:22]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-14 23:31:22]: INFO: Argument switch: request collection value=[commun]
+[2023-10-14 23:31:22]: INFO: Function call:  _identify_collection_ on value[commun].
+[2023-10-14 23:31:22]: INFO: determined value=[commun] is NOT an integer.
+[2023-10-14 23:31:27]: INFO: Function call:  _identify_collection_ on value[34].
+[2023-10-14 23:31:27]: INFO: determined value=[34] is integer.
+[2023-10-14 23:31:27]: INFO: Collection successfully identified as [community.general].
+[2023-10-14 23:31:27]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-14 23:31:27]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-14 23:31:27]: INFO: rewble collection has been set to community.general
+[2023-10-14 23:31:27]: INFO: rewble module has not been selected, calling _list_collection_modules_(community.general)
+[2023-10-14 23:31:27]: INFO: call to _list_collection_modules_(community.general), active_collection=[community.general].
+[2023-10-14 23:31:27]: INFO: collection_modules(community.general) was not an array. Will attempt to fetch modules.
+[2023-10-14 23:31:27]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/community/general/index.html#plugin-index]
+[2023-10-14 23:31:27]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-14 23:31:28]: INFO: Collection community.general = module_list pulled successfully.
+[2023-10-14 23:31:28]: INFO: call to _list_collection_modules_(community.general), active_collection=[community.general].
+[2023-10-14 23:32:05]: INFO: 
+[2023-10-14 23:32:05]: INFO: Calling _set_vars_from_array_ 
+[2023-10-14 23:32:05]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-10-14 23:32:05]: INFO: Call to _fetch_ansible_docs_element_ l:65: 
+[2023-10-14 23:32:06]: INFO: collection list pulled without error.
+[2023-10-14 23:32:06]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-10-14 23:32:06]: INFO: Argument switch: request collection value=[comm]
+[2023-10-14 23:32:06]: INFO: Function call:  _identify_collection_ on value[comm].
+[2023-10-14 23:32:06]: INFO: determined value=[comm] is NOT an integer.
+[2023-10-14 23:32:09]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-10-14 23:32:09]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-10-14 23:32:09]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]
