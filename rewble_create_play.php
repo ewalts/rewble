@@ -8,9 +8,9 @@
 ###>  		- 	./rewble_create_play.php -d -v    
 ###>  This script calls the main configuration file.  Other files are included there.
 
-$__dir__= getcwd(); 
+$__dir__ =__dir__;
 
-require_once ('conf/main.php');  ###>  This file includes other files: [/inc/class_rewble.php, /inc/switch_argvars_proc.php].
+require_once ($__dir__.'/conf/main.php');  ###>  This file includes other files: [/inc/class_rewble.php, /inc/switch_argvars_proc.php].
 
 ###> If nothing has been provided. We will scrape the collection index page in docs.ansible.com.
 if($rewble->collection){

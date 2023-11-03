@@ -5101,3 +5101,12 @@
 [2023-11-02 14:40:32]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/package_module.html#examples], this->collection=[ansible.builtin],this->module_number=[40].
 [2023-11-02 14:40:32]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/package_module.html#examples], this->collection=[ansible.builtin],module=[].
 [2023-11-02 14:40:32]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/package_module.html#examples],element_name=[examples] on line:63: 
+[2023-11-03 11:23:40]: INFO: 
+[2023-11-03 11:23:40]: INFO: Calling _set_vars_from_array_ 
+[2023-11-03 11:23:40]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-11-03 11:23:40]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index] on line:63: 
+[2023-11-03 11:23:40]: INFO: collection list pulled without error.
+[2023-11-03 11:23:40]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-11-03 11:23:40]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-11-03 11:23:40]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-11-03 11:23:40]: INFO: collection_index_url=[https://docs.ansible.com/ansible/latest/collections/index.html]

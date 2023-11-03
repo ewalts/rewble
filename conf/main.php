@@ -2,7 +2,6 @@
 ################################################################################################
 ###> New x php -> conf/main.php  -> Richard Eric Walts as eric ---> 2023-07-24_10:39:20 init <<<
 ################################################################################################
-//$__confdir__ = getcwd();
 
 require_once ($__dir__ . '/inc/vars.php');  ###>  This file includes other variable containing files: [/vars/*_vars.php]
  ###>
