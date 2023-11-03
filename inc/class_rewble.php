@@ -62,7 +62,7 @@ class rewble extends rewbin {
   ###> Reading and writing functions ----------------------------------------------------------------------------------------
     public function _fetch_ansible_docs_element_($url,$element_name){   ###>   This function performs the curl action fetching an element must provide the url and the name of the element in the page
 	$dMsg="DEBUG: Input to class function __fetch_ansible_docs_element: url=[$url],element_name=[$element_name]"; 
-	$this->_message_handler_('I',"Call to _fetch_ansible_docs_element_ l:65: ",$dMsg);
+	$this->_message_handler_('I',"Call to _fetch_ansible_docs_element_ URL=[$url],element_name=[$element_name] on line:63: ",$dMsg);
 	
         $el=$element_name;   ###> Name of element shorter var name
         $site_handle=curl_init($url);  ###> Initialize the curl action
