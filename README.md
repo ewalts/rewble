@@ -83,7 +83,7 @@ Type the number of the module to get the yaml displayed.[1-47]: 1
   From ansible collection: awx.awx
 
 
-Examples
+Examples
 - name: Launch an Ad Hoc Command waiting for it to finish
   ad_hoc_command:
     inventory: Demo Inventory
