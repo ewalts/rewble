@@ -1,0 +1,6 @@
+collection: google.cloud
+project,rew_gcp_project,mygcp-project-33333331111222
+auth_kind,rew_gcp_cred_kind,serviceaccount
+service_account_file,rew_gcp_cred_file,~/.cred/my_gcp_account.json
+zone,rew_zone,us-central1-c
+region,rew_region,us-centra1
