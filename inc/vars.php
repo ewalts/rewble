@@ -19,13 +19,14 @@ $_execute_path=$_SERVER['PHP_SELF'];
  $_rewbin_home=$__dir__;
 $_rewbin_logs=$__dir__ .'/logs';
   ###> --^ Do not modify vars above ^---------------------------------------------------------------------------------------------------------------------------------------------
-#
-  ###>  The vars in this section can be customized
-#
+############################################################################################################
+  ###>  CUSTOM VARS - Vars in this section can be customized  ###############################################
+#############################################################################################################
 $_admin_email='eric.walts@richardwalts.com';
  $_var_prefix='rew_';   ###>  This is your customized variable prefix.  
-  $_log_messages=false;   ###>  default false
-   $_silent=false;  ###>  Silent is unattended.  All variables for collection and module are required. Standard logging is default, debug logging can be included. 
+  $_local_inventory_dir="~/wrk/dev-ops/ansible/rewbin/playbooks";
+   $_log_messages=false;   ###>  default false
+    $_silent=false;  ###>  Silent is unattended.  All variables for collection and module are required. Standard logging is default, debug logging can be included. 
     $_debug=false;  ###>  This value can be set here default is False
    $_log_file= 'rewble.log';
   $_debug_log='rewble_debug.log';
@@ -43,6 +44,7 @@ $_rewble_dirs=array('vars','conf','data','logs','inc');
 $_my_vars_array= array (
      "execute_path"  =>  "$_execute_path",
      "list_collections"  =>  "$_list_collections",
+     "local_inventory_dir" => "$_local_inventory_dir",
      "collection"  =>  "$_collection",
      "module"  =>  "$_module",
      "verbose"  =>  "$_verbose",

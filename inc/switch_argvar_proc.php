@@ -21,6 +21,7 @@ This is the help information for this funciton
 	If no options are provided default operation runs ####>>>.
 	
 	-h   --help		Print help
+	-i   --inventory	Show local inventory. Requires defining the directory in the configuration.
 	-lc  --list collections Lists available collections.   ###>   This is default behavior if no options are provided. <###
 	-c   --collection	Collection to search
 	-lm  --list-modules	List the modules in a collection, this requires -c||--collection ${COLLECTION}. Default behavior if only -c 
@@ -95,10 +96,11 @@ for($i=0;$i<count($argv);$i++){			###>  echo "DEBUG $argv[$i]\n";    ###>  Testi
 				}
 				break;
 
-			case '-lm':
-			case '--list-modules': 						
-				$rewble->require_collection();			###> echo "DEBUG in list-modu\n";  ###>Testing code  >> Request to list modules requires collection
-                                $rewble->_message_handler_('I',"","DEBUG: require collection defined by -lm||--list-modules");
+			case '-i':
+			case '--inventory': 
+				$rewble->view_inventory=true;	
+//				$rewble->_require_inventory_dir_();			###> echo "DEBUG in list-modu\n";  ###>Testing code  >> Request to list modules requires collection
+                                $rewble->_message_handler_('I',"Call to list inventory","DEBUG: initial request for inventory from main switch.");
 
 				break;
 

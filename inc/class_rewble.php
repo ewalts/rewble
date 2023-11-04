@@ -36,12 +36,15 @@ class rewble extends rewbin {
     public $modules_list;  ###>  the active string, list of modules 
     public $modules_url;  ###>  the url for collection module index
     public $page;   ###>  The html5 typically presented to a browswer. 
+    public $local_inventory_dir;  ###>  This value is defined in the configuration/vars file.
+    public $inventory_dir_handle;  ###>  This is the directory handle.
     public $playbook_output_dir;
     public $print_collections;
     public $task;// = array(); ###>    array contains each line, and information necessary to generate a task in a play.
     public $task_name;  ###>  the name of the active task being assembled
     public $task_yaml;  ###> 
     public $unchanged;   ###>  Original yaml from docs.ansible.com passed into the parser. Some extranious information is stripped, the yaml is unchanged.
+    public $view_inventory;  ###>  Usually false, passed in vars switch to look locally for plays.
 
   ###> Functions that configure settings --------------------------------------------------------------------------------------------------------------------------
 
@@ -52,7 +55,7 @@ class rewble extends rewbin {
     public function _load_my_collection_vars_(){   ###>  This function will read vars from custom files in vars/ ending with _vars.php . 
         $dir_handle=opendir($this->my_vars_dir);   ###>  open the directory
         while ($file=readdir($dir_handle)){   ###>  read the directory
-                if(preg_match('/_vars.php/',$file)){   ###>  
+                if(preg_match('/_vars/',$file)){   ###>  
                         $this->_parse_vars_file_($file);   ###>  
                 }
         }
@@ -144,7 +147,6 @@ class rewble extends rewbin {
 	}
     }
    
-#############################################################################################
 
     public function _format_collection_list_(){  ###> Format the output from collection index
 	$cls = $this->collection_links;  ###> Shorter in the code
@@ -173,6 +175,7 @@ class rewble extends rewbin {
     }
 
 #######################################################################
+###>  --------------------   Module Functions ----------------------
     public function _list_collection_modules_($coll){
 	$this->_message_handler_('I',"call to _list_collection_modules_($coll), active_collection=[$this->collection].","DEBUG: call to _list_collection_modules_($coll), active_collection=[$this->collection]. ");
 	if(!is_array($this->colleciton_modules[$coll])){
@@ -181,7 +184,7 @@ class rewble extends rewbin {
 	}
 	$this->_format_module_list_($coll);
     }
-######################################################################
+
     public function _format_module_list_($coll){ ###>  Create the module numerical presentation for cli
 	$this->_message_handler_('I',"call to _list_collection_modules_($coll), active_collection=[$this->collection].","DEBUG: Inside _fetch_module_example module_example_url=[$url], module=[$module]");
 	$txt_content=''; 
@@ -206,7 +209,6 @@ class rewble extends rewbin {
 	echo "\n\n".$txt_content."\n\n";  ###>  Print the text to cli.
     }
 
-################################################################################## 
     public function _fetch_module_example_($url){
 //	$url="https://docs.ansible.com/ansible/latest/collections/". $this->collection_links[$this->colleciton_number]['html'] . $module ."/index.html";
 	$this->_message_handler_('I',"call to fetch_module_example url=[$url], this->collection=[$this->collection],module=[$module].","DEBUG: Inside _fetch_module_example module_example_url=[$url], module=[$module]");
@@ -215,7 +217,6 @@ class rewble extends rewbin {
 	}
     }
 
-  ###> Utility functions ------------------------------------------------------------------------------------------
 
     public function _format_module_url_(){
 	
