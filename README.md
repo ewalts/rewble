@@ -38,7 +38,9 @@ HELP information for this funciton
 
 
 EXAMPLE: 
+
 $ sudo ln -s /usr/bin/rewble_cp $(PATH)/rewble_create_play.php
+
 $ rewble_cp -c awx.awx
 
 
