@@ -5335,3 +5335,272 @@
 [2023-11-04 01:58:46]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/awx/awx/ad_hoc_command_module.html#examples], this->collection=[awx.awx],this->module_number=[0].
 [2023-11-04 01:58:46]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/awx/awx/ad_hoc_command_module.html#examples], this->collection=[awx.awx],module=[].
 [2023-11-04 01:58:46]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/awx/awx/ad_hoc_command_module.html#examples],element_name=[examples] on line:63: 
+[2023-11-05 07:49:24]: INFO: 
+[2023-11-05 07:49:25]: INFO: Calling _set_vars_from_array_ 
+[2023-11-05 07:49:25]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-11-05 07:49:25]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index] on line:63: 
+[2023-11-05 07:49:25]: INFO: collection list pulled without error.
+[2023-11-05 07:49:25]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-11-05 07:49:25]: INFO: Argument switch: request collection value=[docker]
+[2023-11-05 07:49:25]: INFO: Function call:  _identify_collection_ on value[docker].
+[2023-11-05 07:49:25]: INFO: determined value=[docker] is NOT an integer.
+[2023-11-05 07:49:30]: INFO: Function call:  _identify_collection_ on value[32].
+[2023-11-05 07:49:30]: INFO: determined value=[32] is integer.
+[2023-11-05 07:49:30]: INFO: Collection successfully identified as [community.docker].
+[2023-11-05 07:49:30]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-11-05 07:49:30]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-11-05 07:49:30]: INFO: rewble collection has been set to community.docker
+[2023-11-05 07:49:30]: INFO: rewble module has not been selected, calling _list_collection_modules_(community.docker)
+[2023-11-05 07:49:30]: INFO: call to _list_collection_modules_(community.docker), active_collection=[community.docker].
+[2023-11-05 07:49:30]: INFO: collection_modules(community.docker) was not an array. Will attempt to fetch modules.
+[2023-11-05 07:49:30]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/community/docker/index.html#plugin-index]
+[2023-11-05 07:49:30]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/community/docker/index.html#plugin-index],element_name=[modules] on line:63: 
+[2023-11-05 07:49:31]: INFO: Collection community.docker = module_list pulled successfully.
+[2023-11-05 07:49:31]: INFO: call to _list_collection_modules_(community.docker), active_collection=[community.docker].
+[2023-11-05 07:49:36]: INFO: Requested collection rewble->collection=[community.docker]
+[2023-11-05 07:49:36]: INFO: call to _list_collection_modules_(community.docker), active_collection=[community.docker].
+[2023-11-05 07:49:38]: INFO: _identify_module_ passed INT value=[2] 
+[2023-11-05 07:49:38]: INFO: Module successfully identified as [docker_config].
+[2023-11-05 07:49:38]: INFO: call to format_module_url this->collection=[community.docker],this->module_number=[2].
+[2023-11-05 07:49:38]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/community/docker/docker_config_module.html#examples], this->collection=[community.docker],this->module_number=[2].
+[2023-11-05 07:49:38]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/community/docker/docker_config_module.html#examples], this->collection=[community.docker],module=[].
+[2023-11-05 07:49:38]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/community/docker/docker_config_module.html#examples],element_name=[examples] on line:63: 
+[2023-11-05 07:55:04]: INFO: 
+[2023-11-05 07:55:04]: INFO: Calling _set_vars_from_array_ 
+[2023-11-05 07:55:04]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-11-05 07:55:04]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index] on line:63: 
+[2023-11-05 07:55:05]: INFO: collection list pulled without error.
+[2023-11-05 07:55:05]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-11-05 07:55:05]: INFO: Argument switch: request collection value=[community.docker]
+[2023-11-05 07:55:05]: INFO: Function call:  _identify_collection_ on value[community.docker].
+[2023-11-05 07:55:05]: INFO: determined value=[community.docker] is NOT an integer.
+[2023-11-05 07:55:05]: INFO: Collection successfully identified as [community.docker],collection_number=[31].
+[2023-11-05 07:55:05]: INFO: Argument switch: collection successfully set to community.docker
+[2023-11-05 07:55:05]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/community/docker/index.html#plugin-index]
+[2023-11-05 07:55:05]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/community/docker/index.html#plugin-index],element_name=[modules] on line:63: 
+[2023-11-05 07:55:05]: INFO: Collection community.docker = module_list pulled successfully.
+[2023-11-05 07:55:05]: INFO: One or more modules matched provided string [docker.image].
+[2023-11-05 07:55:13]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-11-05 07:55:13]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-11-05 07:55:13]: INFO: rewble collection has been set to community.docker
+[2023-11-05 07:55:13]: INFO: rewble module has not been selected, calling _list_collection_modules_(community.docker)
+[2023-11-05 07:55:13]: INFO: call to _list_collection_modules_(community.docker), active_collection=[community.docker].
+[2023-11-05 07:55:13]: INFO: collection_modules(community.docker) was not an array. Will attempt to fetch modules.
+[2023-11-05 07:55:13]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/community/docker/index.html#plugin-index]
+[2023-11-05 07:55:13]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/community/docker/index.html#plugin-index],element_name=[modules] on line:63: 
+[2023-11-05 07:55:17]: INFO: Collection community.docker = module_list pulled successfully.
+[2023-11-05 07:55:17]: INFO: call to _list_collection_modules_(community.docker), active_collection=[community.docker].
+[2023-11-05 07:55:19]: INFO: Requested collection rewble->collection=[community.docker]
+[2023-11-05 07:55:19]: INFO: call to _list_collection_modules_(community.docker), active_collection=[community.docker].
+[2023-11-05 07:55:23]: INFO: 
+[2023-11-05 07:55:23]: INFO: Calling _set_vars_from_array_ 
+[2023-11-05 07:55:23]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-11-05 07:55:23]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index] on line:63: 
+[2023-11-05 07:55:23]: INFO: collection list pulled without error.
+[2023-11-05 07:55:23]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-11-05 07:55:23]: INFO: Argument switch: request collection value=[community.docker]
+[2023-11-05 07:55:23]: INFO: Function call:  _identify_collection_ on value[community.docker].
+[2023-11-05 07:55:23]: INFO: determined value=[community.docker] is NOT an integer.
+[2023-11-05 07:55:23]: INFO: Collection successfully identified as [community.docker],collection_number=[31].
+[2023-11-05 07:55:23]: INFO: Argument switch: collection successfully set to community.docker
+[2023-11-05 07:55:23]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/community/docker/index.html#plugin-index]
+[2023-11-05 07:55:23]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/community/docker/index.html#plugin-index],element_name=[modules] on line:63: 
+[2023-11-05 07:55:24]: INFO: Collection community.docker = module_list pulled successfully.
+[2023-11-05 07:55:24]: INFO: Module identified as [docker_image].
+[2023-11-05 07:55:24]: INFO: module defined [docker_image]
+[2023-11-05 07:55:24]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-11-05 07:55:24]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-11-05 07:55:24]: INFO: rewble collection has been set to community.docker
+[2023-11-05 07:55:24]: INFO: rewble module has been selected as docker_image
+[2023-11-05 07:55:24]: INFO: One or more modules matched provided string [].
+[2023-11-05 07:56:04]: INFO: _identify_module_ passed INT value=[8] 
+[2023-11-05 07:56:04]: INFO: Module successfully identified as [docker_image].
+[2023-11-05 07:56:06]: INFO: Requested collection rewble->collection=[community.docker]
+[2023-11-05 07:56:06]: INFO: call to _list_collection_modules_(community.docker), active_collection=[community.docker].
+[2023-11-05 07:56:14]: INFO: _identify_module_ passed INT value=[8] 
+[2023-11-05 07:56:14]: INFO: Module successfully identified as [docker_image].
+[2023-11-05 07:56:14]: INFO: call to format_module_url this->collection=[community.docker],this->module_number=[8].
+[2023-11-05 07:56:14]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/community/docker/docker_image_module.html#examples], this->collection=[community.docker],this->module_number=[8].
+[2023-11-05 07:56:14]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/community/docker/docker_image_module.html#examples], this->collection=[community.docker],module=[].
+[2023-11-05 07:56:14]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/community/docker/docker_image_module.html#examples],element_name=[examples] on line:63: 
+[2023-11-06 10:54:57]: INFO: 
+[2023-11-06 10:54:57]: INFO: Calling _set_vars_from_array_ 
+[2023-11-06 10:54:57]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-11-06 10:54:57]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index] on line:63: 
+[2023-11-06 10:54:58]: INFO: collection list pulled without error.
+[2023-11-06 10:54:58]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-11-06 10:54:58]: INFO: Argument switch: request collection value=[ansible.builtin]
+[2023-11-06 10:54:58]: INFO: Function call:  _identify_collection_ on value[ansible.builtin].
+[2023-11-06 10:54:58]: INFO: determined value=[ansible.builtin] is NOT an integer.
+[2023-11-06 10:54:58]: INFO: Collection successfully identified as [ansible.builtin],collection_number=[1].
+[2023-11-06 10:54:58]: INFO: Argument switch: collection successfully set to ansible.builtin
+[2023-11-06 10:54:58]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-11-06 10:54:58]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-11-06 10:54:58]: INFO: rewble collection has been set to ansible.builtin
+[2023-11-06 10:54:58]: INFO: rewble module has not been selected, calling _list_collection_modules_(ansible.builtin)
+[2023-11-06 10:54:58]: INFO: call to _list_collection_modules_(ansible.builtin), active_collection=[ansible.builtin].
+[2023-11-06 10:54:58]: INFO: collection_modules(ansible.builtin) was not an array. Will attempt to fetch modules.
+[2023-11-06 10:54:58]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/index.html#plugin-index]
+[2023-11-06 10:54:58]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/index.html#plugin-index],element_name=[modules] on line:63: 
+[2023-11-06 10:54:59]: INFO: Collection ansible.builtin = module_list pulled successfully.
+[2023-11-06 10:54:59]: INFO: call to _list_collection_modules_(ansible.builtin), active_collection=[ansible.builtin].
+[2023-11-06 10:55:34]: INFO: Requested collection rewble->collection=[ansible.builtin]
+[2023-11-06 10:55:34]: INFO: call to _list_collection_modules_(ansible.builtin), active_collection=[ansible.builtin].
+[2023-11-06 10:55:37]: INFO: Module identified as [file].
+[2023-11-06 10:55:37]: INFO: call to format_module_url this->collection=[ansible.builtin],this->module_number=[20].
+[2023-11-06 10:55:37]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/file_module.html#examples], this->collection=[ansible.builtin],this->module_number=[20].
+[2023-11-06 10:55:37]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/file_module.html#examples], this->collection=[ansible.builtin],module=[].
+[2023-11-06 10:55:37]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/file_module.html#examples],element_name=[examples] on line:63: 
+[2023-11-06 10:59:03]: INFO: 
+[2023-11-06 10:59:03]: INFO: Calling _set_vars_from_array_ 
+[2023-11-06 10:59:03]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-11-06 10:59:03]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index] on line:63: 
+[2023-11-06 10:59:04]: INFO: collection list pulled without error.
+[2023-11-06 10:59:04]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-11-06 10:59:04]: INFO: Argument switch: request collection value=[ansible.builtin]
+[2023-11-06 10:59:04]: INFO: Function call:  _identify_collection_ on value[ansible.builtin].
+[2023-11-06 10:59:04]: INFO: determined value=[ansible.builtin] is NOT an integer.
+[2023-11-06 10:59:04]: INFO: Collection successfully identified as [ansible.builtin],collection_number=[1].
+[2023-11-06 10:59:04]: INFO: Argument switch: collection successfully set to ansible.builtin
+[2023-11-06 10:59:04]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/index.html#plugin-index]
+[2023-11-06 10:59:04]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/index.html#plugin-index],element_name=[modules] on line:63: 
+[2023-11-06 10:59:04]: INFO: Collection ansible.builtin = module_list pulled successfully.
+[2023-11-06 10:59:04]: INFO: Module identified as [copy].
+[2023-11-06 10:59:04]: INFO: module defined [copy]
+[2023-11-06 10:59:04]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-11-06 10:59:04]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-11-06 10:59:04]: INFO: rewble collection has been set to ansible.builtin
+[2023-11-06 10:59:04]: INFO: rewble module has been selected as copy
+[2023-11-06 10:59:04]: INFO: One or more modules matched provided string [].
+[2023-11-06 10:59:24]: INFO: Requested collection rewble->collection=[ansible.builtin]
+[2023-11-06 10:59:24]: INFO: call to _list_collection_modules_(ansible.builtin), active_collection=[ansible.builtin].
+[2023-11-06 10:59:27]: INFO: 
+[2023-11-06 10:59:27]: INFO: Calling _set_vars_from_array_ 
+[2023-11-06 10:59:27]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-11-06 10:59:27]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index] on line:63: 
+[2023-11-06 10:59:28]: INFO: collection list pulled without error.
+[2023-11-06 10:59:28]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-11-06 10:59:28]: INFO: Argument switch: request collection value=[ansible.builtin]
+[2023-11-06 10:59:28]: INFO: Function call:  _identify_collection_ on value[ansible.builtin].
+[2023-11-06 10:59:28]: INFO: determined value=[ansible.builtin] is NOT an integer.
+[2023-11-06 10:59:28]: INFO: Collection successfully identified as [ansible.builtin],collection_number=[1].
+[2023-11-06 10:59:28]: INFO: Argument switch: collection successfully set to ansible.builtin
+[2023-11-06 10:59:28]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-11-06 10:59:28]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-11-06 10:59:28]: INFO: rewble collection has been set to ansible.builtin
+[2023-11-06 10:59:28]: INFO: rewble module has not been selected, calling _list_collection_modules_(ansible.builtin)
+[2023-11-06 10:59:28]: INFO: call to _list_collection_modules_(ansible.builtin), active_collection=[ansible.builtin].
+[2023-11-06 10:59:28]: INFO: collection_modules(ansible.builtin) was not an array. Will attempt to fetch modules.
+[2023-11-06 10:59:28]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/index.html#plugin-index]
+[2023-11-06 10:59:28]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/index.html#plugin-index],element_name=[modules] on line:63: 
+[2023-11-06 10:59:28]: INFO: Collection ansible.builtin = module_list pulled successfully.
+[2023-11-06 10:59:28]: INFO: call to _list_collection_modules_(ansible.builtin), active_collection=[ansible.builtin].
+[2023-11-06 11:00:42]: INFO: 
+[2023-11-06 11:00:42]: INFO: Calling _set_vars_from_array_ 
+[2023-11-06 11:00:42]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-11-06 11:00:42]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index] on line:63: 
+[2023-11-06 11:00:43]: INFO: collection list pulled without error.
+[2023-11-06 11:00:43]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-11-06 11:00:43]: INFO: Argument switch: request collection value=[ansible.builtin]
+[2023-11-06 11:00:43]: INFO: Function call:  _identify_collection_ on value[ansible.builtin].
+[2023-11-06 11:00:43]: INFO: determined value=[ansible.builtin] is NOT an integer.
+[2023-11-06 11:00:43]: INFO: Collection successfully identified as [ansible.builtin],collection_number=[1].
+[2023-11-06 11:00:43]: INFO: Argument switch: collection successfully set to ansible.builtin
+[2023-11-06 11:00:43]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/index.html#plugin-index]
+[2023-11-06 11:00:43]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/index.html#plugin-index],element_name=[modules] on line:63: 
+[2023-11-06 11:00:43]: INFO: Collection ansible.builtin = module_list pulled successfully.
+[2023-11-06 11:00:43]: INFO: Module identified as [copy].
+[2023-11-06 11:00:43]: INFO: module defined [copy]
+[2023-11-06 11:00:43]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-11-06 11:00:43]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-11-06 11:00:43]: INFO: rewble collection has been set to ansible.builtin
+[2023-11-06 11:00:43]: INFO: rewble module has been selected as copy
+[2023-11-06 11:00:43]: INFO: One or more modules matched provided string [].
+[2023-11-06 11:00:46]: INFO: _identify_module_ passed INT value=[9] 
+[2023-11-06 11:00:46]: INFO: Module successfully identified as [copy].
+[2023-11-06 11:00:48]: INFO: Requested collection rewble->collection=[ansible.builtin]
+[2023-11-06 11:00:48]: INFO: call to _list_collection_modules_(ansible.builtin), active_collection=[ansible.builtin].
+[2023-11-06 11:00:50]: INFO: _identify_module_ passed INT value=[9] 
+[2023-11-06 11:00:50]: INFO: Module successfully identified as [copy].
+[2023-11-06 11:00:50]: INFO: call to format_module_url this->collection=[ansible.builtin],this->module_number=[9].
+[2023-11-06 11:00:50]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.html#examples], this->collection=[ansible.builtin],this->module_number=[9].
+[2023-11-06 11:00:50]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.html#examples], this->collection=[ansible.builtin],module=[].
+[2023-11-06 11:00:50]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.html#examples],element_name=[examples] on line:63: 
+[2023-11-06 13:07:43]: INFO: 
+[2023-11-06 13:07:43]: INFO: Calling _set_vars_from_array_ 
+[2023-11-06 13:07:43]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-11-06 13:07:43]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index] on line:63: 
+[2023-11-06 13:07:43]: INFO: collection list pulled without error.
+[2023-11-06 13:07:43]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-11-06 13:07:43]: INFO: Argument switch: request collection value=[ansible.builtin]
+[2023-11-06 13:07:43]: INFO: Function call:  _identify_collection_ on value[ansible.builtin].
+[2023-11-06 13:07:43]: INFO: determined value=[ansible.builtin] is NOT an integer.
+[2023-11-06 13:07:43]: INFO: Collection successfully identified as [ansible.builtin],collection_number=[1].
+[2023-11-06 13:07:43]: INFO: Argument switch: collection successfully set to ansible.builtin
+[2023-11-06 13:07:43]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-11-06 13:07:43]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-11-06 13:07:43]: INFO: rewble collection has been set to ansible.builtin
+[2023-11-06 13:07:43]: INFO: rewble module has not been selected, calling _list_collection_modules_(ansible.builtin)
+[2023-11-06 13:07:43]: INFO: call to _list_collection_modules_(ansible.builtin), active_collection=[ansible.builtin].
+[2023-11-06 13:07:43]: INFO: collection_modules(ansible.builtin) was not an array. Will attempt to fetch modules.
+[2023-11-06 13:07:43]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/index.html#plugin-index]
+[2023-11-06 13:07:43]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/index.html#plugin-index],element_name=[modules] on line:63: 
+[2023-11-06 13:07:44]: INFO: Collection ansible.builtin = module_list pulled successfully.
+[2023-11-06 13:07:44]: INFO: call to _list_collection_modules_(ansible.builtin), active_collection=[ansible.builtin].
+[2023-11-06 13:07:57]: INFO: Requested collection rewble->collection=[ansible.builtin]
+[2023-11-06 13:07:57]: INFO: call to _list_collection_modules_(ansible.builtin), active_collection=[ansible.builtin].
+[2023-11-06 13:07:59]: INFO: _identify_module_ passed INT value=[9] 
+[2023-11-06 13:07:59]: INFO: Module successfully identified as [copy].
+[2023-11-06 13:07:59]: INFO: call to format_module_url this->collection=[ansible.builtin],this->module_number=[9].
+[2023-11-06 13:07:59]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.html#examples], this->collection=[ansible.builtin],this->module_number=[9].
+[2023-11-06 13:07:59]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.html#examples], this->collection=[ansible.builtin],module=[].
+[2023-11-06 13:07:59]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.html#examples],element_name=[examples] on line:63: 
+[2023-11-06 21:08:14]: INFO: 
+[2023-11-06 21:08:14]: INFO: Calling _set_vars_from_array_ 
+[2023-11-06 21:08:14]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-11-06 21:08:14]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index] on line:63: 
+[2023-11-06 21:08:15]: INFO: collection list pulled without error.
+[2023-11-06 21:08:15]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-11-06 21:08:15]: INFO: Argument switch: request collection value=[community.aws]
+[2023-11-06 21:08:15]: INFO: Function call:  _identify_collection_ on value[community.aws].
+[2023-11-06 21:08:15]: INFO: determined value=[community.aws] is NOT an integer.
+[2023-11-06 21:08:15]: INFO: Collection successfully identified as [community.aws],collection_number=[25].
+[2023-11-06 21:08:15]: INFO: Argument switch: collection successfully set to community.aws
+[2023-11-06 21:08:15]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-11-06 21:08:15]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-11-06 21:08:15]: INFO: rewble collection has been set to community.aws
+[2023-11-06 21:08:15]: INFO: rewble module has not been selected, calling _list_collection_modules_(community.aws)
+[2023-11-06 21:08:15]: INFO: call to _list_collection_modules_(community.aws), active_collection=[community.aws].
+[2023-11-06 21:08:15]: INFO: collection_modules(community.aws) was not an array. Will attempt to fetch modules.
+[2023-11-06 21:08:15]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/community/aws/index.html#plugin-index]
+[2023-11-06 21:08:15]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/community/aws/index.html#plugin-index],element_name=[modules] on line:63: 
+[2023-11-06 21:08:15]: INFO: Collection community.aws = module_list pulled successfully.
+[2023-11-06 21:08:15]: INFO: call to _list_collection_modules_(community.aws), active_collection=[community.aws].
+[2023-11-06 21:08:45]: INFO: 
+[2023-11-06 21:08:45]: INFO: Calling _set_vars_from_array_ 
+[2023-11-06 21:08:45]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-11-06 21:08:45]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index] on line:63: 
+[2023-11-06 21:08:45]: INFO: collection list pulled without error.
+[2023-11-06 21:08:45]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-11-06 21:08:45]: INFO: Argument switch: request collection value=[amazon.aws]
+[2023-11-06 21:08:45]: INFO: Function call:  _identify_collection_ on value[amazon.aws].
+[2023-11-06 21:08:45]: INFO: determined value=[amazon.aws] is NOT an integer.
+[2023-11-06 21:08:45]: INFO: Collection successfully identified as [amazon.aws],collection_number=[0].
+[2023-11-06 21:08:45]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-11-06 21:08:45]: INFO: Begin logging >>> /home/eric/wrk/0_repos/rewble/logs/rewble.log
+[2023-11-06 21:08:45]: INFO: Value of __dir__=[/home/eric/wrk/0_repos/rewble]
+[2023-11-06 21:08:45]: INFO: rewble collection has been set to amazon.aws
+[2023-11-06 21:08:45]: INFO: rewble module has not been selected, calling _list_collection_modules_(amazon.aws)
+[2023-11-06 21:08:45]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-11-06 21:08:45]: INFO: collection_modules(amazon.aws) was not an array. Will attempt to fetch modules.
+[2023-11-06 21:08:45]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-11-06 21:08:45]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index],element_name=[modules] on line:63: 
+[2023-11-06 21:08:45]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-11-06 21:08:45]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-11-06 21:09:00]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-11-06 21:09:00]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-11-06 21:09:03]: INFO: Module identified as [ec2_security_group].
+[2023-11-06 21:09:03]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[34].
+[2023-11-06 21:09:03]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_security_group_module.html#examples], this->collection=[amazon.aws],this->module_number=[34].
+[2023-11-06 21:09:03]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_security_group_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-11-06 21:09:03]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_security_group_module.html#examples],element_name=[examples] on line:63: 

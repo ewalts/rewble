@@ -3,7 +3,7 @@
 #########################################################################################################
 ###> New x php -> rewble_create_play.php  -> Richard Eric Walts as eric ---> 2023-07-22_17:28:16 init <<<
 #########################################################################################################
-$__dir__ = getcwd();
+$__dir__ = __dir__;
 require_once ($__dir__ . '/inc/class_rewble.php');
 require_once ($__dir__ . '/inc/vars.php');
 require_once ($__dir__ . '/inc/config.php');
