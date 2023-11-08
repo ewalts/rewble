@@ -40,7 +40,7 @@ This action requires -c --colleciton ${COLLECTION}.
 
 if(empty($argv[1])){
 	$rewble->list_collections=true;	
-	$dMsg="DEBUG: List collections set to true"; $message_D[]=$dMsg; if($rewble->verbose){ echo $dMsg."\n"; }	
+	$dMsg="DEBUG:[".__FILE__.":".__LINE__."]  List collections set to true"; $message_D[]=$dMsg; if($rewble->verbose){ echo $dMsg."\n"; }	
 }
 
 for($i=0;$i<count($argv);$i++){			###>  echo "DEBUG $argv[$i]\n";    ###>  Testing code;  >>>  Process switches and argument vars
@@ -49,7 +49,7 @@ for($i=0;$i<count($argv);$i++){			###>  echo "DEBUG $argv[$i]\n";    ###>  Testi
                         case '-v':
                         case '--verbose':
                                 $rewble->verbose=true;                          ##> echo "DEBUG verbose messages true.\n";  ###>Testing code  >>>  Verbose messaging includes additional messages printed and/or logged
-                                 $rewble->_message_handler_('I',"verbose flag has been set -v||--verbose","DEBUG: verbose flag has been set -v||--verbose");
+                                 $rewble->_message_handler_('I',"verbose flag has been set -v||--verbose","DEBUG:[".__FILE__.":".__LINE__."]  verbose flag has been set -v||--verbose");
                                 break;
 
 			case '-h':	
@@ -60,7 +60,7 @@ for($i=0;$i<count($argv);$i++){			###>  echo "DEBUG $argv[$i]\n";    ###>  Testi
 			case '-d':
 			case '--debug':
 				$rewble->debug=true;
-				$rewble->_message_handler_('I',"","DEBUG: _debug has been set to true, requested with switch -d||--debug.");
+				$rewble->_message_handler_('I',"","DEBUG:[".__FILE__.":".__LINE__."]  _debug has been set to true, requested with switch -d||--debug.");
 				break;
 
                         case '-s':
@@ -70,15 +70,15 @@ for($i=0;$i<count($argv);$i++){			###>  echo "DEBUG $argv[$i]\n";    ###>  Testi
                                 $rewble->_=true;                          ###> echo "DEBUG module required mod=[$mod] and out_file=[$out_file]\n";  ###> We actually will ignore this
 				echo"\n\n    SILENT MODE REQUESTED with -s|--silent.\n   Required parameters are passed in the command, or in a custom_vars.php file in vars/. Such as vars/my_silent_gcp_instance_vars.php.\n\n";
                                 $rewble->_message_handler_('I',"Silent mode has been flagged. This will log messages and information.",
-					"DEBUG: Silent mode has been flagged. This will log messages and information. Requested information will be in the outfile.");
+					"DEBUG:[".__FILE__.":".__LINE__."]  Silent mode has been flagged. This will log messages and information. Requested information will be in the outfile.");
 				$rewble->require_log_file=true; 
                                 break;
 			
 			case '-c':
 			case '--collection':
-				$rewble->_message_handler_('I',"Argument switch: request collection value=[".$argv[$i + 1]."]","DEBUG: sending to identify_collection");
+				$rewble->_message_handler_('I',"Argument switch: request collection value=[".$argv[$i + 1]."]","DEBUG:[".__FILE__.":".__LINE__."]  sending to identify_collection");
 				if($rewble->_identify_collection_($argv[$i +1])){	 ###>  Switch for collection received define var $coll
-				        $rewble->_message_handler_('I',"Argument switch: collection successfully set to $rewble->collection","DEBUG: collection has been defined as $rewble->collection");
+				        $rewble->_message_handler_('I',"Argument switch: collection successfully set to $rewble->collection","DEBUG:[".__FILE__.":".__LINE__."]  collection has been defined as $rewble->collection");
 					$rewble->list_collections=false;
 				}
 				break;
@@ -88,7 +88,7 @@ for($i=0;$i<count($argv);$i++){			###>  echo "DEBUG $argv[$i]\n";    ###>  Testi
 				$rewble->_require_collection_();
 				if($rewble->_identify_module_($argv[$i +1])){     ###>  echo "DEBUG switch for module received mod=[$mod]\n collection is required var coll=[$coll]\n";  ###>Testing code//   next argument should be module name
 					 ###>  Set flag for collection required, this will notify user if it wasn't provided
-				        $rewble->_message_handler_('I',"module defined [$rewble->module]","DEBUG: Module request made with -m||--module. Var _module=[$rewble->module] equire collection has been triggered and set to true by module -m|--module");
+				        $rewble->_message_handler_('I',"module defined [$rewble->module]","DEBUG:[".__FILE__.":".__LINE__."]  Module request made with -m||--module. Var _module=[$rewble->module] equire collection has been triggered and set to true by module -m|--module");
 					$user_module_response=$rewble->module;
 					$rewble->list_collection=false;
 				}else{
@@ -100,7 +100,7 @@ for($i=0;$i<count($argv);$i++){			###>  echo "DEBUG $argv[$i]\n";    ###>  Testi
 			case '--inventory': 
 				$rewble->view_inventory=true;	
 //				$rewble->_require_inventory_dir_();			###> echo "DEBUG in list-modu\n";  ###>Testing code  >> Request to list modules requires collection
-                                $rewble->_message_handler_('I',"Call to list inventory","DEBUG: initial request for inventory from main switch.");
+                                $rewble->_message_handler_('I',"Call to list inventory","DEBUG:[".__FILE__.":".__LINE__."]  initial request for inventory from main switch.");
 
 				break;
 
@@ -122,7 +122,7 @@ for($i=0;$i<count($argv);$i++){			###>  echo "DEBUG $argv[$i]\n";    ###>  Testi
 			case '-lc':
 			case '--list-collections':
 				$rewble->list_collections=true;
-                                $rewble->_message_handler_('I',"","DEBUG: List collections set to true");
+                                $rewble->_message_handler_('I',"","DEBUG:[".__FILE__.":".__LINE__."]  List collections set to true");
 				break;
 
                         case '-l':
@@ -130,7 +130,7 @@ for($i=0;$i<count($argv);$i++){			###>  echo "DEBUG $argv[$i]\n";    ###>  Testi
                                 $rewble->log_messages=true;
                                 $rewble->log_file=$argv[$i+1];                          ##> echo "DEBUG in quiet \n";  ###>Testing code  >>>  Out to file has been requested, defining var $out_file
                                 //$rewble->require_module=true;                          ###> echo "DEBUG module required mod=[$mod] and out_file=[$out_file]\n";  ###> We actually will ignore this
-                                $rewble->_message_handler_('I',"log-messages has been set to true","DEBUG: log-messages has been set to true, log file has been provided and set to $rewble->log_file");
+                                $rewble->_message_handler_('I',"log-messages has been set to true","DEBUG:[".__FILE__.":".__LINE__."]  log-messages has been set to true, log file has been provided and set to $rewble->log_file");
                                 break;
 
 			default:

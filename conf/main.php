@@ -19,13 +19,13 @@ $rewble->_fetch_collection_index_($rewble->collection_index_url);
 require_once ($__dir__ . '/inc/switch_argvar_proc.php');   ###>  Load the 
 if(!$_debug){  error_reporting(E_ALL ^ E_WARNING); }  ###>  If the debug flag is still false we won't display standard PHP error messages.
 
-$rewble->_message_handler_('I',"Begin logging >>> $_rewbin_log_file","DEBUG: Logging started, primary log file is $_rewbin_log_file");   ###> 
-$rewble->_message_handler_('I',"Value of __dir__=[".$__dir__."]","DEBUG: Value of __dir__=[".$__dir__."]");   ###>
+$rewble->_message_handler_('I',"Begin logging >>> $_rewbin_log_file","DEBUG:[".__FILE__.":".__LINE__."]  Logging started, primary log file is $_rewbin_log_file");   ###> 
+$rewble->_message_handler_('I',"Value of __dir__=[".$__dir__."]","DEBUG:[".__FILE__.":".__LINE__."]  Value of __dir__=[".$__dir__."]");   ###>
 
 /*$dir=array('vars','data','logs','conf');
 foreach($dir as $key => $value){
 	if(!is_dir($__dir__ . "/". $value."/" )){
-		$rewble->_message_handler_('E',"Dir $value not found.","DEBUG: Dir ../$value unable to be verified.");
+		$rewble->_message_handler_('E',"Dir $value not found.","DEBUG:[".__FILE__.":".__LINE__."]  Dir ../$value unable to be verified.");
 	}
 }
 */

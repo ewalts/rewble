@@ -5604,3 +5604,62 @@
 [2023-11-06 21:09:03]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_security_group_module.html#examples], this->collection=[amazon.aws],this->module_number=[34].
 [2023-11-06 21:09:03]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_security_group_module.html#examples], this->collection=[amazon.aws],module=[].
 [2023-11-06 21:09:03]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_security_group_module.html#examples],element_name=[examples] on line:63: 
+[2023-11-07 16:52:36]: INFO: 
+[2023-11-07 16:52:36]: INFO: Calling _set_vars_from_array_ 
+[2023-11-07 16:52:36]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-11-07 16:52:36]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index] on line:63: 
+[2023-11-07 16:52:37]: INFO: collection list pulled without error.
+[2023-11-07 16:52:37]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-11-07 16:52:37]: INFO: Argument switch: request collection value=[amazon.aws]
+[2023-11-07 16:52:37]: INFO: Function call:  _identify_collection_ on value[amazon.aws].
+[2023-11-07 16:52:37]: INFO: determined value=[amazon.aws] is NOT an integer.
+[2023-11-07 16:52:37]: INFO: Collection successfully identified as [amazon.aws],collection_number=[0].
+[2023-11-07 16:52:37]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-11-07 16:52:37]: INFO: Begin logging >>> /home/eric/rewble/logs/rewble.log
+[2023-11-07 16:52:37]: INFO: Value of __dir__=[/home/eric/rewble]
+[2023-11-07 16:52:37]: INFO: rewble collection has been set to amazon.aws
+[2023-11-07 16:52:37]: INFO: rewble module has not been selected, calling _list_collection_modules_(amazon.aws)
+[2023-11-07 16:52:37]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-11-07 16:52:37]: INFO: collection_modules(amazon.aws) was not an array. Will attempt to fetch modules.
+[2023-11-07 16:52:37]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-11-07 16:52:37]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index],element_name=[modules] on line:63: 
+[2023-11-07 16:52:44]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-11-07 16:52:44]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-11-07 16:52:49]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-11-07 16:52:49]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-11-07 16:52:53]: INFO: _identify_module_ passed INT value=[0] 
+[2023-11-07 16:52:53]: INFO: Module successfully identified as [autoscaling_group].
+[2023-11-07 16:52:53]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[0].
+[2023-11-07 16:52:53]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/autoscaling_group_module.html#examples], this->collection=[amazon.aws],this->module_number=[0].
+[2023-11-07 16:52:53]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/autoscaling_group_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-11-07 16:52:53]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/autoscaling_group_module.html#examples],element_name=[examples] on line:63: 
+[2023-11-07 16:53:27]: INFO: 
+[2023-11-07 16:53:27]: INFO: Calling _set_vars_from_array_ 
+[2023-11-07 16:53:27]: INFO: Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[https://docs.ansible.com/ansible/latest/collections/index.html].
+[2023-11-07 16:53:27]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/index.html],element_name=[collection-index] on line:63: 
+[2023-11-07 16:53:27]: INFO: collection list pulled without error.
+[2023-11-07 16:53:27]: INFO: The collection_links array has been creaetd properly. It contains 108 links.
+[2023-11-07 16:53:27]: INFO: Argument switch: request collection value=[amazon.aws]
+[2023-11-07 16:53:27]: INFO: Function call:  _identify_collection_ on value[amazon.aws].
+[2023-11-07 16:53:27]: INFO: determined value=[amazon.aws] is NOT an integer.
+[2023-11-07 16:53:27]: INFO: Collection successfully identified as [amazon.aws],collection_number=[0].
+[2023-11-07 16:53:27]: INFO: Argument switch: collection successfully set to amazon.aws
+[2023-11-07 16:53:27]: INFO: 
+[2023-11-07 16:53:27]: INFO: Begin logging >>> /home/eric/rewble/logs/rewble.log
+[2023-11-07 16:53:27]: INFO: Value of __dir__=[/home/eric/rewble]
+[2023-11-07 16:53:27]: INFO: rewble collection has been set to amazon.aws
+[2023-11-07 16:53:27]: INFO: rewble module has not been selected, calling _list_collection_modules_(amazon.aws)
+[2023-11-07 16:53:27]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-11-07 16:53:27]: INFO: collection_modules(amazon.aws) was not an array. Will attempt to fetch modules.
+[2023-11-07 16:53:27]: INFO: modules_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index]
+[2023-11-07 16:53:27]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/index.html#plugin-index],element_name=[modules] on line:63: 
+[2023-11-07 16:53:28]: INFO: Collection amazon.aws = module_list pulled successfully.
+[2023-11-07 16:53:28]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-11-07 16:53:32]: INFO: Requested collection rewble->collection=[amazon.aws]
+[2023-11-07 16:53:32]: INFO: call to _list_collection_modules_(amazon.aws), active_collection=[amazon.aws].
+[2023-11-07 16:53:34]: INFO: _identify_module_ passed INT value=[1] 
+[2023-11-07 16:53:34]: INFO: Module successfully identified as [autoscaling_group_info].
+[2023-11-07 16:53:34]: INFO: call to format_module_url this->collection=[amazon.aws],this->module_number=[1].
+[2023-11-07 16:53:34]: INFO: _module_url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/autoscaling_group_info_module.html#examples], this->collection=[amazon.aws],this->module_number=[1].
+[2023-11-07 16:53:34]: INFO: call to fetch_module_example url=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/autoscaling_group_info_module.html#examples], this->collection=[amazon.aws],module=[].
+[2023-11-07 16:53:34]: INFO: Call to _fetch_ansible_docs_element_ URL=[https://docs.ansible.com/ansible/latest/collections/amazon/aws/autoscaling_group_info_module.html#examples],element_name=[examples] on line:63: 

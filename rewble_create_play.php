@@ -20,15 +20,15 @@ if($rewble->view_inventory){
 	    }
     }	
 }elseif($rewble->collection){  ###> If a collection has been provided and validated, ...
-	$rewble->_message_handler_('I',"rewble collection has been set to $rewble->collection", "DEBUG: rewble->collectio");
+	$rewble->_message_handler_('I',"rewble collection has been set to $rewble->collection", "DEBUG:[".__FILE__.":".__LINE__."]  rewble->collectio");
 	if($rewble->module){  ###>  look for a module, if a module has been provided, ...
-		$rewble->_message_handler_('I',"rewble module has been selected as $rewble->module", "DEBUG: CHANGE THIS DEBUG MESSAGE");
+		$rewble->_message_handler_('I',"rewble module has been selected as $rewble->module", "DEBUG:[".__FILE__.":".__LINE__."]  CHANGE THIS DEBUG MESSAGE");
 		if($rewble->_identify_module_($_module)){   ###>  identify/verify validity of module information passed, if valid, name will be defined ->module.
 			//$rewble->module=$_module;
 			$rewble->list_collections=false;    //  	die("we aren't ready to get modules\n");		
 		}
 	}else{
-		$rewble->_message_handler_('I',"rewble module has not been selected, calling _list_collection_modules_($rewble->collection)", "DEBUG: rewble will list modules of the active collection [$rewble->collection].");
+		$rewble->_message_handler_('I',"rewble module has not been selected, calling _list_collection_modules_($rewble->collection)", "DEBUG:[".__FILE__.":".__LINE__."]  rewble will list modules of the active collection [$rewble->collection].");
                 $rewble->_list_collection_modules_($rewble->collection);
 	        $user_module_response= readline("Type the number of the module to get the yaml displayed.[1-$rewble->mc]: ");  ###> Request input from the user, the numerical array key, integer should be returned.
 	        if(preg_match('/q/',$user_module_response)) die("   Quit requested!\n");  ###>  End current process.
@@ -57,18 +57,18 @@ if($rewble->view_inventory){
 	}		
 	if($rewble->collection){
 		echo "\n\n";  	###> additional space
-		$rewble->_message_handler_('I',"collection_href=[".$rewble->collection_links[$rewble->collection_number]['href']."]","DEBUG: collection_href=[".$rewble->collection_links[$rewble->collection_number]['href']."]"); 
+		$rewble->_message_handler_('I',"collection_href=[".$rewble->collection_links[$rewble->collection_number]['href']."]","DEBUG:[".__FILE__.":".__LINE__."]  collection_href=[".$rewble->collection_links[$rewble->collection_number]['href']."]"); 
 
 		###>  Listing collection module index contents -----------------------------------------------------------------------------
 		$rewble->_fetch_collection_modules_($rewble->collection_number);
         }
 }
 if($rewble->modules_list){
-        $rewble->_message_handler_('null',"null",  "DEBUG: __curl_module_index:modules=[$rewble->modules_list]");
+        $rewble->_message_handler_('null',"null",  "DEBUG:[".__FILE__.":".__LINE__."]  __curl_module_index:modules=[$rewble->modules_list]");
 	echo "\nAnsible docs currently listing $rewble->mc modlues for $rewble->collection. All $rewble->mc modules will be numerically listed in a moment.\n\n";  ###> Print a message to terminal.
 	sleep(2);       ###>  Give someone a chance to see the message.
-	$rewble->_message_handler_('I',"Requested collection rewble->collection=[".$rewble->collection."]", "DEBUG: rewble->collection=[".$rewble->collection."]");   ###>  
-	$rewble->_message_handler_('null', "null", "DEBUG: rewble->collection_modules=[" /*. print_r($rewble->collection_modules[$rewble->collection])*/ );  
+	$rewble->_message_handler_('I',"Requested collection rewble->collection=[".$rewble->collection."]", "DEBUG:[".__FILE__.":".__LINE__."]  rewble->collection=[".$rewble->collection."]");   ###>  
+	$rewble->_message_handler_('null', "null", "DEBUG:[".__FILE__.":".__LINE__."]  rewble->collection_modules=[" /*. print_r($rewble->collection_modules[$rewble->collection])*/ );  
 	$rewble->_format_module_list_($rewble->collection);	
 	echo "\n\n";
 	$user_module_response= readline("Type the number of the module to get the yaml displayed.[1-$rewble->mc]: ");  ###> Request input from the user, the numerical array key, integer should be returned.

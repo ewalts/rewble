@@ -64,7 +64,7 @@ class rewble extends rewbin {
 
   ###> Reading and writing functions ----------------------------------------------------------------------------------------
     public function _fetch_ansible_docs_element_($url,$element_name){   ###>   This function performs the curl action fetching an element must provide the url and the name of the element in the page
-	$dMsg="DEBUG: Input to class function __fetch_ansible_docs_element: url=[$url],element_name=[$element_name]"; 
+	$dMsg="DEBUG:[".__FILE__.":".__LINE__."]  Input to class function __fetch_ansible_docs_element: url=[$url],element_name=[$element_name]"; 
 	$this->_message_handler_('I',"Call to _fetch_ansible_docs_element_ URL=[$url],element_name=[$element_name] on line:63: ",$dMsg);
 	
         $el=$element_name;   ###> Name of element shorter var name
@@ -79,16 +79,16 @@ class rewble extends rewbin {
     }
     
     public function _show_collection_index_(){
-        $this->_message_handler_('I',"collection_index_url=[$this->collection_index_url]","DEBUG: Calling _show_collection_index_ with collection_index_url=[$this->collection_index_url]");   ###> 
+        $this->_message_handler_('I',"collection_index_url=[$this->collection_index_url]","DEBUG:[".__FILE__.":".__LINE__."]  Calling _show_collection_index_ with collection_index_url=[$this->collection_index_url]");   ###> 
         if(!is_array($this->collection_links[0])){  ###>  The collection_index_url variable is included from inc/vars.php, the collection_links array is created there as well. 
-		$this->_message_handler_('E',"The collection_links array is empty but should have been defined previously. Building again.", "DEBUG: show_collection_index called, and collection_links array is empty. "
+		$this->_message_handler_('E',"The collection_links array is empty but should have been defined previously. Building again.", "DEBUG:[".__FILE__.":".__LINE__."]  show_collection_index called, and collection_links array is empty. "
 			  ."Attempting to build again Variable for collection_index_url=[$this->collection_index_url]. If url var is blank check configuration. If Url is correct check internet access and DNS resolution. Making second attempt"); 
 		$collection_out=$this->_fetch_collection_index_($this->collection_index_url);
 		if($this->debug){	echo "\nPrinting collection Links #1\n";}
 		if($this->debug){	print_r($this->collection_links);}
 
 		if(!is_array($this->collection_links)){
-			$this->_message_handler_('E',"FATAL: Error- fetching docs.ansible information, or the array creation script failed a second time. This process will terminate.","DEBUG:  fetching the collection index from docs.ansible, or the array creation process failed for the second time. This process will terminate.") ;
+			$this->_message_handler_('E',"FATAL: Error- fetching docs.ansible information, or the array creation script failed a second time. This process will terminate.","DEBUG:[".__FILE__.":".__LINE__."]   fetching the collection index from docs.ansible, or the array creation process failed for the second time. This process will terminate.") ;
 			$this->_kill_("FATAL: Failed second attempt to fetch collection index.\n Please notify administrator or script creator.\n\n");
 		}
 	}
@@ -98,9 +98,9 @@ class rewble extends rewbin {
 	//if($this->debug){	print_r($this->collection_links ); }
 
 /*
-            $this->_message_handler_("I","collection_links array found.  Sending to format.", "DEBUG: collection_links is array.");  
-            $this->_message_handler_('I',"The collection index URL value=[$url].","DEBUG: The url provided to fetch the collection index url=[$url]");   ###>
-            $this->_message_handler_('null',"null", "DEBUG: in _show_collection_index_ collection_links array build section:");
+            $this->_message_handler_("I","collection_links array found.  Sending to format.", "DEBUG:[".__FILE__.":".__LINE__."]  collection_links is array.");  
+            $this->_message_handler_('I',"The collection index URL value=[$url].","DEBUG:[".__FILE__.":".__LINE__."]  The url provided to fetch the collection index url=[$url]");   ###>
+            $this->_message_handler_('null',"null", "DEBUG:[".__FILE__.":".__LINE__."]  in _show_collection_index_ collection_links array build section:");
             if($this->_fetch_ansible_docs_element_($url,'collection-index')){ ###>  Call the curl function returning the collection index text.
                 $this->collection_list=$this->page;             ###>  /// $this->_fetch_ansible_docs_element_($url,'collection-index'); ###>  Call the curl function returning the collection index text.
                 $this->collection_dom=$this->dom_output;
@@ -117,15 +117,15 @@ class rewble extends rewbin {
 
 
     public function _fetch_collection_index_($url){  ###> reading the index of modules page in docs.ansible.com <<
-	$this->_message_handler_('I',"Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[$url].","DEBUG: The url provided to fetch the collection index url=[$url] line 120, class_rewble.php");   ###>
+	$this->_message_handler_('I',"Calling within _fetch_collection_index_ l:129:class_rewble.php. Passed in URL value=[$url].","DEBUG:[".__FILE__.":".__LINE__."]  The url provided to fetch the collection index url=[$url] line 120, class_rewble.php");   ###>
 	if($url==''){    ###>  ###> This will be a major error with no url in the fetch function.	
-		$this->_message_handler_('E','The collection index URL value was empty.',"DEBUG: input to class function __fetch_ansible_docs_element: No url provided to fetch_collection_index on or around line 100 inc/class_rewble.php." 
+		$this->_message_handler_('E','The collection index URL value was empty.',"DEBUG:[".__FILE__.":".__LINE__."]  input to class function __fetch_ansible_docs_element: No url provided to fetch_collection_index on or around line 100 inc/class_rewble.php." 
 					." This may mean the configuration is not defined or did not load properly. url=[$url]line 125, class_rewble.php");   ###>  
 	    	###> This will be a major error with no url in the fetch function.  ############################>>>>>
 		$this->_kill_('E');
 	}else{   ###>  
 	    if( $this->_fetch_ansible_docs_element_($url,'collection-index')){ ###>  Call the curl function returning the collection index text.
-		$this->_message_handler_('I',"collection list pulled without error.", "DEBUG: collection_links array build section:");
+		$this->_message_handler_('I',"collection list pulled without error.", "DEBUG:[".__FILE__.":".__LINE__."]  collection_links array build section:");
 	    	$this->collection_list=$this->page;  		###>  /// $this->_fetch_ansible_docs_element_($url,'collection-index'); ###>  Call the curl function returning the collection index text.
 		$this->collection_dom=$this->dom_output;    ###>  Specific element information extracted from the page.
 	    }
@@ -138,11 +138,11 @@ class rewble extends rewbin {
         	}
 	    }
 	    if(!is_array($this->collection_links[0])){ ###>  Has the array been created?
-        	$this->_message_handler_('E','The collection_links array was not creaetd properly.', "DEBUG: collection_links array in read");
+        	$this->_message_handler_('E','The collection_links array was not creaetd properly.', "DEBUG:[".__FILE__.":".__LINE__."]  collection_links array in read");
 		return false;  								###>  This may need to spawn the action again in the future
 	    }else{
 		$this->_message_handler_('I',"The collection_links array has been creaetd properly. It contains ".count($this->collection_links)
-			." links.","DEBUG: The collection_links array has been creaetd properly. It contains ".count($this->collection_links)." links.");
+			." links.","DEBUG:[".__FILE__.":".__LINE__."]  The collection_links array has been creaetd properly. It contains ".count($this->collection_links)." links.");
 	    }
 	}
     }
@@ -177,16 +177,16 @@ class rewble extends rewbin {
 #######################################################################
 ###>  --------------------   Module Functions ----------------------
     public function _list_collection_modules_($coll){
-	$this->_message_handler_('I',"call to _list_collection_modules_($coll), active_collection=[$this->collection].","DEBUG: call to _list_collection_modules_($coll), active_collection=[$this->collection]. ");
+	$this->_message_handler_('I',"call to _list_collection_modules_($coll), active_collection=[$this->collection].","DEBUG:[".__FILE__.":".__LINE__."]  call to _list_collection_modules_($coll), active_collection=[$this->collection]. ");
 	if(!is_array($this->colleciton_modules[$coll])){
-		$this->_message_handler_('I',"collection_modules($coll) was not an array. Will attempt to fetch modules.","DEBUG: collection_modules($coll) was not an array. Will attempt to fetch modules.");
+		$this->_message_handler_('I',"collection_modules($coll) was not an array. Will attempt to fetch modules.","DEBUG:[".__FILE__.":".__LINE__."]  collection_modules($coll) was not an array. Will attempt to fetch modules.");
 		$this->_fetch_collection_modules_($this->_return_collection_number_($coll));
 	}
 	$this->_format_module_list_($coll);
     }
 
     public function _format_module_list_($coll){ ###>  Create the module numerical presentation for cli
-	$this->_message_handler_('I',"call to _list_collection_modules_($coll), active_collection=[$this->collection].","DEBUG: Inside _fetch_module_example module_example_url=[$url], module=[$module]");
+	$this->_message_handler_('I',"call to _list_collection_modules_($coll), active_collection=[$this->collection].","DEBUG:[".__FILE__.":".__LINE__."]  Inside _fetch_module_example module_example_url=[$url], module=[$module]");
 	$txt_content=''; 
 	$pad=0;  
 	$add=0;
@@ -211,7 +211,7 @@ class rewble extends rewbin {
 
     public function _fetch_module_example_($url){
 //	$url="https://docs.ansible.com/ansible/latest/collections/". $this->collection_links[$this->colleciton_number]['html'] . $module ."/index.html";
-	$this->_message_handler_('I',"call to fetch_module_example url=[$url], this->collection=[$this->collection],module=[$module].","DEBUG: Inside _fetch_module_example module_example_url=[$url], module=[$module]");
+	$this->_message_handler_('I',"call to fetch_module_example url=[$url], this->collection=[$this->collection],module=[$module].","DEBUG:[".__FILE__.":".__LINE__."]  Inside _fetch_module_example module_example_url=[$url], module=[$module]");
 	if($this->_fetch_ansible_docs_element_($url,'examples')){
 		$this->module_yaml_example=$this->dom_output;
 	}
@@ -220,9 +220,9 @@ class rewble extends rewbin {
 
     public function _format_module_url_(){
 	
-	$this->_message_handler_('I',"call to format_module_url this->collection=[$this->collection],this->module_number=[$this->module_number].","DEBUG: Inside _format_module_url collection=[$this->collection], module_number=[$this->module_number]");
+	$this->_message_handler_('I',"call to format_module_url this->collection=[$this->collection],this->module_number=[$this->module_number].","DEBUG:[".__FILE__.":".__LINE__."]  Inside _format_module_url collection=[$this->collection], module_number=[$this->module_number]");
         $module_example_url="https://docs.ansible.com/ansible/latest/collections/".$this->collection_links[$this->collection_number]['href'].str_replace(' module','',$this->module)."_module.html#examples"; ###> This is the module example url.
-	$this->_message_handler_('I',"_module_url=[$module_example_url], this->collection=[$this->collection],this->module_number=[$this->module_number].","DEBUG: Inside _format_module_url collection=[$this->collection], module_number=[$this->module_number]");
+	$this->_message_handler_('I',"_module_url=[$module_example_url], this->collection=[$this->collection],this->module_number=[$this->module_number].","DEBUG:[".__FILE__.":".__LINE__."]  Inside _format_module_url collection=[$this->collection], module_number=[$this->module_number]");
         return $module_example_url; ###> Return value for url.
     }
 
@@ -232,11 +232,11 @@ class rewble extends rewbin {
 
     public function _fetch_collection_modules_($col_num){  ###> reading the index of modules page in docs.ansible.com <<
         $this->collection_modules_url="https://docs.ansible.com/ansible/latest/collections/".$this->collection_links[$this->collection_number]['href']."index.html#plugin-index"; ###> Index page with the list of available examples.
-        $this->_message_handler_("I","modules_url=[$this->collection_modules_url]", "DEBUG: modules_url=[$this->collection_modules_url]");
+        $this->_message_handler_("I","modules_url=[$this->collection_modules_url]", "DEBUG:[".__FILE__.":".__LINE__."]  modules_url=[$this->collection_modules_url]");
         if($this->_fetch_ansible_docs_element_("$this->collection_modules_url",'modules')){       ###>  This is the list of modules in text
                 $this->modules_list=$this->page;
                 $this->modules_dom=$this->dom_output;
-                $this->_message_handler_('I',"Collection $this->collection = module_list pulled successfully.","DEBUG: _fetch_collection_modules_ returned module_list=[$this->modules_list]"); ###> 
+                $this->_message_handler_('I',"Collection $this->collection = module_list pulled successfully.","DEBUG:[".__FILE__.":".__LINE__."]  _fetch_collection_modules_ returned module_list=[$this->modules_list]"); ###> 
                 $this->_build_collection_modules_array_();  ###>  Create the collection_modules array
         }
     }
@@ -287,7 +287,7 @@ class rewble extends rewbin {
 	foreach ($this->my_collection_vars as $key => $value){   ###>  Check if the collection is recognized.  If it isn't, there aren't any variables for this collection.
 		if($this->collection == $key){
 			$collection_in_vars=true;
-			$this->_message_handler_('I',"Collection vars found for collection:[$this->collection]","DEBUG: Collection found in custom vars array =[$this->collection]");
+			$this->_message_handler_('I',"Collection vars found for collection:[$this->collection]","DEBUG:[".__FILE__.":".__LINE__."]  Collection found in custom vars array =[$this->collection]");
 		}
 	}
 	return $collection_in_vars;
@@ -379,7 +379,7 @@ class rewble extends rewbin {
 		}
 		if(is_array($thevar)){
 	        	if($cvars[$i]['param_value']==$new_val){   ###> lets see if the parameter values are the same.  The same is interpreted as common, like auth_type or service account file etc.  
-					$this->_message_handler_('I'," Custom var for parameter in array array =[".$cvars[$i]['yaml_param']." = [".$cvars[$i]['param_value']."]","DEBUG: Found custom var in array array =["
+					$this->_message_handler_('I'," Custom var for parameter in array array =[".$cvars[$i]['yaml_param']." = [".$cvars[$i]['param_value']."]","DEBUG:[".__FILE__.":".__LINE__."]  Found custom var in array array =["
 					.$cvars[$i]['yaml_param']." = [".$cvars[$i]['param_value']."]");
 
 					$allow_dup=true;   ###>  We allow these to be duplicated.
@@ -448,7 +448,7 @@ class rewble extends rewbin {
 	$write_handle=fopen($this->my_vars_file,'w+');
 	if(!fwrite($write_handle,$yaml_str)){
 		// error message
-		$this->_message_handler_('E',"There was a problem writing vars to the file=[$this->my_vars_file]","DEBUG: There was a problem writing vars to the file=[$this->my_vars_file] error");
+		$this->_message_handler_('E',"There was a problem writing vars to the file=[$this->my_vars_file]","DEBUG:[".__FILE__.":".__LINE__."]  There was a problem writing vars to the file=[$this->my_vars_file] error");
 	}
 	fclose($write_handle);
     }
@@ -483,14 +483,14 @@ class rewble extends rewbin {
     }
 ##############################################################################
     public function _identify_collection_($input_str){   ###> Takes input in the form of number relating to the rewble array key, or the collection name. This is provided in the command or as a choice.
-	$this->_message_handler_('I',"Function call:  _identify_collection_ on value[$input_str].","DEBUG: Collection sent to _identify_collection_ value passed=[$input_str]"); 
+	$this->_message_handler_('I',"Function call:  _identify_collection_ on value[$input_str].","DEBUG:[".__FILE__.":".__LINE__."]  Collection sent to _identify_collection_ value passed=[$input_str]"); 
 	if ( !ctype_digit(strval($input_str)) ) {
-		$this->_message_handler_('I',"determined value=[$input_str] is NOT an integer.","DEBUG: _identify_collection_() determined value=[$input_str] is NOT an integer. Checking the array for verification.");
+		$this->_message_handler_('I',"determined value=[$input_str] is NOT an integer.","DEBUG:[".__FILE__.":".__LINE__."]  _identify_collection_() determined value=[$input_str] is NOT an integer. Checking the array for verification.");
 		if(in_array($input_str,$this->ansible_collections)){  ###> Check for exact match
 			if(false!==$key=array_search($input_str,$this->ansible_collections)){
         	                $this->collection=$input_str;
 				$this->collection_number=$key;
-                        	$this->_message_handler_('I',"Collection successfully identified as [$this->collection],collection_number=[$this->collection_number].","DEBUG: Collection sent to _identify_collection_ value passed=[$this->collection]... line 396 class_rewble.yaml");
+                        	$this->_message_handler_('I',"Collection successfully identified as [$this->collection],collection_number=[$this->collection_number].","DEBUG:[".__FILE__.":".__LINE__."]  Collection sent to _identify_collection_ value passed=[$this->collection]... line 396 class_rewble.yaml");
 				return true;
 			}else{
 				return false;
@@ -505,21 +505,21 @@ class rewble extends rewbin {
 				$this->_identify_collection_($user_response);
 			}
 		}else{
-                        $this->_message_handler_('E'," The collection provided was not found. Please select from the list.","DEBUG: The collection provided was not found. Please select from the list. collection=[$this->collection");
+                        $this->_message_handler_('E'," The collection provided was not found. Please select from the list.","DEBUG:[".__FILE__.":".__LINE__."]  The collection provided was not found. Please select from the list. collection=[$this->collection");
                         $this->_show_collection_index_();
 			return false;
                 }
 
 	}else{
-		$this->_message_handler_('I',"determined value=[$input_str] is integer.","DEBUG: _identify_collection_() determined value=[$input_str] is integer. Will attempt to extract the name");
+		$this->_message_handler_('I',"determined value=[$input_str] is integer.","DEBUG:[".__FILE__.":".__LINE__."]  _identify_collection_() determined value=[$input_str] is integer. Will attempt to extract the name");
 		if($this->ansible_collections[$input_str]!=''){
 			$this->collection_number=intval($input_str - 1);
 			$this->collection=$this->ansible_collections[$this->collection_number];
-			$this->_message_handler_('I',"Collection successfully identified as [$this->collection].","DEBUG: Collection sent to _identify_collection_ value passed=[$this->collection]");
+			$this->_message_handler_('I',"Collection successfully identified as [$this->collection].","DEBUG:[".__FILE__.":".__LINE__."]  Collection sent to _identify_collection_ value passed=[$this->collection]");
 			return true;
 		}else{
 			$this->collection=false;
-			$this->_message_handler_('E',"The collection could not be identified with value passed=[$input_str].","DEBUG: Collection sent to _identify_collection_ value passed=[$input_str]");
+			$this->_message_handler_('E',"The collection could not be identified with value passed=[$input_str].","DEBUG:[".__FILE__.":".__LINE__."]  Collection sent to _identify_collection_ value passed=[$input_str]");
 			$this->_show_collection_index_();
 		}
 	}
@@ -531,7 +531,7 @@ class rewble extends rewbin {
 			return $key;
 		}
 	}else{
-		$this->_message_handler_('E',"The collection could not be found with value passed=[$coll_name].","DEBUG: Collection not found in array value passed=[$coll_name]");
+		$this->_message_handler_('E',"The collection could not be found with value passed=[$coll_name].","DEBUG:[".__FILE__.":".__LINE__."]  Collection not found in array value passed=[$coll_name]");
 	}
     }
 ##############################################################
@@ -544,10 +544,10 @@ class rewble extends rewbin {
 		if(false!==$key=array_search($M,$this->collection_modules[$this->collection])){
                 	$this->module=$M;
                		$this->module_number=$key;
-                       	$this->_message_handler_('I',"Module identified as [$M].","DEBUG: VALUES:{this->collection=[$this->collection],this->module=[$this->module]}. Function: _identify_module_ recieved value passed=[$M]");
+                       	$this->_message_handler_('I',"Module identified as [$M].","DEBUG:[".__FILE__.":".__LINE__."]  VALUES:{this->collection=[$this->collection],this->module=[$this->module]}. Function: _identify_module_ recieved value passed=[$M]");
 			return true;
                }elseif($matches=$this->_regular_expression_check_($M,$this->collection_modules[$this->collection])){  ###> Check for text matches
-			$this->_message_handler_('I',"One or more modules matched provided string [$M].","DEBUG: One or more modules matched the text proveded, they will be listed for selection.");
+			$this->_message_handler_('I',"One or more modules matched provided string [$M].","DEBUG:[".__FILE__.":".__LINE__."]  One or more modules matched the text proveded, they will be listed for selection.");
                         echo "  These modules matched provided input:[$M].";
                         for($i=0;$i<count($matches);$i++){
                                 echo "    ".$matches[$i]."\n";
@@ -560,23 +560,23 @@ class rewble extends rewbin {
 	        }else{
                 	$this->module=false;
                		$this->module_number=false;
-                       	$this->_message_handler_('E',"Module [$M] not found in active collection VALUES:{this->collection=[$this->collection],this->module=[]}. Please provide the number from the list.", "DEBUG: failed to locate module=[$M] in collection=[$this->collection] VALUES:{this->collection=[$this->collection],this->module=[$this->module]}");
+                       	$this->_message_handler_('E',"Module [$M] not found in active collection VALUES:{this->collection=[$this->collection],this->module=[]}. Please provide the number from the list.", "DEBUG:[".__FILE__.":".__LINE__."]  failed to locate module=[$M] in collection=[$this->collection] VALUES:{this->collection=[$this->collection],this->module=[$this->module]}");
                         $this->_show_collection_index_();
 		}
 	}else{
 
 		$M=intval($M - 1);
 		$dMsg="found M to be int value=[$M] this->collection active value=[$this->collection]";
-		$this->_message_handler_('I',"_identify_module_ passed INT value=[$M] ","DEBUG: $dMsg");
+		$this->_message_handler_('I',"_identify_module_ passed INT value=[$M] ","DEBUG:[".__FILE__.":".__LINE__."]  $dMsg");
 		if($this->collection_modules[$this->collection][$M]!=''){
 			$this->module_number=$M;
 			$this->module=$this->collection_modules[$this->collection][$M];
-			$this->_message_handler_('I',"Module successfully identified as [$this->module].","DEBUG: successfully identified module=[$this->module] from value passed=[$M]");
+			$this->_message_handler_('I',"Module successfully identified as [$this->module].","DEBUG:[".__FILE__.":".__LINE__."]  successfully identified module=[$this->module] from value passed=[$M]");
 			return true;
 		}else{
 			$this->module=false;
 			$this->module_number=false;
-			$this->_message_handler_('E',"Module not found in active collection $this->collection from int value=[$M]. Please provide the number from the list.", "DEBUG: failed to locate module=[$M] in collection=[$this->collection");
+			$this->_message_handler_('E',"Module not found in active collection $this->collection from int value=[$M]. Please provide the number from the list.", "DEBUG:[".__FILE__.":".__LINE__."]  failed to locate module=[$M] in collection=[$this->collection");
                         $this->_show_collection_index_();
 
 		}

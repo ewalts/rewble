@@ -30,7 +30,7 @@ class rewbin  {
 	foreach ($_my_vars_array as $key => $value){
         	$this->$key = $value;
 	}
-	$this->_message_handler_('I',"","DEBUG: the");
+	$this->_message_handler_('I',"","DEBUG:[".__FILE__.":".__LINE__."]  the");
 
 	//if($this->debug){ 
 		$debug_array_txt='';
@@ -39,7 +39,7 @@ class rewbin  {
 		}
 	//}
 	$Msg="Calling _set_vars_from_array_ ";
-	$dMsg="DEBUG: ".$Msg.$debug_array_txt;	
+	$dMsg="DEBUG:[".__FILE__.":".__LINE__."]  ".$Msg.$debug_array_txt;	
 	$this->_message_handler_('I', $Msg, $dMsg);
     }
 
@@ -53,7 +53,7 @@ class rewbin  {
 
     public function _kill_($type){   ###> 
 	
-	$dMsg="DEBUG: process received a terminate request.  This could be because q was pressed to escape from a menu. Or the configuration is missing required information to complete a task.";
+	$dMsg="DEBUG:[".__FILE__.":".__LINE__."]  process received a terminate request.  This could be because q was pressed to escape from a menu. Or the configuration is missing required information to complete a task.";
 	$Msg="Process received a terminate request.";
 	$this->_message_handler_( $type,$Msg,$dMsg);
         die("\n\n     PROCESS TERMINATED!!\n\n");
@@ -83,7 +83,7 @@ class rewbin  {
 	if(!is_dir($this->rewbin_logs)){
 		die( "###############################  >>>\n\n\n <<<<<< NO DIRECTORY FOUND!!!>>>>>>>@@@@@@@@3#######################>>>\n\n\n");
 		if(!mkdir($this->rewbin_logs,0700,true)){			// Checking for the log directory at $HOME/.rewbin/logs
-			$this->_message_handler_('E',"FAILED to create [$this->rewbin_logs] directory.","DEBUG: The directory was not created for logs.");
+			$this->_message_handler_('E',"FAILED to create [$this->rewbin_logs] directory.","DEBUG:[".__FILE__.":".__LINE__."]  The directory was not created for logs.");
 		}elseif(is_dir($this->rewbin_logs)){
 			$log_file=fopen($rewbin_log_file,'a');                  // the file is present, lets write the event message
 	                if(!fwrite($log_file, $message)){                       // if writing should fail send error to stdout
