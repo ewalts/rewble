@@ -39,9 +39,9 @@ HELP information for this funciton
 
 EXAMPLE: 
 
-$ sudo ln -s /usr/bin/rewble_cp $(PATH)/rewble_create_play.php
+    $ sudo ln -s /usr/bin/rewble_cp $(PATH)/rewble_create_play.php
 
-$ rewble_cp -c awx.awx
+    $ rewble_cp -c awx.awx
 
 
 Ansible docs currently listing 47 modlues for awx.awx. All 47 modules will be numerically listed in a moment.
