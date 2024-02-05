@@ -3,22 +3,22 @@
 Authored by: Richard Eric Walts
 
 
- Infrastructure/Service Deployment Automation Project PHP/Yaml/Ansible. Written for Linux/Unix systems.
+ ## Infrastructure/Service Deployment Automation Project PHP/Yaml/Ansible. Written for Linux/Unix systems.
+
+
+ WARING: NOT COMPLETE - ALPHA - WORK IN PROGRESS
+
+
+
+
+
+## A tool to quckly manage and create playbooks.
 ---
 
- VERSION ALPHA - WORK IN PROGRESS
----
-
-
-
-
- A tool to quckly manage and create playbooks.
----
-
 
 ---
 
-HELP information for this funciton
+## HELP information for this function
 ---
 
 	Type -h or --help to print this help screen.
@@ -39,7 +39,7 @@ HELP information for this funciton
 
 EXAMPLE: 
 
-    $ sudo ln -s /usr/bin/rewble_cp $(PATH)/rewble_create_play.php
+    $ sudo ln -s $(PATH)/rewble_create_play.php /usr/bin/rewble_cp
 
     $ rewble_cp -c awx.awx
 
