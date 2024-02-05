@@ -9,17 +9,12 @@ Authored by: Richard Eric Walts
  WARING: NOT COMPLETE - ALPHA - WORK IN PROGRESS
 
 
+## A tool to quickly search resources from the cli and manage playbooks.
 
 
-
-## A tool to quckly manage and create playbooks.
----
-
-
----
 
 ## HELP information for this function
----
+
 
 	Type -h or --help to print this help screen.
 
@@ -47,7 +42,7 @@ EXAMPLE:
 Ansible docs currently listing 47 modlues for awx.awx. All 47 modules will be numerically listed in a moment.
 
 
-
+```
 #[1] - ad_hoc_command              #[2] - ad_hoc_command_cancel       
 #[3] - ad_hoc_command_wait         #[4] - application                 
 #[5] - bulk_host_create            #[6] - bulk_job_launch             
@@ -92,7 +87,7 @@ Examples
         module_name: command
         module_args: echo I <3 Ansible
         wait: true
-
+```
 
 
 The menu supports both numerical and text string selections. 
