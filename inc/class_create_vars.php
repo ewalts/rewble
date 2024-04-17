@@ -19,7 +19,7 @@ class read_to_arrays extends rewble {
                 $this->play_info_array($p[1],1,$p[0],$p[1]);
                 return "This found - name\n";
                 break;
-            case(preg_match('/\{\{/',$str)?true:false):
+            case(preg_match('/{{/',$str)?true:false):
                 $unchanged.=$str[$i]."\n";
                 $ov=explode('{{',$str[$i]);
                 $orig_var=str_replace('}}','',$ov[1]);
