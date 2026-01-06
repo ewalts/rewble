@@ -66,11 +66,12 @@ class rewble extends rewbin {
     public function _fetch_ansible_docs_element_($url,$element_name){   ###>   This function performs the curl action fetching an element must provide the url and the name of the element in the page
 	$dMsg="DEBUG:[".__FILE__.":".__LINE__."]  Input to class function __fetch_ansible_docs_element: url=[$url],element_name=[$element_name]"; 
 	$this->_message_handler_('I',"Call to _fetch_ansible_docs_element_ URL=[$url],element_name=[$element_name] on line:63: ",$dMsg);
-	
+    error_log("INFO: url:[$url], ".__FILE__.__LINE__);	
         $el=$element_name;   ###> Name of element shorter var name
         $site_handle=curl_init($url);  ###> Initialize the curl action
-        curl_setopt($site_handle, CURLOPT_RETURNTRANSFER, true);	###> Define action attributes
-        $this->page=curl_exec($site_handle);   ###> Execute the request
+	curl_setopt($site_handle, CURLOPT_RETURNTRANSFER, true);	###> Define action attributes
+	curl_setopt($site_handle, CURLOPT_FOLLOWLOCATION, true);
+	$this->page=curl_exec($site_handle);   ###> Execute the request
 	$dom = new DOMDocument();  ###> Create the document
 	$dom -> loadHTML($this->page);  ###> Load the html to be manipulated
 	$this->dom_output = $dom -> getElementById($el) -> nodeValue;   ###> Extract the element to be output
@@ -122,7 +123,7 @@ class rewble extends rewbin {
 		$this->_message_handler_('E','The collection index URL value was empty.',"DEBUG:[".__FILE__.":".__LINE__."]  input to class function __fetch_ansible_docs_element: No url provided to fetch_collection_index on or around line 100 inc/class_rewble.php." 
 					." This may mean the configuration is not defined or did not load properly. url=[$url]line 125, class_rewble.php");   ###>  
 	    	###> This will be a major error with no url in the fetch function.  ############################>>>>>
-		$this->_kill_('E');
+		error_log('ERROR: intended to call $this->_kill_(\'E\');');
 	}else{   ###>  
 	    if( $this->_fetch_ansible_docs_element_($url,'collection-index')){ ###>  Call the curl function returning the collection index text.
 		$this->_message_handler_('I',"collection list pulled without error.", "DEBUG:[".__FILE__.":".__LINE__."]  collection_links array build section:");
